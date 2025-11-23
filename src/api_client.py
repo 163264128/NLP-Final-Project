@@ -1,16 +1,17 @@
 import os
 import requests
+from dotenv import load_dotenv
 from typing import Dict, Optional
 
+load_dotenv()
 class ModelAPI:
     def __init__(self):
         self.api_key = os.getenv("OPENAI_API_KEY", "cse476")
         self.api_base = os.getenv("API_BASE", "http://10.4.58.53:41701/v1")
-        self.model = os.getenv("MODEL_NAME", "bens_model")
+        self.target_model_name = os.getenv("MODEL_NAME", "bens_model")
         self.call_count = 0
     
-    def call(self, prompt: str, system: str = None, temperature: float = 0.0, max_tokens: int = 512) -> Dict:
-        """Make API call and track number of calls made"""
+    def call_api(self, prompt: str, system: str = None, temperature: float = 0.0, max_tokens: int = 512) -> Dict:
         self.call_count += 1
         url = f"{self.api_base}/chat/completions"
         headers = {
@@ -22,11 +23,12 @@ class ModelAPI:
             messages.append({"role": "system", "content": system})
         messages.append({"role": "user", "content": prompt})
         payload = {
-            "model": self.model,
+            "model": self.target_model_name,
             "messages": messages,
             "temperature": temperature,
             "max_tokens": max_tokens,
         }
+        print(f"Sending prompt to {self.target_model_name}") # Debug statement - TODO: Remove Later
         try:
             resp = requests.post(url, headers=headers, json=payload, timeout=60)
             if resp.status_code == 200:
@@ -39,5 +41,4 @@ class ModelAPI:
             return {"ok": False, "error": str(e), "calls": self.call_count}
     
     def reset_count(self):
-        """Reset call counter for new question"""
         self.call_count = 0
