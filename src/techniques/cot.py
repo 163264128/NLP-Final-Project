@@ -14,7 +14,12 @@ class ChainOfThought:
         return self.extract_answer(response) 
     
     def extract_answer(self, text: str) -> str: # Extract final answer
-        lines = text.strip().split('\n')
+        if "Final Answer:" in text: # More sophisticated extraction
+            parts = text.split("Final Answer:")
+            answer = parts[-1].strip()
+            answer = answer.split('\n')[0].strip()  # Take first line after "Final Answer:"
+            return answer
+        lines = text.strip().split('\n') # Bare bones extraction -> THE OG. 
         for line in reversed(lines):
             if line.strip():
                 return line.strip()
