@@ -6,7 +6,7 @@ class DirectSolver:
         system = "You are a helpful assistant. Provide concise, accurate answers."
         prompt = f"""{question}
         Provide only the final answer. Be concise."""
-        result = self.api.call(prompt, system=system, max_tokens=256)
+        result = self.api.call_api(prompt, system=system, max_tokens=256)
         if not result["ok"]:
             return None 
         return result["text"].strip()

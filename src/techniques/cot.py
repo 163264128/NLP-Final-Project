@@ -7,7 +7,7 @@ class ChainOfThought:
         prompt = f"""Solve this problem step by step:
         {question}
         Think through your reasoning carefully, then provide the final answer at the end."""
-        result = self.api.call(prompt, system=system, max_tokens=1024)
+        result = self.api.call_api(prompt, system=system, max_tokens=1024)
         if not result["ok"]:
             return None
         response = result["text"] 

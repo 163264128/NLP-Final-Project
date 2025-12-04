@@ -10,7 +10,7 @@ class SelfConsistency:
         system = "You are an expert problem solver. Provide only the final answer."
         prompt = f"{question}\n\nProvide only the final answer with no explanation."
         for _ in range(self.num_samples): # Samples with temperature > 0
-            result = self.api.call(prompt, system=system, temperature=0.7, max_tokens=256)
+            result = self.api.call_api(prompt, system=system, temperature=0.7, max_tokens=256)
             if result["ok"]:
                 candidate_answers.append(result["text"].strip())
         if not candidate_answers:
