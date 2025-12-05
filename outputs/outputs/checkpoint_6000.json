@@ -17991,7 +17991,7 @@
     "output": "unstack the yellow block from on top of the red block, put down the yellow block on the table, unstack the blue block from on top of the yellow block, put down the blue block on the table, unstack the orange block from on top of the blue block, put down the orange block on the table, pick up the red block, stack the red block on top of the yellow block, pick up the orange block, stack the orange block on top of the red block, pick up the blue block, stack the blue block on top of the orange block"
   },
   {
-    "output": "The plan is valid and achieves the goal."
+    "output": ""
   },
   {
     "output": "object a craves object c"
@@ -18000,7 +18000,7 @@
     "output": "package_0 is at location_0_0, package_1 is at location_1_0, package_2 is at location_1_0, package_3 is at location_0_2, package_4 is at location_1_2, package_5 is at location_1_0."
   },
   {
-    "output": "- Hoist2 is at depot2, and truck0 is at depot2."
+    "output": ""
   },
   {
     "output": "The plan is not valid."
@@ -18009,618 +18009,618 @@
     "output": "Invalid plan"
   },
   {
-    "output": "All packages are at their target locations."
+    "output": ""
   },
   {
-    "output": "Can't Solve"
+    "output": ""
   },
   {
-    "output": "Stack the yellow block on top of the red block, then stack the red block on top of the blue block, and finally stack the blue block on top of the yellow block."
+    "output": ""
   },
   {
-    "output": "Stack the yellow block on top of the blue block."
+    "output": ""
   },
   {
-    "output": "The plan successfully achieves the goal of having object b craves object c, object c craves object a, and object d craves object b."
+    "output": ""
   },
   {
-    "output": "Use hoist1 to lift crate0 from pallet1 at depot1, load crate0 into truck1 at depot1, drive truck1 from depot1 to depot2, use hoist2 to unload crate0 from truck1 at depot2, drop crate0 to pallet2 at depot2, use hoist1 to lift crate2 from crate0 at depot2, load crate2 into truck0 at depot2, drive truck0 from depot2 to depot0, use hoist0 to unload crate2 from truck0 at depot0, drop crate2 to pallet0 at depot0."
+    "output": ""
   },
   {
-    "output": "- Hoist2 is"
+    "output": ""
   },
   {
-    "output": "package_0 is at location_2_2, package_1 is at location_0_1, package_2 is at location_0_1, package_3 is at location_1_2, package_4 is at location_2_0, package_5 is at location_0_2, package_6 is at location_2_2"
+    "output": ""
   },
   {
-    "output": "The plan does not achieve the goal."
+    "output": ""
   },
   {
-    "output": "package_0 is at location_2_1, package_1 is at location_1_2, package_2 is at location_2_1, package_3 is at location_1_2, package_4 is at location_1_0, package_5 is at location_1_0"
+    "output": ""
   },
   {
-    "output": "invalid"
+    "output": ""
   },
   {
-    "output": "object b craves object d, object c craves object a, object d craves object c"
+    "output": ""
   },
   {
-    "output": "red block is on top of yellow block, blue block is on top of red block, yellow block is on top of orange block."
+    "output": ""
   },
   {
-    "output": "tightfisted object_7 object_3 object_5"
+    "output": ""
   },
   {
-    "output": "Object b craves object a"
+    "output": ""
   },
   {
-    "output": "Stack the orange block on top of the blue block."
+    "output": ""
   },
   {
-    "output": "The plan is feasible and can achieve the goal."
+    "output": ""
   },
   {
-    "output": "29. Unstack the yellow block from the blue block: The yellow block is on top of the blue block, so we can unstack it if the yellow block is"
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "Stack the blue block on top of the yellow block, the yellow block on top of the red block, the red block on top of the white block, the white block on top of the orange block, and the orange block on top of the yellow block."
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet0, crate1 is on crate2 and crate2 is on pallet1."
+    "output": ""
   },
   {
-    "output": "Valid"
+    "output": ""
   },
   {
-    "output": "The plan successfully moves all packages to their target locations."
+    "output": ""
   },
   {
-    "output": "True"
+    "output": ""
   },
   {
-    "output": "package_0 is at location_2_0, package_1 is at location_0_0, package_2 is at location_1_2, package_3 is at location_2_0, package_4 is at location_0_2, package_5 is at location_2_2, package_6 is at location_1_2"
+    "output": ""
   },
   {
-    "output": "object a craves object b, object c craves object a, object d craves object c"
+    "output": ""
   },
   {
-    "output": "drive truck_1 from location_1_1 to location_1_0 in city_1, load package_1 into truck_1 at location_1_0, drive truck_1 from location_1_0 to location_2_0 in city_2, unload package_1 from truck_1 at location_2_0, load package_0 into airplane_0 at location_2_0, fly airplane_0 from location_2_0 to location_0_0, unload package_0 from airplane_0 at location_0_0, load package_0 into truck_0 at location_0_0, drive truck_0 from location_0_0 to location_0_1 in city_0, load package_0 into truck_0 at location_0_1, drive truck_0 from location_0_1 to location_0_0 in city_0, unload package_0 from truck_0 at location_0_0, load package_0 into airplane_0 at location_0_0, fly airplane_0 from location_0_0 to location_2_0, unload package_0 from airplane_0 at location_2_0, drive truck_2 from location_2_0 to location_2_2 in city_2, load package_2 into truck_2 at location_2_2, unload package_2 from truck_2 at location_2_2, drive truck_0 from location_0_0 to location_0_1 in city_0, load package_3 into truck_0 at location_0_1, drive truck_0 from location_0_1 to location_0_0 in city_0, unload package_3 from truck_0 at location_0_0, load package_3 into airplane_0 at location_0_0, fly airplane_0 from location_0_0 to location_2_0, unload package_3 from airplane_0 at location_2_0"
+    "output": ""
   },
   {
-    "output": "The plan is valid and will achieve the goal."
+    "output": ""
   },
   {
-    "output": "Object b craves object d and object c craves object a."
+    "output": ""
   },
   {
-    "output": "Use hoist1 to lift crate2 from crate1 at depot1, use hoist1 to load crate2 into truck2 at depot1, use hoist1 to lift crate1 from pallet1 at depot1, use hoist1 to load crate1 into truck2 at depot1, drive truck2 from depot1 to distributor0, use hoist3 to unload crate1 from truck2 at distributor0, use hoist3 to drop crate1 to pallet1 at distributor0, use hoist3 to lift crate0 from pallet2 at depot2, use hoist3 to load crate0 into truck0 at depot2, drive truck0 from depot2 to distributor0, use hoist3 to unload crate0 from truck0 at distributor0, use hoist3 to drop crate0 to pallet3 at distributor0."
+    "output": ""
   },
   {
-    "output": "-"
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "The plan does not achieve the goal."
+    "output": ""
   },
   {
-    "output": "package_0 is at location_0_0, package_1 is at location_0_1, package_2 is at location_0_1, package_3 is at location_1_1, package_4 is at location_2_1"
+    "output": ""
   },
   {
-    "output": "Stack the red block on top of the yellow block and stack the orange block on top of the blue block."
+    "output": ""
   },
   {
-    "output": "Stack the yellow block on top of the red block."
+    "output": ""
   },
   {
-    "output": "orange block is on top of the red block."
+    "output": ""
   },
   {
-    "output": "Stack the blue block on top of the red block."
+    "output": ""
   },
   {
-    "output": "The plan may achieve the goal, but it requires verification of all preconditions and postconditions at each step."
+    "output": ""
   },
   {
-    "output": "Yes"
+    "output": ""
   },
   {
-    "output": "No"
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "package_0 is at location_0_0, package_1 is at location_1_0, package_2 is at location_0_0, package_3 is at location_2_0, package_4 is at location_2_0, package_5 is at location_2_1"
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "package_0 is at location_1_0, package_1 is at location_1_0, package_2 is at location_0_0, package_3 is at location_0_0, package_4 is at location_0_2, package_5 is at location_2_2, package_6 is at location_1_1"
+    "output": ""
   },
   {
-    "output": "36. Use hoist1 to"
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "package_0 is at location_2_0, package_1 is at location_0_2, package_2 is at location_1_0, package_3 is at location_1_2, package_4 is at location_2_0, package_5 is at location_0_1, package_6 is at location_2_0."
+    "output": ""
   },
   {
-    "output": "package_0 is at location_2_0, package_1 is at location_1_0, package_2 is at location_1_0."
+    "output": ""
   },
   {
-    "output": "The plan is invalid because the blue block cannot be picked up."
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet0, crate1 is on pallet2, and crate2 is on crate1."
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet3, crate1 is on crate0, and crate2 is on crate1."
+    "output": ""
   },
   {
-    "output": "The plan is not sufficient to achieve the goal."
+    "output": ""
   },
   {
-    "output": "The plan is valid and will achieve the goal."
+    "output": ""
   },
   {
-    "output": "The plan is valid and achieves the goal."
+    "output": ""
   },
   {
-    "output": "The plan will achieve the goal."
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "Overcome object a from object b"
+    "output": ""
   },
   {
-    "output": "The plan is valid and achieves the goal."
+    "output": ""
   },
   {
-    "output": "Yes"
+    "output": ""
   },
   {
-    "output": "Valid"
+    "output": ""
   },
   {
-    "output": "The red block is on top of the orange block and the yellow block is on top of the blue block."
+    "output": ""
   },
   {
-    "output": "All crates are in the desired positions."
+    "output": ""
   },
   {
-    "output": "next object_16 object_10 next object_17 object_14 next object_18 object_11 next object_19 object_7"
+    "output": ""
   },
   {
-    "output": "- Requires: `cats object_1`, `spring object_12`, `spring object_10`, `next object"
+    "output": ""
   },
   {
-    "output": "The plan is invalid."
+    "output": ""
   },
   {
-    "output": "Object b craves object a and object c craves object b."
+    "output": ""
   },
   {
-    "output": "The plan is invalid."
+    "output": ""
   },
   {
-    "output": "Goal not achieved"
+    "output": ""
   },
   {
-    "output": "Stack the yellow block on top of the red block."
+    "output": ""
   },
   {
-    "output": "The plan is not valid."
+    "output": ""
   },
   {
-    "output": "red block is on top of the yellow block."
+    "output": ""
   },
   {
-    "output": "The plan is invalid and cannot achieve the goal."
+    "output": ""
   },
   {
-    "output": "stack the red block on top of the blue block"
+    "output": ""
   },
   {
-    "output": "pick up the red block, stack the red block on top of the yellow block, unstack the orange block from the yellow block, put down the orange block on the table, pick up the orange block, stack the orange block on top of the blue block"
+    "output": ""
   },
   {
-    "output": "The plan may achieve the goal, but a full simulation is required to confirm."
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "package_0 is at location_1_1, package_1 is at location_2_1, package_2 is at location_2_0, package_3 is at location_1_0, package_4 is at location_0_0"
+    "output": ""
   },
   {
-    "output": "True"
+    "output": ""
   },
   {
-    "output": "The plan is not valid."
+    "output": ""
   },
   {
-    "output": "valid"
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "Overcome object b from object a"
+    "output": ""
   },
   {
-    "output": "Object b craves object c."
+    "output": ""
   },
   {
-    "output": "True"
+    "output": ""
   },
   {
-    "output": "True"
+    "output": ""
   },
   {
-    "output": "- This step is invalid because crate0 is not"
+    "output": ""
   },
   {
-    "output": "unstack the yellow block from the orange block, put down the yellow block on the table, unstack the orange block from the red block, stack the orange block on the yellow block, unstack the red block from the blue block, stack the red block on the blue block."
+    "output": ""
   },
   {
-    "output": "All packages are at their target locations."
+    "output": ""
   },
   {
-    "output": "Valid"
+    "output": ""
   },
   {
-    "output": "package_0 at location_2_0, package_1 at location_0_1, package_2 at location_0_2, package_3 at location_2_0, package_4 at location_0_0, package_5 at location_2_2, package_6 at location_1_2"
+    "output": ""
   },
   {
-    "output": "package_0 is at location_0_0, package_1 is at location_0_2, package_2 is at location_0_0, package_3 is at location_1_1, package_4 is at location_2_1"
+    "output": ""
   },
   {
-    "output": "object a craves object c and object c craves object b"
+    "output": ""
   },
   {
-    "output": "unload package_0 from airplane_0 at location_2_0"
+    "output": ""
   },
   {
-    "output": "object b craves object c and object c craves object a"
+    "output": ""
   },
   {
-    "output": "invalid"
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet3, crate1 is on crate2, and crate2 is on crate0."
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "Stack the blue block on top of the red block, the red block on top of the yellow block, and the yellow block on top of the orange block."
+    "output": ""
   },
   {
-    "output": "The plan is valid and achieves the goal."
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "Crate0 is on pallet3, crate1 is on pallet1, and crate2 is on pallet0."
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet1, crate1 is on crate2, crate2 is on pallet0"
+    "output": ""
   },
   {
-    "output": "Stack the red block on top of the blue block."
+    "output": ""
   },
   {
-    "output": "blue block is on top of the red block and the yellow block is on top of the blue block."
+    "output": ""
   },
   {
-    "output": "crate0 on crate1 and crate1 on pallet0"
+    "output": ""
   },
   {
-    "output": "The plan will achieve the goal."
+    "output": ""
   },
   {
-    "output": "Stack the red block on top of the yellow block and the blue block on top of the orange block."
+    "output": ""
   },
   {
-    "output": "Crate0 is on pallet0, crate1 is on pallet2, and crate2 is on pallet3."
+    "output": ""
   },
   {
-    "output": "invalid"
+    "output": ""
   },
   {
-    "output": "Invalid"
+    "output": ""
   },
   {
-    "output": "Use hoist1 to lift crate2 from pallet1 at depot1, load crate2 into truck1 at depot1, drive truck1 from depot1 to depot2, use hoist2 to lift crate0 from pallet2 at depot2, load crate0 into truck1 at depot2, drive truck1 from depot2 to depot1, use hoist1 to unload crate2 from truck1 at depot1, drop crate2 to pallet2 at depot1, use hoist1 to lift crate0 from truck1 at depot1, drop crate0 to crate1 at depot1, use hoist1 to lift crate1 from crate0 at depot1, load crate1 into truck1 at depot1, drive truck1 from depot1 to depot2, use hoist2 to unload crate1 from truck1 at depot2, drop crate1 to pallet2 at depot2."
+    "output": ""
   },
   {
-    "output": "The plan is valid and will achieve the goal configuration."
+    "output": ""
   },
   {
-    "output": "The blue block is on top of the orange block and the yellow block is on top of the blue block."
+    "output": ""
   },
   {
-    "output": "Use hoist2 to lift crate0 from pallet2 at depot2"
+    "output": ""
   },
   {
-    "output": "- We cannot unstack the blue block directly."
+    "output": ""
   },
   {
-    "output": "Use hoist1 to lift crate0 from pallet1 at depot1"
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet2, crate1 is on pallet3, and crate2 is on crate0."
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "The plan will achieve the goal."
+    "output": ""
   },
   {
-    "output": "The plan is valid."
+    "output": ""
   },
   {
-    "output": "orange block is on top of the red block."
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet3, crate1 is on pallet0, crate2 is on crate0."
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "Use hoist1 to lift crate1 from crate0 at depot1"
+    "output": ""
   },
   {
-    "output": "package_0 is at location_2_0, package_1 is at location_1_0, package_2 is at location_2_0, package_3 is at location_0_1, package_4 is at location_0_0, package_5 is at location_2_2, package_6 is at location_0_1"
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "package_0 is at location_0_2, package_1 is at location_2_2, package_2 is at location_0_2, package_3 is at location_0_0, package_4 is at location_2_2, package_5 is at location_0_2, package_6 is at location_2_0"
+    "output": ""
   },
   {
-    "output": "55. Pick"
+    "output": ""
   },
   {
-    "output": "True"
+    "output": ""
   },
   {
-    "output": "package_0 is at location_2_2, package_1 is at location_1_2, package_2 is at location_1_0, package_3 is at location_0_0, package_4 is at location_0_1, package_5 is at location_1_0, package_6 is at location_1_0."
+    "output": ""
   },
   {
-    "output": "True"
+    "output": ""
   },
   {
-    "output": "The plan may achieve the goal if all preconditions are met and the sequence of actions is valid."
+    "output": ""
   },
   {
-    "output": "Object c craves object b"
+    "output": ""
   },
   {
-    "output": "True"
+    "output": ""
   },
   {
-    "output": "Stack the orange block on top of the red block and the yellow block on top of the orange block."
+    "output": ""
   },
   {
-    "output": "The plan does not achieve the goal."
+    "output": ""
   },
   {
-    "output": "True"
+    "output": ""
   },
   {
-    "output": "Object a craves object b and object d craves object c."
+    "output": ""
   },
   {
-    "output": "Plan is not feasible."
+    "output": ""
   },
   {
-    "output": "The plan may achieve the goal, but it requires verification of each action's preconditions and postconditions to ensure the final `next` relationships are correctly established."
+    "output": ""
   },
   {
-    "output": "Object b craves object a and object c craves object b."
+    "output": ""
   },
   {
-    "output": "The plan is valid and will achieve the goal."
+    "output": ""
   },
   {
-    "output": "invalid plan"
+    "output": ""
   },
   {
-    "output": "Invalid"
+    "output": ""
   },
   {
-    "output": "Object a craves object b"
+    "output": ""
   },
   {
-    "output": "invalid"
+    "output": ""
   },
   {
-    "output": "unstack the orange block from on top of the red block, put down the orange block, unstack the red block from on top of the blue block, put down the red block, pick up the blue block, stack the blue block on top of the red block, stack the red block on top of the orange block"
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "The plan is valid and will achieve the goal."
+    "output": ""
   },
   {
-    "output": "Invalid"
+    "output": ""
   },
   {
-    "output": "The plan is not valid."
+    "output": ""
   },
   {
-    "output": "unstack the blue block from on top of the red block, put down the blue block on the orange block, pick up the red block, stack the red block on top of the blue block, pick up the yellow block, stack the yellow block on top of the red block"
+    "output": ""
   },
   {
-    "output": "pick up the blue block, unstack the yellow block from the orange block, put down the yellow block, stack the blue block on top of the yellow block, pick up the red block, stack the red block on top of the blue block"
+    "output": ""
   },
   {
-    "output": "True"
+    "output": ""
   },
   {
-    "output": "The plan will achieve the goal."
+    "output": ""
   },
   {
-    "output": "load package_0 into truck_1 at location_1_0, drive truck_1 from location_1_0 to location_1_1 in city_1, drive truck_1 from location_1_1 to location_1_2 in city_1, load package_0 into airplane_1 at location_1_2, fly airplane_1 from location_1_0 to location_2_0, unload package_0 from airplane_1 at location_2_0, load package_0 into truck_2 at location_2_0, drive truck_2 from location_2_0 to location_2_2 in city_2, unload package_0 from truck_2 at location_2_2, load package_2 into truck_1 at location_1_2, drive truck_1 from location_1_2 to location_1_1 in city_1, unload package_2 from truck_1 at location_1_1, load package_3 into truck_1 at location_1_1, drive truck_1 from location_1_1 to location_1_0 in city_1, load package_3 into airplane_1 at location_1_0, fly airplane_1 from location_1_0 to location_0_0, unload package_3 from airplane_1 at location_0_0, load package_3 into truck_0 at location_0_0, drive truck_0 from location_0_0 to location_0_1 in city_0, unload package_3 from truck_0 at location_0_1, load package_4 into truck_1 at location_1_1, drive truck_1 from location_1_1 to location_1_2 in city_1, load package_4 into airplane_1 at location_1_2, fly airplane_1 from location_1_0 to location_2_0, unload package_4 from airplane_1 at location_2_0, load package_4 into truck_2 at location_2_0, drive truck_2 from location_2_0 to location_2_2 in city_2, unload package_4 from truck_2 at location_2_2"
+    "output": ""
   },
   {
-    "output": "object c craves object a"
+    "output": ""
   },
   {
-    "output": "Stack the blue block on top of the orange block and stack the orange block on top of the red block."
+    "output": ""
   },
   {
-    "output": "The plan will achieve the goal."
+    "output": ""
   },
   {
-    "output": "stack the yellow block on top of the orange block"
+    "output": ""
   },
   {
-    "output": "red block is on top of the blue block."
+    "output": ""
   },
   {
-    "output": "The plan may or may not achieve the goal based on the initial conditions and the rules of the actions."
+    "output": ""
   },
   {
-    "output": "object c craves object b and object d craves object c"
+    "output": ""
   },
   {
-    "output": "Stack the blue block on top of the red block."
+    "output": ""
   },
   {
-    "output": "invalid"
+    "output": ""
   },
   {
-    "output": "Valid"
+    "output": ""
   },
   {
-    "output": "- Use hoist1 to load"
+    "output": ""
   },
   {
-    "output": "package_0 is at location_1_2, package_1 is at location_2_1, package_2 is at location_0_1, package_3 is at location_0_2, package_4 is at location_2_1, package_5 is at location_1_0, package_6 is at location_1_2."
+    "output": ""
   },
   {
-    "output": "package_0 is at location_0_2, package_1 is at location_2_1, package_2 is at location_1_2, package_3 is at location_0_2, package_4 is at location_1_2, package_5 is at location_1_1, package_6 is at location_1_2"
+    "output": ""
   },
   {
-    "output": "Pick up the orange block, unstack the yellow block from on top of the red block, put down the yellow block on the table, stack the yellow block on top of the orange block, pick up the blue block, and stack the blue block on top of the yellow block."
+    "output": ""
   },
   {
-    "output": "The plan successfully achieves the goal."
+    "output": ""
   },
   {
-    "output": "crate1 is on pallet1 and crate2 is on pallet2"
+    "output": ""
   },
   {
-    "output": "The plan will achieve the goal."
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet1, crate1 is on crate0, and crate2 is on pallet3."
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "Attack object c"
+    "output": ""
   },
   {
-    "output": "Object a craves object d and object b craves object a."
+    "output": ""
   },
   {
-    "output": "unstack the blue block from on top of the red block, unstack the orange block from on top of the blue block, put down the orange block, put down the blue block, pick up the red block, stack the red block on top of the yellow block, pick up the blue block, stack the blue block on top of the orange block"
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "Object b craves object a and object d craves object c"
+    "output": ""
   },
   {
-    "output": "All packages are at their target locations."
+    "output": ""
   },
   {
-    "output": "crate0 is on crate1, crate1 is on pallet0, and crate2 is on pallet1."
+    "output": ""
   },
   {
-    "output": "The plan is valid and achieves the goal."
+    "output": ""
   },
   {
-    "output": "The plan may achieve the goal, but a complete evaluation is needed to confirm."
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "unstack the yellow block from on top of the red block, put down the yellow block, pick up the orange block, stack the orange block on top of the blue block, pick up the red block, stack the red block on top of the yellow block"
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "package_0 is at location_0_1 and package_1 is at location_0_0."
+    "output": ""
   },
   {
-    "output": "unstack the blue block from on top of the orange block, put down the blue block, unstack the orange block from on top of the yellow block, put down the orange block, unstack the yellow block from on top of the red block, put down the yellow block, pick up the red block, stack the red block on top of the yellow block, pick up the yellow block, stack the yellow block on top of the orange block, pick up the orange block, stack the orange block on top of the blue block, pick up the blue block, stack the blue block on top of the yellow block"
+    "output": ""
   },
   {
-    "output": "- Step 77: Load package_5 into truck_1 at location_1_2"
+    "output": ""
   },
   {
-    "output": "True"
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet1 and crate2 is on pallet2."
+    "output": ""
   },
   {
-    "output": "package_0 is at location_1_0 and package_1 is at location_2_1"
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "orange block is on top of the red block"
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet0, crate1 is on pallet2, crate2 is on pallet3"
+    "output": ""
   },
   {
-    "output": "package_0 is at location_2_1, package_1 is at location_2_0, package_2 is at location_0_2, package_3 is at location_1_1"
+    "output": ""
   },
   {
-    "output": "32"
+    "output": ""
   },
   {
-    "output": "package_0 is at location_0_0, package_1 is at location_1_1, package_2 is at location_2_1, package_3 is at location_0_1, package_4 is at location_1_1."
+    "output": ""
   },
   {
-    "output": "unstack the red block from the orange block, put down the red block, pick up the orange block, stack the orange block on top of the red block"
+    "output": ""
   },
   {
-    "output": "red block is on top of yellow block and orange block is on top of red block"
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet2 and crate1 is on pallet0"
+    "output": ""
   },
   {
-    "output": "unstack the yellow block from the orange block, pick up the yellow block, stack the yellow block on top of the red block"
+    "output": ""
   }
 ]

@@ -18576,10 +18576,10 @@
     "output": "package_0 is at location_0_1 and package_1 is at location_0_0."
   },
   {
-    "output": "unstack the blue block from on top of the orange block, put down the blue block, unstack the orange block from on top of the yellow block, put down the orange block, unstack the yellow block from on top of the red block, put down the yellow block, pick up the red block, stack the red block on top of the yellow block, pick up the yellow block, stack the yellow block on top of the orange block, pick up the orange block, stack the orange block on top of the blue block, pick up the blue block, stack the blue block on top of the yellow block"
+    "output": ""
   },
   {
-    "output": "- Step 77: Load package_5 into truck_1 at location_1_2"
+    "output": ""
   },
   {
     "output": "True"
@@ -18591,7 +18591,7 @@
     "output": "package_0 is at location_1_0 and package_1 is at location_2_1"
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
     "output": "orange block is on top of the red block"
@@ -18600,27 +18600,27 @@
     "output": "Invalid plan"
   },
   {
-    "output": "crate0 is on pallet0, crate1 is on pallet2, crate2 is on pallet3"
+    "output": ""
   },
   {
-    "output": "package_0 is at location_2_1, package_1 is at location_2_0, package_2 is at location_0_2, package_3 is at location_1_1"
+    "output": ""
   },
   {
-    "output": "32"
+    "output": ""
   },
   {
-    "output": "package_0 is at location_0_0, package_1 is at location_1_1, package_2 is at location_2_1, package_3 is at location_0_1, package_4 is at location_1_1."
+    "output": ""
   },
   {
-    "output": "unstack the red block from the orange block, put down the red block, pick up the orange block, stack the orange block on top of the red block"
+    "output": ""
   },
   {
-    "output": "red block is on top of yellow block and orange block is on top of red block"
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet2 and crate1 is on pallet0"
+    "output": ""
   },
   {
-    "output": "unstack the yellow block from the orange block, pick up the yellow block, stack the yellow block on top of the red block"
+    "output": ""
   }
 ]

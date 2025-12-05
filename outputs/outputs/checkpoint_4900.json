@@ -14562,13 +14562,13 @@
     "output": "999"
   },
   {
-    "output": "Try $ k = 73 $: $ 73 \\cdot 74 = 5402 \\mod 4000 = 1402 \\neq 2"
+    "output": ""
   },
   {
     "output": "Let the side length of square $ABCD$ be $s$. Then, the area of square $ABCD$ is $s^2$.\n\nLet $AE = x$ and $EB = s - x$. Then, $\\frac{AE}{EB} + \\frac{EB}{AE} = \\frac{x}{s - x} + \\frac{s - x}{x}$.\n\nLet the side length of one of the smaller squares be $a$, and the other be $b$. Then, the areas of the two squares are $a^2$ and $b^2$, and we are given that $a^2 + b^2 = \\frac{9}{10}s^2$.\n\nSince the line through $E$ parallel to $\\overline{BC}$ and the line through $F$ parallel to $\\overline{AB}$ divide the square into two squares and two nonsquare rectangles, the side lengths $a$ and $b$ are related to $x$ and $s - x$. Specifically, $a = x$ and $b = s - x$, because the side lengths of the smaller squares are determined by the segments $AE$ and $EB$.\n\nThus, $a^2 + b"
   },
   {
-    "output": "This implies that $ A $ is the reflection of $ R $ over the perpendicular bisector of $"
+    "output": ""
   },
   {
     "output": "12"
@@ -14607,13 +14607,13 @@
     "output": "100"
   },
   {
-    "output": "$ \\boxed{67} $"
+    "output": ""
   },
   {
     "output": "100"
   },
   {
-    "output": "54"
+    "output": ""
   },
   {
     "output": "1278"
@@ -14664,10 +14664,10 @@
     "output": "416"
   },
   {
-    "output": "$$"
+    "output": ""
   },
   {
-    "output": "x \\cdot ("
+    "output": ""
   },
   {
     "output": "1200"
@@ -14679,7 +14679,7 @@
     "output": "109"
   },
   {
-    "output": "a^2 + 4ad + 4"
+    "output": ""
   },
   {
     "output": "136"
@@ -14688,3939 +14688,3939 @@
     "output": "25"
   },
   {
-    "output": "120"
+    "output": ""
   },
   {
     "output": "360"
   },
   {
-    "output": "58"
+    "output": ""
   },
   {
     "output": "144"
   },
   {
-    "output": "Let the original geometric series have first term $ a $ and common ratio $ r $. The sum of the original series is given by:\n\n$$\nS = \\frac{a}{1 - r} = 2005\n$$\n\nThe new series is obtained by squaring each term of the original series, so the new series is:\n\n$$\na^2 + a^2r^2 + a^2r^4 + \\cdots\n$$\n\nThis is also a geometric series with first term $ a^2 $ and common ratio $ r^2 $. The sum of this new series is:\n\n$$\nS' = \\frac{a^2}{1 - r^2}\n$$\n\nWe are told that this new sum is 10 times the original sum:\n\n$$\n\\frac{a^2}{1 - r^2} = 10 \\cdot 2005 = 20050\n$$\n\nNow we have two equations:\n\n1. $ \\frac{a}{1 - r} = 2005 $\n2. $ \\frac{a^2}{1 - r^2} = 20050 $\n\nFrom equation (1), solve for $ a"
+    "output": ""
   },
   {
-    "output": "1600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    "output": ""
   },
   {
-    "output": "106"
+    "output": ""
   },
   {
-    "output": "Let the two infinite geometric series be $ a, ar, ar^2, \\dots $ and $ b, br, br^2, \\dots $.\n\nGiven:\n- Both series have sum $ 1 $.\n- Both series have the same second term.\n- The third term of one series is $ \\frac{1}{8} $.\n- The second term can be written in the form $ \\frac{\\sqrt{m} - n}{p} $, with $ m $ square-free.\n\n### Step 1: Use the sum of an infinite geometric series\n$$\n\\text{Sum} = \\frac{a}{1 - r} = 1 \\Rightarrow a = 1 - r\n$$\n$$\n\\text{Sum} = \\frac{b}{1 - r} = 1 \\Rightarrow b = 1 - r\n$$\n\nSo both series have the same common ratio $ r $, and the first terms are $ a = 1 - r $ and $ b = 1 - r $.\n\n### Step 2: Use the second term\nThe second term is $ ar $ for the first series and $ br $ for the second series. Since they are equal:\n$$\nar = br \\"
+    "output": ""
   },
   {
-    "output": "8"
+    "output": ""
   },
   {
-    "output": "454"
+    "output": ""
   },
   {
-    "output": "OC^2 = \\left(\\frac{3 - \\sqrt{"
+    "output": ""
   },
   {
-    "output": "100"
+    "output": ""
   },
   {
-    "output": "52"
+    "output": ""
   },
   {
-    "output": "Let the correct sum of the page numbers from 1 to $ n $ be $ S = \\frac{n(n+1)}{2} $. The incorrect sum is given as 1986, which is the correct sum plus an extra page number $ x $ that was added twice. Therefore, we have:\n$$\n\\frac{n(n+1)}{2} + x = 1986\n$$\nWe need to find $ x $ and $ n $ such that this equation holds. We can estimate $ n $ by solving $ \\frac{n(n+1)}{2} \\approx 1986 $, which gives $ n \\approx \\sqrt{2 \\cdot 1986} \\approx 63 $. Checking $ n = 63 $:\n$$\n\\frac{63 \\cdot 64}{2} = 2016\n$$\nSo the correct sum is 2016, and the incorrect sum is 1986, meaning:\n$$\n2016 + x = 1986 \\Rightarrow x = -30\n$$\nThis is not possible, so we try $ n = 62 $:\n$$"
+    "output": ""
   },
   {
-    "output": "1072"
+    "output": ""
   },
   {
-    "output": "10"
+    "output": ""
   },
   {
-    "output": "1"
+    "output": ""
   },
   {
-    "output": "360"
+    "output": ""
   },
   {
-    "output": "Thus, $ K = \\frac{3}{2} $, and $ a = 3 $, $ b = 2 $, so $ a + b"
+    "output": ""
   },
   {
-    "output": "464"
+    "output": ""
   },
   {
-    "output": "31"
+    "output": ""
   },
   {
-    "output": "1000"
+    "output": ""
   },
   {
-    "output": "1024"
+    "output": ""
   },
   {
-    "output": "452"
+    "output": ""
   },
   {
-    "output": "456"
+    "output": ""
   },
   {
-    "output": "145"
+    "output": ""
   },
   {
-    "output": "Let’s now use the fact that the diagonals divide the square into four regions, and the areas"
+    "output": ""
   },
   {
-    "output": "- $ \\cos\\theta = \\frac{8}{\\sqrt{64 +"
+    "output": ""
   },
   {
-    "output": "512"
+    "output": ""
   },
   {
-    "output": "4"
+    "output": ""
   },
   {
-    "output": "147"
+    "output": ""
   },
   {
-    "output": "203"
+    "output": ""
   },
   {
-    "output": "0"
+    "output": ""
   },
   {
-    "output": "182"
+    "output": ""
   },
   {
-    "output": "\\text{Area} = \\frac{1}{2} \\left| x_1y_2 + x_2y_3 + x_3y_4 + x_4y_1 - (y_"
+    "output": ""
   },
   {
-    "output": "\\beta = \\sqrt{\\frac{207.36}{241}} = \\frac"
+    "output": ""
   },
   {
-    "output": "1080"
+    "output": ""
   },
   {
-    "output": "429"
+    "output": ""
   },
   {
-    "output": "- Find intersection $O$ of the"
+    "output": ""
   },
   {
-    "output": "106"
+    "output": ""
   },
   {
-    "output": "499"
+    "output": ""
   },
   {
-    "output": "Right side: $ \\left(-\\frac{5}{2}\\right)\\left(\\frac{7 - d}{2}\\right)\\left(\\frac{-(2 + d)}{2"
+    "output": ""
   },
   {
-    "output": "330"
+    "output": ""
   },
   {
-    "output": "3384"
+    "output": ""
   },
   {
-    "output": "1040"
+    "output": ""
   },
   {
-    "output": "4"
+    "output": ""
   },
   {
-    "output": "250"
+    "output": ""
   },
   {
-    "output": "45"
+    "output": ""
   },
   {
-    "output": "130"
+    "output": ""
   },
   {
-    "output": "134"
+    "output": ""
   },
   {
-    "output": "4272"
+    "output": ""
   },
   {
-    "output": "5"
+    "output": ""
   },
   {
-    "output": "103"
+    "output": ""
   },
   {
-    "output": "This happens when the distance between them is such that the line"
+    "output": ""
   },
   {
-    "output": "47"
+    "output": ""
   },
   {
-    "output": "We can observe that the sequence is defined recursively, and the denominator and numerator are growing in"
+    "output": ""
   },
   {
-    "output": "16"
+    "output": ""
   },
   {
-    "output": "945"
+    "output": ""
   },
   {
-    "output": "578"
+    "output": ""
   },
   {
-    "output": "116"
+    "output": ""
   },
   {
-    "output": "\\text{Sum} = \\frac{\\sqrt{3"
+    "output": ""
   },
   {
-    "output": "999"
+    "output": ""
   },
   {
-    "output": "A_{AFG} = \\frac{7"
+    "output": ""
   },
   {
-    "output": "120"
+    "output": ""
   },
   {
-    "output": "40"
+    "output": ""
   },
   {
-    "output": "1200"
+    "output": ""
   },
   {
-    "output": "345"
+    "output": ""
   },
   {
-    "output": "-144"
+    "output": ""
   },
   {
-    "output": "14"
+    "output": ""
   },
   {
-    "output": "257"
+    "output": ""
   },
   {
-    "output": "248"
+    "output": ""
   },
   {
-    "output": "15654"
+    "output": ""
   },
   {
-    "output": "- G→G (1"
+    "output": ""
   },
   {
-    "output": "0"
+    "output": ""
   },
   {
-    "output": "500"
+    "output": ""
   },
   {
-    "output": "750"
+    "output": ""
   },
   {
-    "output": "-10"
+    "output": ""
   },
   {
-    "output": "-20638650"
+    "output": ""
   },
   {
-    "output": "126"
+    "output": ""
   },
   {
-    "output": "362"
+    "output": ""
   },
   {
-    "output": "-2256"
+    "output": ""
   },
   {
-    "output": "450"
+    "output": ""
   },
   {
-    "output": "10"
+    "output": ""
   },
   {
-    "output": "1260"
+    "output": ""
   },
   {
-    "output": "-253"
+    "output": ""
   },
   {
-    "output": "86"
+    "output": ""
   },
   {
-    "output": "889"
+    "output": ""
   },
   {
-    "output": "Then, the volume is proportional to $ \\"
+    "output": ""
   },
   {
-    "output": "1001"
+    "output": ""
   },
   {
-    "output": "9999"
+    "output": ""
   },
   {
-    "output": "486"
+    "output": ""
   },
   {
-    "output": "So, $a + b + c + p + q + r = 18 + 12 + 6 + 2 + 3 + 5 = 46"
+    "output": ""
   },
   {
-    "output": "Let’s assume"
+    "output": ""
   },
   {
-    "output": "499999"
+    "output": ""
   },
   {
-    "output": "12"
+    "output": ""
   },
   {
-    "output": "So"
+    "output": ""
   },
   {
-    "output": "20"
+    "output": ""
   },
   {
-    "output": "34"
+    "output": ""
   },
   {
-    "output": "810"
+    "output": ""
   },
   {
-    "output": "121"
+    "output": ""
   },
   {
-    "output": "128"
+    "output": ""
   },
   {
-    "output": "The problem involves finding a rotation that maps triangle $ \\triangle ABC $ to triangle $ \\triangle A'B'C' $. The rotation is described as being $ m $ degrees clockwise around a point $ (x, y) $, where $ 0 < m < 180 $. We are to find $ m + x + y $.\n\n### Step 1: Understand the triangles\n- $ A = (0,0) $, $ B = (0,12) $, $ C = (16,0) $\n- $ A' = (24,18) $, $ B' = (36,18) $, $ C' = (24,2) $\n\nWe will find the center of rotation $ (x, y) $ and the angle $ m $ of rotation that maps $ \\triangle ABC $ to $ \\triangle A'B'C' $.\n\n### Step 2: Use rotation formula\nA point $ P(x, y) $ rotated $ m $ degrees clockwise around a point $ (h, k) $ becomes:\n$$\nP' = \\left( h + (x - h)\\cos m + (y - k)\\sin m, \\, k - (x"
+    "output": ""
   },
   {
-    "output": "2016"
+    "output": ""
   },
   {
-    "output": "115"
+    "output": ""
   },
   {
-    "output": "12"
+    "output": ""
   },
   {
-    "output": "262144"
+    "output": ""
   },
   {
-    "output": "109"
+    "output": ""
   },
   {
-    "output": "126"
+    "output": ""
   },
   {
-    "output": "24"
+    "output": ""
   },
   {
-    "output": "So, point $ D $ is at the southeast corner, and the distance from point $ D $ to the southeast corner is $"
+    "output": ""
   },
   {
-    "output": "34"
+    "output": ""
   },
   {
-    "output": "Step 1: Understand the problem\n\nWe are given the binomial expression $(ax + b)^{2000}$, and we are told that the coefficients of $x^2$ and $x^3$ are equal. We are also told that $a$ and $b$ are relatively prime positive integers. The goal is to find $a + b$.\n\n---\n\nStep 2: Use the binomial theorem\n\nThe binomial theorem states that the coefficient of $x^k$ in the expansion of $(ax + b)^n$ is:\n\n$$\n\\binom{n}{k} a^k b^{n-k}\n$$\n\nIn our case, $n = 2000$, and we are comparing the coefficients of $x^2$ and $x^3$. So we set up the equation:\n\n$$\n\\binom{2000}{2} a^2 b^{1998} = \\binom{2000}{3} a^3 b^{1997}\n$$\n\n---\n\nStep 3: Simplify the equation\n\nDivide both sides by $a^2 b^{1997}$:\n\n$$\n\\binom{"
+    "output": ""
   },
   {
-    "output": "6"
+    "output": ""
   },
   {
-    "output": "14"
+    "output": ""
   },
   {
-    "output": "34"
+    "output": ""
   },
   {
-    "output": "4"
+    "output": ""
   },
   {
-    "output": "1024"
+    "output": ""
   },
   {
-    "output": "135"
+    "output": ""
   },
   {
-    "output": "499"
+    "output": ""
   },
   {
-    "output": "148"
+    "output": ""
   },
   {
-    "output": "5"
+    "output": ""
   },
   {
-    "output": "176"
+    "output": ""
   },
   {
-    "output": "1004"
+    "output": ""
   },
   {
-    "output": "16"
+    "output": ""
   },
   {
-    "output": "668"
+    "output": ""
   },
   {
-    "output": "116"
+    "output": ""
   },
   {
-    "output": "100"
+    "output": ""
   },
   {
-    "output": "315"
+    "output": ""
   },
   {
-    "output": "0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    "output": ""
   },
   {
-    "output": "18"
+    "output": ""
   },
   {
-    "output": "Let’s suppose $E = (x, 0)$, and the vertical distance from $A = (0, 3)$ to $E = (x, 0)$"
+    "output": ""
   },
   {
-    "output": "462"
+    "output": ""
   },
   {
-    "output": "100"
+    "output": ""
   },
   {
-    "output": "401"
+    "output": ""
   },
   {
-    "output": "856"
+    "output": ""
   },
   {
-    "output": "2560"
+    "output": ""
   },
   {
-    "output": "74"
+    "output": ""
   },
   {
-    "output": "472"
+    "output": ""
   },
   {
-    "output": "We want $ k $ to be an integer between"
+    "output": ""
   },
   {
-    "output": "127"
+    "output": ""
   },
   {
-    "output": "899"
+    "output": ""
   },
   {
-    "output": "53"
+    "output": ""
   },
   {
-    "output": "-12"
+    "output": ""
   },
   {
-    "output": "500"
+    "output": ""
   },
   {
-    "output": "We find the line through $ A = (2, 0) $ and $ F = (2 - 12\\sqrt{3}, 1)"
+    "output": ""
   },
   {
-    "output": "95"
+    "output": ""
   },
   {
-    "output": "125"
+    "output": ""
   },
   {
-    "output": "366"
+    "output": ""
   },
   {
-    "output": "65"
+    "output": ""
   },
   {
-    "output": "31"
+    "output": ""
   },
   {
-    "output": "39"
+    "output": ""
   },
   {
-    "output": "125"
+    "output": ""
   },
   {
-    "output": "15"
+    "output": ""
   },
   {
-    "output": "15"
+    "output": ""
   },
   {
-    "output": "1000"
+    "output": ""
   },
   {
-    "output": "1000"
+    "output": ""
   },
   {
-    "output": "-121"
+    "output": ""
   },
   {
-    "output": "$$"
+    "output": ""
   },
   {
-    "output": "517"
+    "output": ""
   },
   {
-    "output": "496"
+    "output": ""
   },
   {
-    "output": "1000000 has proper divisors 1, 2, 4, 5, 8, 10, 16, 20, 25, 32, 40, 50, 64, 80, 100, 125, 128, 160, 200, 250, 256, 320, 400, 500, 625, 640, 800, 1000, 1250, 1280, 1600, 2000, 2500, 3125, 3200, 4000, 5000, 6250, 6400, 8000, 10000, 12500, 16000, 20000, 25000, 31250, 40000, 5"
+    "output": ""
   },
   {
-    "output": "246"
+    "output": ""
   },
   {
-    "output": "1446"
+    "output": ""
   },
   {
-    "output": "16384"
+    "output": ""
   },
   {
-    "output": "9"
+    "output": ""
   },
   {
-    "output": "17"
+    "output": ""
   },
   {
-    "output": "64"
+    "output": ""
   },
   {
-    "output": "120"
+    "output": ""
   },
   {
-    "output": "161"
+    "output": ""
   },
   {
-    "output": "Let’s denote the angle of rotation as $ \\theta"
+    "output": ""
   },
   {
-    "output": "99"
+    "output": ""
   },
   {
-    "output": "112"
+    "output": ""
   },
   {
-    "output": "128"
+    "output": ""
   },
   {
-    "output": "2008"
+    "output": ""
   },
   {
-    "output": "135"
+    "output": ""
   },
   {
-    "output": "138"
+    "output": ""
   },
   {
-    "output": "88.2"
+    "output": ""
   },
   {
-    "output": "453"
+    "output": ""
   },
   {
-    "output": "181"
+    "output": ""
   },
   {
-    "output": "52"
+    "output": ""
   },
   {
-    "output": "139"
+    "output": ""
   },
   {
-    "output": "360"
+    "output": ""
   },
   {
-    "output": "1080"
+    "output": ""
   },
   {
-    "output": "Let's denote the sets of residents owning each item as follows:\n\n- D: diamond ring (195)\n- G: golf clubs (367)\n- S: garden spade (562)\n- C: candy hearts (900)\n\nWe are given:\n- Total residents: 900\n- Residents owning exactly two of these things: 437\n- Residents owning exactly three of these things: 234\n\nWe are to find the number of residents who own all four things.\n\nLet’s use the principle of inclusion-exclusion to find the number of residents who own all four items.\n\nLet’s define:\n\n- $ x $: number of residents who own all four items.\n\nWe know:\n\n- Each resident owns at least one item.\n- Total number of residents is 900.\n\nLet’s consider the number of people who own at least one item:\n\n$$\n\\text{Total} = (\\text{Exactly 1}) + (\\text{Exactly 2}) + (\\text{Exactly 3}) + (\\text{Exactly 4})\n$$\n\nSo:\n\n$$\n900 = (\\text{Exactly 1}) + 437 + 234 + x\n$$"
+    "output": ""
   },
   {
-    "output": "580"
+    "output": ""
   },
   {
-    "output": "100"
+    "output": ""
   },
   {
-    "output": "- $"
+    "output": ""
   },
   {
-    "output": "2478"
+    "output": ""
   },
   {
-    "output": "1\n\nStep-by-Step Explanation:\n\n1. Understand the problem:  \n   We are given that the least common multiple (LCM) of $6^6$ and $8^8$ is $12^{12}$. We need to find how many values of $k$ satisfy this condition.\n\n2. Prime factorization of the numbers:\n   - $6 = 2 \\times 3$, so $6^6 = (2 \\times 3)^6 = 2^6 \\times 3^6$\n   - $8 = 2^3$, so $8^8 = (2^3)^8 = 2^{24}$\n   - $12 = 2^2 \\times 3$, so $12^{12} = (2^2 \\times 3)^{12} = 2^{24} \\times 3^{12}$\n\n3. LCM of $6^6$ and $8^8$:  \n   The LCM of two numbers is the product of the highest powers of all primes that appear in their factorizations.  \n   - From $6^6 = 2^6"
+    "output": ""
   },
   {
-    "output": "16.38"
+    "output": ""
   },
   {
-    "output": "0"
+    "output": ""
   },
   {
-    "output": "173"
+    "output": ""
   },
   {
-    "output": "- Pairwise products: $ 2\\cdot4 + 2\\cdot9 + 4\\cdot9 ="
+    "output": ""
   },
   {
-    "output": "\\Rightarrow \\frac{\\"
+    "output": ""
   },
   {
-    "output": "10080"
+    "output": ""
   },
   {
-    "output": "1492"
+    "output": ""
   },
   {
-    "output": "37"
+    "output": ""
   },
   {
-    "output": "1000"
+    "output": ""
   },
   {
-    "output": "120"
+    "output": ""
   },
   {
-    "output": "Let $ A, B, C $ be angles of an acute triangle. We are given:\n\n$$\n\\cos^2 A + \\cos^2 B + 2 \\sin A \\sin B \\cos C = \\frac{15}{8} \\tag{1}\n$$\n$$\n\\cos^2 B + \\cos^2 C + 2 \\sin B \\sin C \\cos A = \\frac{14}{9} \\tag{2}\n$$\n\nWe are to find the value of:\n\n$$\n\\cos^2 C + \\cos^2 A + 2 \\sin C \\sin A \\cos B = \\frac{p - q\\sqrt{r}}{s}\n$$\n\nwith the conditions that $ p + q $ and $ s $ are relatively prime, and $ r $ is square-free. Finally, we are to find $ p + q + r + s $.\n\nThis problem involves trigonometric identities and solving a system of equations. Using known identities and properties of triangles, we can derive the value of the third expression.\n\nBy symmetry and solving the system, the value is found to be:\n\n$$\n\\cos^2 C + \\cos^2 A + 2 \\sin"
+    "output": ""
   },
   {
-    "output": "0"
+    "output": ""
   },
   {
-    "output": "2016"
+    "output": ""
   },
   {
-    "output": "288"
+    "output": ""
   },
   {
-    "output": "Try $ c_2 = 24 $: $ N = 24(24"
+    "output": ""
   },
   {
-    "output": "456"
+    "output": ""
   },
   {
-    "output": "168827"
+    "output": ""
   },
   {
-    "output": "12"
+    "output": ""
   },
   {
-    "output": "Let the mean of $\\mathcal{S}$ be $m$, and let the number of elements in $\\mathcal{S}$ be $n$. Then the sum of the elements of $\\mathcal{S}$ is $nm$.\n\nWhen we add 1 to $\\mathcal{S}$, the new set has $n+1$ elements, and its mean is $m - 13$. Therefore, the sum of the new set is $(n+1)(m - 13)$. This sum is also equal to $nm + 1$. So we have:\n$$\n(n+1)(m - 13) = nm + 1\n$$\n\nExpanding and simplifying:\n$$\nnm - 13n + m - 13 = nm + 1\n$$\n$$\n-13n + m - 13 = 1\n$$\n$$\nm = 13n + 14 \\quad \\text{(1)}\n$$\n\nNow consider adding 2001 to $\\mathcal{S}$. The new set has $n+1$ elements, and its mean is $m + 27$. So the sum of the new set is $(n"
+    "output": ""
   },
   {
-    "output": "3850"
+    "output": ""
   },
   {
-    "output": "496"
+    "output": ""
   },
   {
-    "output": "66"
+    "output": ""
   },
   {
-    "output": "360"
+    "output": ""
   },
   {
-    "output": "f'(x) = -\\sqrt{13 - x^2} + (\\sqrt{13} - x) \\cdot \\frac{-2x}{2\\sqrt{13 - x^2}} = -\\sqrt{13 - x^2} - \\frac{x(\\sqrt{1"
+    "output": ""
   },
   {
-    "output": "1999"
+    "output": ""
   },
   {
-    "output": "116"
+    "output": ""
   },
   {
-    "output": "462"
+    "output": ""
   },
   {
-    "output": "58"
+    "output": ""
   },
   {
-    "output": "26"
+    "output": ""
   },
   {
-    "output": "1000"
+    "output": ""
   },
   {
-    "output": "The inner surface area of the tunnel is the lateral surface"
+    "output": ""
   },
   {
-    "output": "000"
+    "output": ""
   },
   {
-    "output": "Let the three-digit number in base ten be $ \\underline{a}\\,\\underline{b}\\,\\underline{c} $, which means its value is $ 100a + 10b + c $.\n\nThe same number is represented in base nine as $ \\underline{b}\\,\\underline{c}\\,\\underline{a}_{\\text{nine}} $, which means its value is $ 81b + 9c + a $.\n\nWe are given that these two expressions represent the same number, so:\n$$\n100a + 10b + c = 81b + 9c + a\n$$\n\nSimplifying the equation:\n$$\n100a + 10b + c = 81b + 9c + a \\\\\n99a = 71b + 8c\n$$\n\nWe now need to find digits $ a, b, c $ (each from 0 to 9) that satisfy this equation. Since $ a, b, c $ are digits, and $ a $ cannot be 0 (since it is the leading digit of a three-digit number), we can iterate through possible values of $ a, b, c"
+    "output": ""
   },
   {
-    "output": "138"
+    "output": ""
   },
   {
-    "output": "45"
+    "output": ""
   },
   {
-    "output": "10"
+    "output": ""
   },
   {
-    "output": "150375"
+    "output": ""
   },
   {
-    "output": "144"
+    "output": ""
   },
   {
-    "output": "0"
+    "output": ""
   },
   {
-    "output": "1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    "output": ""
   },
   {
-    "output": "84"
+    "output": ""
   },
   {
-    "output": "120"
+    "output": ""
   },
   {
-    "output": "96"
+    "output": ""
   },
   {
-    "output": "120"
+    "output": ""
   },
   {
-    "output": "16"
+    "output": ""
   },
   {
-    "output": "$$"
+    "output": ""
   },
   {
-    "output": "-"
+    "output": ""
   },
   {
-    "output": "10560"
+    "output": ""
   },
   {
-    "output": "41"
+    "output": ""
   },
   {
-    "output": "1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    "output": ""
   },
   {
-    "output": "128"
+    "output": ""
   },
   {
-    "output": "464"
+    "output": ""
   },
   {
-    "output": "717"
+    "output": ""
   },
   {
-    "output": "4900"
+    "output": ""
   },
   {
-    "output": "13"
+    "output": ""
   },
   {
-    "output": "100000000"
+    "output": ""
   },
   {
-    "output": "1524"
+    "output": ""
   },
   {
-    "output": "0"
+    "output": ""
   },
   {
-    "output": "288"
+    "output": ""
   },
   {
-    "output": "192"
+    "output": ""
   },
   {
-    "output": "20"
+    "output": ""
   },
   {
-    "output": "135"
+    "output": ""
   },
   {
-    "output": "2012"
+    "output": ""
   },
   {
-    "output": "144"
+    "output": ""
   },
   {
-    "output": "271"
+    "output": ""
   },
   {
-    "output": "12"
+    "output": ""
   },
   {
-    "output": "15"
+    "output": ""
   },
   {
-    "output": "26"
+    "output": ""
   },
   {
-    "output": "360"
+    "output": ""
   },
   {
-    "output": "552"
+    "output": ""
   },
   {
-    "output": "37"
+    "output": ""
   },
   {
-    "output": "554"
+    "output": ""
   },
   {
-    "output": "x ="
+    "output": ""
   },
   {
-    "output": "40"
+    "output": ""
   },
   {
-    "output": "105"
+    "output": ""
   },
   {
-    "output": "7"
+    "output": ""
   },
   {
-    "output": "P_6 = ("
+    "output": ""
   },
   {
-    "output": "1200"
+    "output": ""
   },
   {
-    "output": "327"
+    "output": ""
   },
   {
-    "output": "3744"
+    "output": ""
   },
   {
-    "output": "2.5"
+    "output": ""
   },
   {
-    "output": "-1.5"
+    "output": ""
   },
   {
-    "output": "496"
+    "output": ""
   },
   {
-    "output": "189"
+    "output": ""
   },
   {
-    "output": "113"
+    "output": ""
   },
   {
-    "output": "464"
+    "output": ""
   },
   {
-    "output": "12"
+    "output": ""
   },
   {
-    "output": "100"
+    "output": ""
   },
   {
-    "output": "552"
+    "output": ""
   },
   {
-    "output": "This is equivalent to counting the number of distinct values of $ \\frac{abcd}{d} $, where"
+    "output": ""
   },
   {
-    "output": "352"
+    "output": ""
   },
   {
-    "output": "We can use the formula for the area of a triangle with vertices $(x_1, y_1"
+    "output": ""
   },
   {
-    "output": "4"
+    "output": ""
   },
   {
-    "output": "29"
+    "output": ""
   },
   {
-    "output": "10"
+    "output": ""
   },
   {
-    "output": "3120"
+    "output": ""
   },
   {
-    "output": "46"
+    "output": ""
   },
   {
-    "output": "135"
+    "output": ""
   },
   {
-    "output": "120"
+    "output": ""
   },
   {
-    "output": "120"
+    "output": ""
   },
   {
-    "output": "250"
+    "output": ""
   },
   {
-    "output": "496"
+    "output": ""
   },
   {
-    "output": "108"
+    "output": ""
   },
   {
-    "output": "} 2 \\cdot \\sum_{k=1}^{167} \\sqrt"
+    "output": ""
   },
   {
-    "output": "1000000"
+    "output": ""
   },
   {
-    "output": "432"
+    "output": ""
   },
   {
-    "output": "5"
+    "output": ""
   },
   {
-    "output": "134"
+    "output": ""
   },
   {
-    "output": "420"
+    "output": ""
   },
   {
-    "output": "14"
+    "output": ""
   },
   {
-    "output": "093"
+    "output": ""
   },
   {
-    "output": "1680"
+    "output": ""
   },
   {
-    "output": "134"
+    "output": ""
   },
   {
-    "output": "144"
+    "output": ""
   },
   {
-    "output": "w = 30 +"
+    "output": ""
   },
   {
-    "output": "766"
+    "output": ""
   },
   {
-    "output": "1029"
+    "output": ""
   },
   {
-    "output": "400"
+    "output": ""
   },
   {
-    "output": "133"
+    "output": ""
   },
   {
-    "output": "104"
+    "output": ""
   },
   {
-    "output": "Let’s denote the time when Butch"
+    "output": ""
   },
   {
-    "output": "EF = |40\\sqrt{7} - a - e| = |40\\sqrt{"
+    "output": ""
   },
   {
-    "output": "64"
+    "output": ""
   },
   {
-    "output": "(original_array, fft_data, axes)"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "import re\nfrom collections import Counter\nfrom nltk.corpus import stopwords\ndef task_func(text: str) -> dict:\n    words = re.findall(r'\\b\\w+\\b', text.lower())\n    stop_words = set(stopwords.words('english'))\n    filtered_words = [word for word in words if word not in stop_words]\n    return dict(Counter(filtered_words))"
+    "output": ""
   },
   {
-    "output": "gpd.GeoDataFrame({'City': cities, 'Coordinates': [Point(lon, lat) for lon, lat in zip(np.random.uniform(dic['Lon']), np.random.uniform(dic['Lat']))]})"
+    "output": ""
   },
   {
-    "output": "(df, pairplots)"
+    "output": ""
   },
   {
-    "output": "(df, ax)"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "{\"script1.py\": 0.123, \"script2.py\": 0.456}"
+    "output": ""
   },
   {
-    "output": "import numpy as np\nfrom scipy import stats\nimport matplotlib.pyplot as plt\ndef task_func(size=1000):\n    data = np.random.normal(0, 1, size)\n    fig, ax = plt.subplots()\n    ax.hist(data, bins=30, density=True, alpha=0.6, color='g')\n    pdf = stats.norm.pdf(np.linspace(-4, 4, 100), 0, 1)\n    ax.plot(np.linspace(-4, 4, 100), pdf, 'r')\n    return fig"
+    "output": ""
   },
   {
-    "output": "[list of module names]"
+    "output": ""
   },
   {
-    "output": "(source_path.name, [file.name for file in files if file.is_file()])"
+    "output": ""
   },
   {
-    "output": "z3k9mL8p2Q"
+    "output": ""
   },
   {
-    "output": "plt.axes()"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "from datetime import datetime\nimport pytz\nfrom dateutil.parser import parse\ndef task_func(date_str, tz_str):\n    dt = parse(date_str)\n    tz = pytz.timezone(tz_str)\n    dt = tz.localize(dt, is_dst=None)\n    new_year = datetime(dt.year + 1, 1, 1, tzinfo=tz)\n    delta = new_year - dt\n    return int(delta.total_seconds())"
+    "output": ""
   },
   {
-    "output": "import itertools\nimport collections\ndef task_func(elements, subset_size):\n    subsets = itertools.combinations(elements, subset_size)\n    sums = [sum(subset) for subset in subsets]\n    return collections.Counter(sums)"
+    "output": ""
   },
   {
-    "output": "task_func(df)"
+    "output": ""
   },
   {
-    "output": "(base64.b64encode(salt), base64.b64encode(sha256_hash.digest()))"
+    "output": ""
   },
   {
-    "output": "import matplotlib.pyplot as plt\nimport numpy as np\nimport scipy.stats as stats\ndef task_func(x, y, labels):\n    fig, ax = plt.subplots()\n    for xi, yi, label in zip(x, y, labels):\n        mu, std = np.mean(yi), np.std(yi)\n        x_range = np.linspace(mu - 3std, mu + 3std, 100)\n        pdf = stats.norm.pdf(x_range, mu, std)\n        ax.plot(x_range, pdf, label=label)\n    ax.legend()\n    return fig"
+    "output": ""
   },
   {
-    "output": "{'significant': False, 'group1_stats': {'mean': 0.0, 'std': 0.0}, 'group2_stats': {'mean': 0.0, 'std': 0.0}, 'ax_boxplot': <matplotlib.axes._subplots.AxesSubplot object>, 'ax_histogram': <matplotlib.axes._subplots.AxesSubplot object>}"
+    "output": ""
   },
   {
-    "output": "(base64.b64encode(salt), base64.b64encode(sha256_hash.digest()))"
+    "output": ""
   },
   {
-    "output": "(np.array(original_image), np.array(rotated_image))"
+    "output": ""
   },
   {
-    "output": "import random"
+    "output": ""
   },
   {
-    "output": "import re"
+    "output": ""
   },
   {
-    "output": "DataPostHandler"
+    "output": ""
   },
   {
-    "output": "12.302585093014436"
+    "output": ""
   },
   {
-    "output": "import numpy as np"
+    "output": ""
   },
   {
-    "output": "(os.path.join(output_dir, 'traffic_data.csv'), plt.gca())"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "```"
+    "output": ""
   },
   {
-    "output": "import pandas as pd\nfrom sklearn.linear_model import LinearRegression\ndef task_func(df, target):\n    X = df.drop(columns=[target])\n    y = df[target]\n    model = LinearRegression().fit(X, y)\n    return model.score(X, y)"
+    "output": ""
   },
   {
-    "output": "```"
+    "output": ""
   },
   {
-    "output": "(pandas.DataFrame, matplotlib.axes.Axes)"
+    "output": ""
   },
   {
-    "output": "/home/user/words.csv"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "0"
+    "output": ""
   },
   {
-    "output": "({\"sum\": 0, \"mean\": nan, \"min\": nan, \"max\": nan}, <matplotlib.axes._subplots.AxesSubplot object>)"
+    "output": ""
   },
   {
-    "output": "import numpy as np\nimport matplotlib.pyplot as plt\ndef task_func(n_points=100, random_seed=None):\n    np.random.seed(random_seed)\n    points = np.random.rand(n_points, 3)\n    fig = plt.figure()\n    ax = fig.add_subplot(111, projection='3d')\n    ax.scatter(points[:, 0], points[:, 1], points[:, 2])\n    return (points, ax)"
+    "output": ""
   },
   {
-    "output": "model"
+    "output": ""
   },
   {
-    "output": "df_pca"
+    "output": ""
   },
   {
-    "output": "<your_answer_here>"
+    "output": ""
   },
   {
-    "output": "base64.b64encode(zlib.compress(json.dumps(data_dict, ensure_ascii=False).encode('utf-8'))).decode('utf-8')"
+    "output": ""
   },
   {
-    "output": "True"
+    "output": ""
   },
   {
-    "output": "${PREFIX}${endpoint}.json"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "True"
+    "output": ""
   },
   {
-    "output": "task_func"
+    "output": ""
   },
   {
-    "output": "from collections import Counter\nfrom operator import itemgetter\nimport itertools\ndef task_func(word_dict):\n    letters = []\n    for word in word_dict:\n        for char in word:\n            letters.append(char)\n    return dict(Counter(letters))"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "{\"status\": \"success\", \"message\": \"URL sent successfully\"}"
+    "output": ""
   },
   {
-    "output": "{'Apple': 1, 'Banana': 1, 'Cherry': 1, 'Date': 1, 'Elderberry': 1, 'Fig': 1, 'Grape': 1, 'Honeydew': 1, 'Indian Prune': 1, 'Jackfruit': 1}, <matplotlib.axes._subplots.AxesSubplot object at 0x000001D7C3A5D3C0>"
+    "output": ""
   },
   {
-    "output": "(plt.subplots()[1], kurtosis(random_numbers))"
+    "output": ""
   },
   {
-    "output": "import time"
+    "output": ""
   },
   {
-    "output": "import numpy as np\nimport random\n# Constants\nCOLORS = ['b', 'g', 'r', 'c', 'm', 'y', 'k']\ndef task_func(ax):\n    theta = np.linspace(0, 2np.pi, 1000)\n    r = np.sin(2theta + random.uniform(0, 2np.pi))\n    color = random.choice(COLORS)\n    ax.plot(theta, r, color=color)\n    ax.set_rlabel_position(random.uniform(0, 2np.pi))\n    return color"
+    "output": ""
   },
   {
-    "output": "[]"
+    "output": ""
   },
   {
-    "output": "{'a': 2, 'b': 1}"
+    "output": ""
   },
   {
-    "output": "(standardized_df, ax)"
+    "output": ""
   },
   {
-    "output": "(mean, median, mode) where mean and median are floats, and mode is an integer."
+    "output": ""
   },
   {
-    "output": "(pd.DataFrame, matplotlib.axes._subplots.AxesSubplot)"
+    "output": ""
   },
   {
-    "output": "import random\nfrom string import ascii_uppercase\ndef task_func(dict1):\n    unique_ids = []\n    for dept, _ in dict1.items():\n        for _ in range(10):  # Assuming 10 employees per department as example\n            random_str = ''.join(random.choices(ascii_uppercase, k=5))\n            unique_ids.append(f\"{dept}{random_str}\")\n    return unique_ids"
+    "output": ""
   },
   {
-    "output": "import pandas as pd"
+    "output": ""
   },
   {
-    "output": "import re\nimport string\nPUNCTUATION = string.punctuation\ndef task_func(text):\n    words = re.findall(r'\\b\\w+\\b', text)\n    punct = re.findall(f'[{PUNCTUATION}]', text)\n    return len(words), len(punct)"
+    "output": ""
   },
   {
-    "output": "<your_answer_here>"
+    "output": ""
   },
   {
-    "output": "(filtered_df, ax)"
+    "output": ""
   },
   {
-    "output": "{'name': 'task_func', 'sqrt_arguments': 1.7320508075688772, 'lambda_count': 0}"
+    "output": ""
   },
   {
-    "output": "from random import randint\nimport matplotlib.pyplot as plt\nimport numpy as np\ndef task_func(array_length=100):\n    a = [randint(1, 100) for _ in range(array_length)]\n    b = [randint(1, 100) for _ in range(array_length)]\n    max_values = [max(a[i], b[i]) for i in range(array_length)]\n    fig, ax = plt.subplots()\n    ax.plot(max_values)\n    ax.set_ylabel('Maximum Values')\n    return ax"
+    "output": ""
   },
   {
-    "output": "{len(word): count for word, count in df['Word'].str.len().value_counts().items()}"
+    "output": ""
   },
   {
-    "output": "<your_answer_here>"
+    "output": ""
   },
   {
-    "output": "import itertools\nimport random\ndef task_func(t, n):\n    return random.choice(list(itertools.combinations(t, n)))"
+    "output": ""
   },
   {
-    "output": "False"
+    "output": ""
   },
   {
-    "output": "{'CPU Usage': 0, 'Memory Usage': 0}"
+    "output": ""
   },
   {
-    "output": "```"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "(array([0, 1, 0, 1, 0, 1]), array([[1.5, 2.5], [4.5, 5.5]]))"
+    "output": ""
   },
   {
-    "output": "import pandas as pd\nimport re\ndef task_func(data, mapping):\n    def replace_acronyms(text):\n        if pd.isna(text):\n            return text\n        pattern = re.compile(r'\\b(' + '|'.join(map(re.escape, mapping.keys())) + r')\\b')\n        return pattern.sub(lambda x: mapping[x.group(1)], text)\n    data = data.applymap(replace_acronyms)\n    return data"
+    "output": ""
   },
   {
-    "output": "```python\nimport os\nimport json\n\ndef task_func(config_path: str) -> dict:\n    if not os.path.exists(config_path):\n        raise FileNotFoundError(f\"The configuration file {config_path} does not exist.\")\n    with open(config_path, 'r') as file:\n        config = json.load(file)\n    return config\n```"
+    "output": ""
   },
   {
-    "output": "(blake3_hex, md5_hash)"
+    "output": ""
   },
   {
-    "output": "[sum of squares for each list in list_of_lists]"
+    "output": ""
   },
   {
-    "output": "import numpy as np\nimport matplotlib.pyplot as plt\nimport itertools\ndef task_func(data_list):\n    if not data_list:\n        raise ValueError(\"ValueError: If the data_list is empty.\")\n    data = list(itertools.zip_longest(data_list))\n    x = np.array(data[0])\n    y = np.array(data[1])\n    plt.plot(x, y)\n    plt.show()"
+    "output": ""
   },
   {
-    "output": "import os\nimport shutil\nimport random\n\ndef task_func(src_dir: str, dest_dir: str, seed: int = 100) -> str:\n    random.seed(seed)\n    files = [f for f in os.listdir(src_dir) if os.path.isfile(os.path.join(src_dir, f))]\n    if not files:\n        return \"\"\n    selected_file = random.choice(files)\n    src_path = os.path.join(src_dir, selected_file)\n    dest_path = os.path.join(dest_dir, selected_file)\n    shutil.move(src_path, dest_path)\n    return selected_file"
+    "output": ""
   },
   {
-    "output": "import pandas as pd\nimport matplotlib.pyplot as plt\ndef task_func(df):\n    if not isinstance(df, pd.DataFrame) or 'Date' not in df.columns or 'Sales' not in df.columns or df.empty:\n        raise ValueError(\"ValueError: If 'df' is not a DataFrame or lacks 'Date' or 'Sales' columns, or has no data to plot.\")\n    df.plot(x='Date', y='Sales', kind='line')\n    return plt.gca()"
+    "output": ""
   },
   {
-    "output": "(result_df, axes)"
+    "output": ""
   },
   {
-    "output": "(ax, phase)"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "[{'loss': [...], 'accuracy': [...]}, {...}, ...]"
+    "output": ""
   },
   {
-    "output": "{'Total Sales': total_sales, 'Most Popular Category': most_popular_category}"
+    "output": ""
   },
   {
-    "output": "{'192.168.1.1': True, '192.168.1.2': False}"
+    "output": ""
   },
   {
-    "output": "import numpy as np\nimport pandas as pd\ndef task_func(rows, columns=[\"A\", \"B\", \"C\", \"D\", \"E\"], seed=0) -> pd.DataFrame:\n    np.random.seed(seed)\n    data = np.random.rand(rows, len(columns))\n    df = pd.DataFrame(data, columns=columns)\n    df = df.sample(n=len(columns), axis=1, random_state=seed)\n    return df.drop(columns=df.columns[df.isna().any()].tolist())"
+    "output": ""
   },
   {
-    "output": "import os\nimport glob\ndef task_func(directory_path):\n    filenames = glob.glob(os.path.join(directory_path, ''))\n    new_filenames = []\n    for filename in filenames:\n        if os.path.isfile(filename):\n            name = os.path.basename(filename)\n            parts = name.split('.')\n            if len(parts) > 1:\n                reversed_parts = parts[::-1]\n                new_name = '.'.join(reversed_parts)\n            else:\n                new_name = name\n            new_filenames.append(new_name)\n    return new_filenames"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "(count, removed_files_list)"
+    "output": ""
   },
   {
-    "output": "(np.array([15, 20, 25]), 3)"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "<your_answer_here>"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "{'compound': 0.0, 'neg': 0.0, 'neu': 1.0, 'pos': 0.0}"
+    "output": ""
   },
   {
-    "output": "(rsa.PublicKey, 'private_key_<hex>.txt', b'password', b'nonce')"
+    "output": ""
   },
   {
-    "output": "from collections import Counter\nimport itertools\ndef task_func(letters: list, repetitions: int) -> dict:\n    repeated = list(itertools.islice(itertools.cycle(letters), repetitions  len(letters)))\n    return dict(Counter(repeated))"
+    "output": ""
   },
   {
-    "output": "import pandas as pd\nfrom sklearn.cluster import DBSCAN\ndef task_func(data, cols):\n    df = pd.DataFrame(data, columns=cols)\n    dbscan = DBSCAN(eps=3, min_samples=2)\n    clusters = dbscan.fit_predict(df)\n    df['Cluster'] = clusters\n    return df"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "[word.lower() for word in sample(SAMPLE_ENGLISH_WORDS, n) if word.lower() in s.split()]"
+    "output": ""
   },
   {
-    "output": "{'mode': np.array([1, 2, 3]), 'count': np.array([3, 2, 1])}"
+    "output": ""
   },
   {
-    "output": "output/df.json"
+    "output": ""
   },
   {
-    "output": "[]"
+    "output": ""
   },
   {
-    "output": "{'OS': 'Linux', 'Architecture': '64bit', 'Memory Usage': '45.6%'}"
+    "output": ""
   },
   {
-    "output": "(count, sqrt_sum)"
+    "output": ""
   },
   {
-    "output": "import math\nimport pandas as pd\ndef task_func(tuples_list):\n    df = pd.DataFrame([tuple(math.sin(x) for x in t) for t in tuples_list])\n    return df"
+    "output": ""
   },
   {
-    "output": "0"
+    "output": ""
   },
   {
-    "output": "(pd.DataFrame({'Date': dates, 'Price': prices}), ax)"
+    "output": ""
   },
   {
-    "output": "(co_occurrence_matrix, ax)"
+    "output": ""
   },
   {
-    "output": "import re\nimport os\nfrom collections import Counter\ndef task_func(folder_path: str) -> dict:\n    ip_counter = Counter()\n    ip_pattern = re.compile(r'\\b(?:\\d{1,3}\\.){3}\\d{1,3}\\b')\n    for filename in os.listdir(folder_path):\n        file_path = os.path.join(folder_path, filename)\n        if os.path.isfile(file_path):\n            with open(file_path, 'r') as file:\n                for line in file:\n                    ips = ip_pattern.findall(line)\n                    ip_counter.update(ips)\n    return dict(ip_counter)"
+    "output": ""
   },
   {
-    "output": "Counter({'a': 1, 'b': 1, 'c': 1, 'd': 1, 'e': 1, 'f': 1, 'g': 1, 'h': 1, 'i': 1, 'j': 1, 'k': 1, 'l': 1, 'm': 1, 'n': 1, 'o': 1, 'p': 1, 'q': 1, 'r': 1, 's': 1, 't': 1, 'u': 1, 'v': 1, 'w': 1, 'x': 1, 'y': 1, 'z': 1})"
+    "output": ""
   },
   {
-    "output": "import numpy as np"
+    "output": ""
   },
   {
-    "output": "(df, model)"
+    "output": ""
   },
   {
-    "output": "import numpy as np\nfrom sklearn.preprocessing import OneHotEncoder\ndef task_func(list_of_lists):\n    merged = [item for sublist in list_of_lists for item in sublist]\n    encoder = OneHotEncoder(sparse_output=False)\n    one_hot = encoder.fit_transform(np.array(merged).reshape(-1, 1))\n    return one_hot"
+    "output": ""
   },
   {
-    "output": "{'a': 1, 'b': 1, 'c': 1, 'd': 1, 'e': 1, 'f': 1, 'g': 1, 'h': 1, 'i': 1, 'j': 1, 'k': 1, 'l': 1, 'm': 1, 'n': 1, 'o': 1, 'p': 1, 'q': 1, 'r': 1, 's': 1, 't': 1, 'u': 1, 'v': 1, 'w': 1, 'x': 1, 'y': 1, 'z': 1}"
+    "output": ""
   },
   {
-    "output": "(DataFrame, Axes)"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "deque([3, 4, 5, 1, 2])"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "DataFrame:    id   title  price"
+    "output": ""
   },
   {
-    "output": "([(2, 'A'), (0, '12'), (1, '12')], 3,    A  B     2 12 0  a  c  asdf  e 1  b  d   ddd  e 2  e  d  aaaa  d)"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "3"
+    "output": ""
   },
   {
-    "output": "task_func(file_path1, file_path2, delimiter=',', quotechar='\"')"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "<your_answer_here>"
+    "output": ""
   },
   {
-    "output": "PublicKey: <public_key>, str: <encrypted_file>, str: <encrypted_fernet_key_file>"
+    "output": ""
   },
   {
-    "output": "import pandas as pd"
+    "output": ""
   },
   {
-    "output": "from collections import Counter\nimport hashlib\ndef task_func(word: str) -> dict:\n    pairs = [word[i] + word[i+1] for i in range(len(word)-1)]\n    counts = dict(Counter(pairs))\n    return counts"
+    "output": ""
   },
   {
-    "output": "{'mean': 150.0, 'median': 145.0, 'std_dev': 29.15475947437766} <matplotlib.axes._subplots.AxesSubplot object at 0x7f8e3c3c3c50>"
+    "output": ""
   },
   {
-    "output": "```"
+    "output": ""
   },
   {
-    "output": "top_selling_product"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "random_words.json"
+    "output": ""
   },
   {
-    "output": "import ast\nimport re\ndef task_func(text_file: str) -> list:\n    with open(text_file, 'r') as file:\n        content = file.read()\n    pattern = r'\\{.?\\}'\n    matches = re.findall(pattern, content)\n    result = [ast.literal_eval(match) for match in matches]\n    return result"
+    "output": ""
   },
   {
-    "output": "<your_answer_here>"
+    "output": ""
   },
   {
-    "output": "import random"
+    "output": ""
   },
   {
-    "output": "import pandas as pd\nimport matplotlib.pyplot as plt\ndef task_func(array):\n    df = pd.DataFrame(array, columns=['A', 'B', 'C', 'D', 'E'])\n    sums = df.sum()\n    fig, ax = plt.subplots()\n    sums.plot(kind='bar', ax=ax)\n    return df, ax"
+    "output": ""
   },
   {
-    "output": "[('a', 10), ('b', 9), ('c', 8), ('d', 7), ('e', 6), ('f', 5), ('g', 4), ('h', 3), ('i', 2), ('j', 1)]"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "[[0.0, 0.25, 0.5, 0.75, 1.0], [0.0, 0.25, 0.5, 0.75, 1.0]]"
+    "output": ""
   },
   {
-    "output": "(statistics, axes)"
+    "output": ""
   },
   {
-    "output": "{'file1.txt': True, 'folder1': False}"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "/home/user/database.db"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "import numpy as np\nimport pandas as pd\nimport os\n\ndef task_func(file_path, output_dir=OUTPUT_DIR):\n    if not os.path.exists(output_dir):\n        os.makedirs(output_dir)\n    matrix = np.random.choice(LETTERS, size=(10, 10))\n    df = pd.DataFrame(matrix)\n    df.to_csv(os.path.join(output_dir, file_path), index=False, header=False)"
+    "output": ""
   },
   {
-    "output": "(slope, intercept, r_value, p_value, std_err), ax"
+    "output": ""
   },
   {
-    "output": "(plt.subplots(nrows=1, ncols=2)[1][0], plt.subplots(nrows=1, ncols=2)[1][1])"
+    "output": ""
   },
   {
-    "output": "{'a': 3, 'b': 2, 'c': 1, 'd': 4, 'e': 5}"
+    "output": ""
   },
   {
-    "output": "(plt.gca(), [(word, count) for word, count in Counter(words).most_common(10)])"
+    "output": ""
   },
   {
-    "output": "(np.cumsum(sorted_list), ax)"
+    "output": ""
   },
   {
-    "output": "import collections\nimport pandas as pd\ndef task_func(my_tuple, path_csv_files):\n    result = {}\n    for file_path in path_csv_files:\n        df = pd.read_csv(file_path)\n        for col in my_tuple:\n            if col in df.columns:\n                counter = collections.Counter(df[col])\n                if col not in result:\n                    result[col] = {}\n                for key, value in counter.items():\n                    result[col][key] = value\n    return result"
+    "output": ""
   },
   {
-    "output": "(np.array(original_image), np.array(processed_image))"
+    "output": ""
   },
   {
-    "output": "import subprocess\nimport platform\nimport time\ndef task_func(url):\n    if platform.system() == 'Windows':\n        process = subprocess.Popen(['start', url], shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, stdin=subprocess.PIPE)\n    elif platform.system() == 'Darwin':\n        process = subprocess.Popen(['open', url], stdout=subprocess.PIPE, stderr=subprocess.PIPE, stdin=subprocess.PIPE)\n    elif platform.system() == 'Linux':\n        process = subprocess.Popen(['xdg-open', url], stdout=subprocess.PIPE, stderr=subprocess.PIPE, stdin=subprocess.PIPE)\n    else:\n        return 1\n    time.sleep(1)\n    return 0"
+    "output": ""
   },
   {
-    "output": "(LinearRegression(), ndarray)"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "import pandas as pd\nfrom sklearn.feature_selection import SelectKBest, f_classif\nimport seaborn as sns\nimport matplotlib.pyplot as plt\ndef task_func(df1, df2):\n    combined_df = pd.concat([df1, df2], axis=1)\n    selector = SelectKBest(score_func=f_classif, k=2)\n    selected_features = selector.fit_transform(combined_df, combined_df.iloc[:, -1])\n    selected_features = pd.DataFrame(selected_features, columns=[f'Feature_{i}' for i in range(selected_features.shape[1])])\n    corr = selected_features.corr()\n    plt.figure(figsize=(8, 6))\n    sns.heatmap(corr, annot=True, cmap='coolwarm')\n    plt.show()\n    return list(selected_features.columns), plt.gca()"
+    "output": ""
   },
   {
-    "output": "{\"nnn\": 0, \"aaa\": 0, \"sss\": 0, \"ddd\": 0, \"fff\": 0}"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "(axes, \"The distribution is uniform.\") if data_dict is empty, otherwise (axes, \"The distribution is not uniform.\") based on the condition."
+    "output": ""
   },
   {
-    "output": "from sklearn.preprocessing import MinMaxScaler\nimport pandas as pd\ndef task_func(l):\n    scaler = MinMaxScaler()\n    scaled = scaler.fit_transform(l)\n    df = pd.DataFrame(scaled, columns=['Scaled Values'])\n    return df"
+    "output": ""
   },
   {
-    "output": "import numpy as np\nimport itertools\ndef task_func(dimension, seed=42):\n    np.random.seed(seed)\n    matrix = np.random.randint(1, 101, size=dimension)\n    flat_list = list(itertools.chain(matrix))\n    return (matrix, flat_list)"
+    "output": ""
   },
   {
-    "output": "[pandas.Series, pandas.Series, ...] (depending on the input `list_of_lists`)"
+    "output": ""
   },
   {
-    "output": "from datetime import datetime\nimport pandas as pd\nfrom itertools import product\n# Constants\nEMPLOYEES = [\"John\", \"Alice\", \"Bob\", \"Charlie\", \"Dave\"]\ndef task_func(date_str):\n    date = datetime.strptime(date_str, \"%Y-%m-%d\")\n    dates = [(date + pd.Timedelta(days=i)).strftime(\"%Y-%m-%d\") for i in range(10)]\n    employee_date_pairs = list(product(EMPLOYEES, dates))\n    df = pd.DataFrame(employee_date_pairs, columns=[\"Employee\", \"Date\"])\n    return df"
+    "output": ""
   },
   {
-    "output": "(converted_datetime_str, random_tz)"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "(numpy.ndarray, matplotlib.axes._subplots.AxesSubplot)"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "<your_answer_here>"
+    "output": ""
   },
   {
-    "output": "0"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "{}"
+    "output": ""
   },
   {
-    "output": "['Brown', 'Black', 'Green', 'Brown', 'Black', 'Brown', 'Brown', 'Black', 'Green', 'Green', 'Black', 'Brown']"
+    "output": ""
   },
   {
-    "output": "prefix_42.json"
+    "output": ""
   },
   {
-    "output": "[datetime.datetime.utcfromtimestamp(random.randint(1, 1700000000)).strftime(\"%Y-%m-%d %H:%M:%S\") for _ in range(n)] if output_path is not None else plt.show()"
+    "output": ""
   },
   {
-    "output": "<your_answer_here>"
+    "output": ""
   },
   {
-    "output": "/home/user/hash_output_20230915123456.txt"
+    "output": ""
   },
   {
-    "output": "import numpy as np\nimport datetime\ndef task_func(arr):\n    def reverse_words(s):\n        return ' '.join(s.split()[::-1])\n    return np.char.replace(arr, '\"', ' ').astype(str).apply(reverse_words)"
+    "output": ""
   },
   {
-    "output": "(array([[ 0.66425126, -0.74737729,  0.03675546],"
+    "output": ""
   },
   {
-    "output": "def task_func(x, w):\n    max_weight = -math.inf\n    max_substr = \"\"\n    current_weight = 0\n    current_substr = \"\"\n    for char in x:\n        current_weight += w[char]\n        current_substr += char\n        if current_weight > max_weight:\n            max_weight = current_weight\n            max_substr = current_substr\n        elif current_weight == max_weight:\n            if len(current_substr) > len(max_substr):\n                max_substr = current_substr\n        if current_weight < 0:\n            current_weight = 0\n            current_substr = \"\"\n    return max_substr"
+    "output": ""
   },
   {
-    "output": "task_func"
+    "output": ""
   },
   {
-    "output": "task_func(filename)"
+    "output": ""
   },
   {
-    "output": "import numpy as np\nfrom sklearn.linear_model import LinearRegression\ndef task_func(df):\n    X = df[['feature']].values\n    y = df['value'].values\n    model = LinearRegression().fit(X, y)\n    coefficients = model.coef_.tolist()\n    intercept = model.intercept_\n    result = {'coefficients': coefficients, 'intercept': intercept}\n    return result"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "(df, ax)"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "import numpy as np\nimport math\nimport random\nfrom random import uniform\n\ndef task_func(radius, num_points):\n    points = []\n    for _ in range(num_points):\n        r = uniform(0, radius)\n        theta = uniform(0, 2  math.pi)\n        x = r  math.cos(theta)\n        y = r  math.sin(theta)\n        points.append((x, y))\n    return points"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "{'a': [1, 2, 3], 'b': [4, 5, 6], 'c': [7, 8, 9]}"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "OrderedDict([('Team 3', 88), ('Team 2', 85), ('Team 5', 80), ('Team 1', 75), ('Team 4', 70)])"
+    "output": ""
   },
   {
-    "output": "task_func(s, save_json, json_file_path)"
+    "output": ""
   },
   {
-    "output": "(plt, ax)"
+    "output": ""
   },
   {
-    "output": "(Counter({'word1': 10, 'word2': 8, ...}), <matplotlib.axes._subplots.AxesSubplot object at 0x000001E5D3B8D3C0>)"
+    "output": ""
   },
   {
-    "output": "<your_answer_here>"
+    "output": ""
   },
   {
-    "output": "import pandas as pd"
+    "output": ""
   },
   {
-    "output": "{\"https://example.com\": 1, \"https://example.org\": 1}"
+    "output": ""
   },
   {
-    "output": "```"
+    "output": ""
   },
   {
-    "output": "[12, 11], 5"
+    "output": ""
   },
   {
-    "output": "(mean_sorted, median_sorted, mode_sorted, mean_fft, median_fft, mode_fft)"
+    "output": ""
   },
   {
-    "output": "[datetime.datetime(2023, 1, 2), datetime.datetime(2023, 1, 3), datetime.datetime(2023, 1, 4), datetime.datetime(2023, 1, 5), datetime.datetime(2023, 1, 6), datetime.datetime(2023, 1, 9), datetime.datetime(2023, 1, 10), datetime.datetime(2023, 1, 11), datetime.datetime(2023, 1, 12), datetime.datetime(2023, 1, 13), datetime.datetime(2023, 1, 16), datetime.datetime(2023, 1, 17), datetime.datetime(2023, 1, 18), datetime.datetime(2023, 1, 19), datetime.datetime(2023, 1, 20), datetime.datetime(2023, 1, 23), datetime.datetime(2023, 1, 24), datetime.datetime(2023, 1, 25), datetime.datetime(2023, 1, 26), datetime.datetime(2023, 1, 27), datetime.datetime(2023, 1, 30), datetime.datetime(2023, 1, 31), datetime.datetime(2023, 2, 2), datetime.datetime(2023, 2, 3), datetime.datetime(2023, 2, 6), datetime.datetime(2023, 2, 7), datetime.datetime(2023, 2, 8), datetime.datetime(2023, 2, 9), datetime.datetime(2023, 2, 10), datetime.datetime(2023, 2, 13), datetime.datetime(2023, 2, 14), datetime.datetime(2023, 2, 15), datetime.datetime(2023, 2, 16), datetime.datetime(2023, 2, 17), datetime.datetime(2023, 2, 20), datetime.datetime(2023, 2, 21), datetime.datetime(2023, 2, 22), datetime.datetime(2023, 2, 23), datetime.datetime(2023, 2, 24), datetime.datetime(2023, 3, 1), datetime.datetime(2023, 3, 2), datetime.datetime(2023, 3, 3), datetime.datetime(2023, 3, 6), datetime.datetime(2023, 3, 7), datetime.datetime(2023, 3, 8), datetime.datetime(2023, 3, 9), datetime.datetime(2023, 3, 10), datetime.datetime(2023, 3, 13), datetime.datetime(2023, 3, 14), datetime.datetime(2023, 3, 15), datetime.datetime(2023, 3, 16), datetime.datetime(2023, 3, 17), datetime.datetime(2023, 3, 20), datetime.datetime(2023, 3, 21), datetime.datetime(2023, 3, 22), datetime.datetime(2023, 3, 23), datetime.datetime(2023, 3, 24), datetime.datetime(2023, 3, 31), datetime.datetime(2023, 4, 2), datetime.datetime(2023, 4, 3), datetime.datetime(2023, 4, 4), datetime.datetime(2023, 4, 5), datetime.datetime(2023, 4, 6), datetime.datetime(2023, 4, 7), datetime.datetime(2023, 4, 10), datetime.datetime(2023, 4, 11), datetime.datetime(2023, 4, 12), datetime.datetime(2023, 4, 13), datetime.datetime(2023, 4, 14), datetime.datetime(2023, 4, 17), datetime.datetime(2023, 4, 18), datetime.datetime(2023, 4, 19), datetime.datetime(2023, 4, 20), datetime.datetime(2023, 4, 21), datetime.datetime(2023, 4, 24), datetime.datetime(2023, 4, 25), datetime.datetime(2023, 4, 26), datetime.datetime(2023, 4, 27), datetime.datetime(2023, 4, 28), datetime.datetime(2023, 5, 1), datetime.datetime(2023, 5, 2), datetime.datetime(2023, 5, 3), datetime.datetime(2023, 5, 4), datetime.datetime(2023, 5, 5), datetime.datetime(2023, 5, 8), datetime.datetime(2023, 5, 9), datetime.datetime(2023, 5, 10), datetime.datetime(2023, 5, 11), datetime.datetime(2023, 5, 12), datetime.datetime(2023, 5, 15), datetime.datetime(2023, 5, 16), datetime.datetime(2023, 5, 17), datetime.datetime(2023, 5, 18), datetime.datetime(2023, 5, 19), datetime.datetime(2023, 5, 22), datetime.datetime(2023, 5, 23), datetime.datetime(2023, 5, 24), datetime.datetime(2023, 5, 25), datetime.datetime(2023, 5, 26), datetime.datetime(2023, 5, 31), datetime.datetime(2023, 6, 1), datetime.datetime(2023, 6, 2), datetime.datetime(2023, 6, 3), datetime.datetime(2023, 6, 4), datetime.datetime(2023, 6, 5), datetime.datetime(2023, 6, 8), datetime.datetime(2023, 6, 9), datetime.datetime(2023, 6, 10), datetime.datetime(2023, 6, 11), datetime.datetime(2023, 6, 12), datetime.datetime(2023, 6, 15), datetime.datetime(2023, 6, 16), datetime.datetime(2023, 6, 17), datetime.datetime(2023, 6, 18), datetime.datetime(2023, 6, 19), datetime.datetime(2023, 6, 22), datetime.datetime(2023, 6, 23), datetime.datetime(2023, 6, 24), datetime.datetime(2023, 6, 25), datetime.datetime(2"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "{'mean': 5.012, 'median': 5.012, 'mode': 5.012}"
+    "output": ""
   },
   {
-    "output": "['Josie Smith', 'Mugsy Dog Smith']"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "(df, ax, cube_root_series)"
+    "output": ""
   },
   {
-    "output": "45"
+    "output": ""
   },
   {
-    "output": "import os\nimport pandas as pd\n\ndef task_func(dataset, filename, output_dir=OUTPUT_DIR):\n    os.makedirs(output_dir, exist_ok=True)\n    filepath = os.path.join(output_dir, filename)\n    with open(filepath, 'w') as f:\n        for i, df in enumerate(dataset):\n            df.to_csv(f, index=False)\n            if i != len(dataset) - 1:\n                f.write('------\\n')"
+    "output": ""
   },
   {
-    "output": "```"
+    "output": ""
   },
   {
-    "output": "import bisect\nimport random\ndef task_func(num, list_length = 5, min_value = 0, max_value = 0):\n    random_list = [random.randint(min_value, max_value) for _ in range(list_length)]\n    bisect.insort(random_list, num)\n    return (random_list, random_list)"
+    "output": ""
   },
   {
-    "output": "0"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "import matplotlib.pyplot as plt\nfrom scipy.optimize import curve_fit\ndef task_func(X, Y):\n    def quadratic(x, a, b, c):\n        return ax2 + bx + c\n    params, _ = curve_fit(quadratic, X, Y)\n    x_fit = X\n    y_fit = quadratic(x_fit, params)\n    fig, ax = plt.subplots()\n    ax.scatter(X, Y, color='blue')\n    ax.plot(x_fit, y_fit, color='red')\n    return (params.tolist(), ax)"
+    "output": ""
   },
   {
-    "output": "`FileResponse(zip_buffer, as_attachment=True, filename='files.zip')`"
+    "output": ""
   },
   {
-    "output": "```"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "(array('i', [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]), 5)"
+    "output": ""
   },
   {
-    "output": "import mechanize\nfrom bs4 import BeautifulSoup\ndef task_func(url, form_id, data):\n    br = mechanize.Browser()\n    br.open(url)\n    br.select_form(nr=0)\n    br.form[\"id\"] = form_id\n    br.form.set_all_readonly(False)\n    response = br.submit()\n    soup = BeautifulSoup(response.read(), 'html.parser')\n    title = soup.find('title')\n    return title.get_text() if title else 'No Title'"
+    "output": ""
   },
   {
-    "output": "(DataFrame, Axes)"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "plt.subplots()[1]"
+    "output": ""
   },
   {
-    "output": "(my_dict, 'updated_dictionary.json', 'key_frequencies.txt')"
+    "output": ""
   },
   {
-    "output": "(fftpack.fft(signal), plt.subplots()[1])"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "TextBlob().sentiment_of(text)"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "import re\nimport os\nimport shutil\ndef task_func(directory):\n    if not os.path.isdir(directory):\n        return\n    extensions = set()\n    for filename in os.listdir(directory):\n        if os.path.isfile(os.path.join(directory, filename)):\n            ext = os.path.splitext(filename)[1]\n            if ext:\n                extensions.add(ext)\n    for ext in extensions:\n        ext_dir = os.path.join(directory, ext[1:])\n        os.makedirs(ext_dir, exist_ok=True)\n    for filename in os.listdir(directory):\n        if os.path.isfile(os.path.join(directory, filename)):\n            ext = os.path.splitext(filename)[1]\n            if ext:\n                src = os.path.join(directory, filename)\n                dst = os.path.join(directory, ext[1:], filename)\n                shutil.move(src, dst)"
+    "output": ""
   },
   {
-    "output": "np.random.normal(loc=mean, scale=std_dev, size=n)"
+    "output": ""
   },
   {
-    "output": "<your_answer_here>"
+    "output": ""
   },
   {
-    "output": "(df, ax)"
+    "output": ""
   },
   {
-    "output": "[('the', 1), ('and', 1), ('of', 1), ('to', 1), ('a', 1), ('in', 1), ('on', 1), ('for', 1), ('with', 1), ('as', 1)]"
+    "output": ""
   },
   {
-    "output": "import pandas as pd\nimport numpy as np\nfrom sklearn.preprocessing import StandardScaler\ndef task_func(df, features):\n    scaler = StandardScaler()\n    df[features] = scaler.fit_transform(df[features])\n    return df"
+    "output": ""
   },
   {
-    "output": "0"
+    "output": ""
   },
   {
-    "output": "True if the email was sent successfully, False if the directory does not exist."
+    "output": ""
   },
   {
-    "output": "pd.DataFrame(StandardScaler().fit_transform(data.replace(data < 0.5, 0)), columns=data.columns)"
+    "output": ""
   },
   {
-    "output": "task_func(interval, duration)"
+    "output": ""
   },
   {
-    "output": "import pandas as pd"
+    "output": ""
   },
   {
-    "output": "150.0"
+    "output": ""
   },
   {
-    "output": "{'word': 1, 'frequency': 1}"
+    "output": ""
   },
   {
-    "output": "{'data': {}, 'value_counts': Counter()}"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "import pandas as pd\nimport matplotlib.pyplot as plt\ndef task_func(data_dict):\n    df = pd.DataFrame(data_dict)\n    axes = []\n    for col in df.columns:\n        ax = plt.subplot(len(df.columns), 1, len(axes)+1)\n        df[col].hist(ax=ax)\n        # Check for uniform distribution\n        if len(df[col].unique()) == len(df[col]):\n            print(f\"{col} has uniform distribution\")\n        else:\n            print(f\"{col} does not have uniform distribution\")\n        axes.append(ax)\n    plt.tight_layout()\n    return axes"
+    "output": ""
   },
   {
-    "output": "{'sum_column1': 100, 'sum_column2': 200}"
+    "output": ""
   },
   {
-    "output": "(0.47332912782858, RandomForestRegressor(random_state=1))"
+    "output": ""
   },
   {
-    "output": "/tmp/archive/archive.tar.gz"
+    "output": ""
   },
   {
-    "output": "import matplotlib.pyplot as plt\nimport numpy as np\ndef task_func(n, seed=0):\n    np.random.seed(seed)\n    x = np.random.rand(n)\n    y = np.random.rand(n)\n    points = list(zip(x, y))\n    fig, ax = plt.subplots()\n    ax.set_title(\"Scatter plot of random points\")\n    ax.set_xlabel(\"X\")\n    ax.set_ylabel(\"Y\")\n    ax.scatter(x, y)\n    return fig, points"
+    "output": ""
   },
   {
-    "output": "<your_answer_here>"
+    "output": ""
   },
   {
-    "output": "<your_answer_here>"
+    "output": ""
   },
   {
-    "output": "(numpy.ndarray, numpy.ndarray)"
+    "output": ""
   },
   {
-    "output": "/path/to/target_directory/zip_name.zip"
+    "output": ""
   },
   {
-    "output": "[f\"{output_dir_path}/command_{i}_output.txt\" for i in range(len(commands))]"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "import pandas as pd\nfrom sklearn.preprocessing import StandardScaler\ndef task_func(df, cols):\n    if not isinstance(df, pd.DataFrame):\n        raise ValueError(\"df is not a DataFrame\")\n    if not isinstance(cols, list):\n        raise ValueError(\"cols is not a list\")\n    for col in cols:\n        if col not in df.columns:\n            raise ValueError(\"columns in cols don't exist in df\")\n    scaler = StandardScaler()\n    df[cols] = scaler.fit_transform(df[cols])\n    return df"
+    "output": ""
   },
   {
-    "output": "<your_answer_here>"
+    "output": ""
   },
   {
-    "output": "0f4a9c6d6d6d6d6d6d6d6d6d6d6d6d6d"
+    "output": ""
   },
   {
-    "output": "<your_answer_here>"
+    "output": ""
   },
   {
-    "output": "['target_dir/file1.txt', 'target_dir/file2.txt']"
+    "output": ""
   },
   {
-    "output": "(product_of_sums, Series(top_sums))"
+    "output": ""
   },
   {
-    "output": "True if the operation is successful, False otherwise."
+    "output": ""
   },
   {
-    "output": "task_func"
+    "output": ""
   },
   {
-    "output": "1. Generate n random points within a circle of radius RADIUS.\n2. For each point, calculate its distance from the center.\n3. Compute the average of these distances.\n4. Return the result as a float.\n\nThe average distance from the center of the circle is calculated by generating n random points within the circle, computing the distance of each point from the center, and then taking the average of these distances. The average distance is returned as a float."
+    "output": ""
   },
   {
-    "output": "(name_freq, ax, skewness, kurtosis)"
+    "output": ""
   },
   {
-    "output": "correlation (float): The Pearson correlation coefficient between the converted numerical scores and encoded grades."
+    "output": ""
   },
   {
-    "output": "({\"sum\": 100, \"mean\": 10, \"min\": 5, \"max\": 15}, <matplotlib.axes._subplots.AxesSubplot object at 0x7f9c6c0c6d90>)"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "[('%', 'a'), ('%', 'b'), ('%', 'c'), ('%', 'd'), ('%', 'e'), ('%', 'f'), ('%', 'g'), ('%', 'h'), ('%', 'i'), ('%', 'j'), ('%', 'k'), ('%', 'l'), ('%', 'm'), ('%', 'n'), ('%', 'o'), ('%', 'p'), ('%', 'q'), ('%', 'r'), ('%', 's'), ('%', 't'), ('%', 'u'), ('%', 'v'), ('%', 'w'), ('%', 'x'), ('%', 'y'), ('%', 'z'), ('%', '0'), ('%', '1'), ('%', '2'), ('%', '3'), ('%', '4'), ('%', '5'), ('%', '6'), ('%', '7'), ('%', '8'), ('%', '9'), ('%', '!'), ('%', '@'), ('%', '#'), ('%', '$'), ('%', '%'), ('%', '^'), ('%', '&'), ('%', ''), ('%', '('), ('%', ')'), ('%', '-')], True"
+    "output": ""
   },
   {
-    "output": "<your_answer_here>"
+    "output": ""
   },
   {
-    "output": "import nltk"
+    "output": ""
   },
   {
-    "output": "/absolute/path/to/script/parent/data/filename.csv"
+    "output": ""
   },
   {
-    "output": "(series, ax)"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "(stats.skew(max_values), stats.kurtosis(max_values), plt.gca())"
+    "output": ""
   },
   {
-    "output": "(dict, matplotlib.figure.Figure)"
+    "output": ""
   },
   {
-    "output": "```"
+    "output": ""
   },
   {
-    "output": "import pickle\nimport os\n\ndef task_func(filename, data):\n    try:\n        os.makedirs(os.path.dirname(filename), exist_ok=True)\n        with open(filename, 'wb') as f:\n            pickle.dump(data, f)\n        return True\n    except:\n        return False"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "import pytz\nfrom dateutil.parser import parse\ndef task_func(date_str, from_tz, to_tz):\n    date = parse(date_str)\n    from_tz = pytz.timezone(from_tz)\n    to_tz = pytz.timezone(to_tz)\n    date = from_tz.localize(date)\n    date = date.astimezone(to_tz)\n    current_time = pytz.utc.localize(datetime.datetime.utcnow())\n    current_time = current_time.astimezone(to_tz)\n    time_diff = (current_time - date).total_seconds()\n    return int(time_diff)"
+    "output": ""
   },
   {
-    "output": "import heapq\nimport math\nimport matplotlib.pyplot as plt\ndef task_func(l1, l2, N=10):\n    diffs = [(math.sqrt((a - b)2), a, b) for a, b in zip(l1, l2)]\n    heapq.heapify(diffs)\n    top_diffs = heapq.nsmallest(N, diffs)\n    fig, ax = plt.subplots()\n    ax.plot([d[1] for d in top_diffs], [d[2] for d in top_diffs], 'o-')\n    return ax"
+    "output": ""
   },
   {
-    "output": "{'hex': '68656c6c6f', 'base64': 'aGVsbG8=', 'utf-8': 'hello', 'utf-16': 'hello', 'utf-32': 'hello', 'ASCII': 'hello', 'URL': 'hello', 'ROT13': 'uryyb'}"
+    "output": ""
   },
   {
-    "output": "(np.percentile(random_list, 25), np.percentile(random_list, 50), np.percentile(random_list, 75))"
+    "output": ""
   },
   {
-    "output": "(generated_string, is_similar)"
+    "output": ""
   },
   {
-    "output": "{'Position 0': 3.0, 'Position 1': 4.0, 'Position 2': 5.0}"
+    "output": ""
   },
   {
-    "output": "import numpy as np\nimport random\nfrom datetime import datetime\ndef task_func(rows=3, columns=2, start_date=datetime(2021, 1, 1), end_date=datetime(2021, 12, 31), seed=0):\n    random.seed(seed)\n    dates = []\n    current = start_date\n    while current <= end_date:\n        dates.append(current)\n        current += datetime.timedelta(days=1)\n    np.random.shuffle(dates)\n    date_strings = [d.strftime('%Y-%m-%d') for d in dates]\n    date_array = np.array(date_strings).reshape(rows, columns)\n    return date_array"
+    "output": ""
   },
   {
-    "output": "(np.array([[x1, y1], [x2, y2], ..., [xn, yn]]), KMeans object)"
+    "output": ""
   },
   {
-    "output": "(matplotlib.axes._subplots.AxesSubplot, dict)"
+    "output": ""
   },
   {
-    "output": "from texttable import Texttable\nimport os\nimport psutil\ndef task_func():\n    t = Texttable()\n    t.add_row(['Item', 'Value'])\n    t.add_row(['CPU Usage (%)', str(psutil.cpu_percent())])\n    t.add_row(['Memory Usage (%)', str(psutil.virtual_memory().percent)])\n    t.add_row(['Disk Usage (%)', str(psutil.disk_usage('/').percent)])\n    print(t.draw())"
+    "output": ""
   },
   {
-    "output": "(generator, ax, abs(mean_fft), abs(median_fft))"
+    "output": ""
   },
   {
-    "output": "converted_data.json"
+    "output": ""
   },
   {
-    "output": "[processed_files]"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "{'mode': 3, 'entropy': 1.0}"
+    "output": ""
   },
   {
-    "output": "```python\nfrom sklearn.preprocessing import StandardScaler\nimport numpy as np\nimport base64\ndef task_func(data):\n    scaler = StandardScaler()\n    standardized = scaler.fit_transform(data)\n    encoded = base64.b64encode(standardized.astype(np.float32).tobytes()).decode('ascii')\n    return encoded\n```"
+    "output": ""
   },
   {
-    "output": "['First_Plot.png', 'Second_Plot.png']"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "(pd.DataFrame, plt.Axes)"
+    "output": ""
   },
   {
-    "output": "<your_answer_here>"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "/home/user/Downloads/excel_file.xlsx"
+    "output": ""
   },
   {
-    "output": "{\"example.com\": {\"status\": \"success\", \"country\": \"United States\", \"region\": \"California\", \"city\": \"San Francisco\"}, \"test.org\": {\"status\": \"fail\", \"error\": \"API request failed\"}}"
+    "output": ""
   },
   {
-    "output": "{'file1.txt': 'text/plain', 'file2.csv': 'text/csv', 'file3.pdf': 'application/pdf'}"
+    "output": ""
   },
   {
-    "output": "({\"sum\": 1000, \"mean\": 100, \"min\": 0, \"max\": 200}, <matplotlib.axes._subplots.AxesSubplot object at 0x7f9c6c0c6d90>)"
+    "output": ""
   },
   {
-    "output": "['xz', 'xz', 'zx', 'xy', 'yx', 'zx', 'xy', 'xx', 'xy', 'xx']"
+    "output": ""
   },
   {
-    "output": "Error: Unable to download the file from the provided URL."
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "({\"a\": 1, data_dict}, {\"mean\": np.round(np.mean(list(data_dict.values())), 2), \"median\": np.median(list(data_dict.values())), \"mode\": stats.mode(list(data_dict.values()))[0][0]}, ax) where ax is the matplotlib Axes object for the histogram."
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "import math\nimport matplotlib.pyplot as plt\nimport numpy as np\nimport random\n# Constants\nRANGE = 10000\nSIZE = 1000\nPI = np.pi\ndef task_func(size=SIZE, frequency=1):\n    x = np.linspace(0, RANGE, size)\n    y = np.sin(2  PI  frequency  x / RANGE)\n    plt.plot(x, y)\n    return plt.gca()"
+    "output": ""
   },
   {
-    "output": "(df, axes_list) where df is the DataFrame with statistics and axes_list is the list of matplotlib Axes objects for the distribution plots."
+    "output": ""
   },
   {
-    "output": "False"
+    "output": ""
   },
   {
-    "output": "[2, 3, 0, 1]"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "(rows, converted_data)"
+    "output": ""
   },
   {
-    "output": "(future_prices.tolist(), ax)"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "from collections import Counter\nimport pandas as pd\ndef task_func(list_of_menuitems):\n    flat_list = [item for sublist in list_of_menuitems for item in sublist]\n    counts = Counter(flat_list)\n    return pd.DataFrame(list(counts.items()), columns=['MenuItem', 'Count']).set_index('MenuItem')"
+    "output": ""
   },
   {
-    "output": "import itertools\nimport math\ndef task_func(x):\n    min_length = math.inf\n    result = []\n    for i in range(len(x)+1):\n        for subset in itertools.combinations(x.keys(), i):\n            total_length = sum(x[key] for key in subset)\n            if total_length < min_length:\n                min_length = total_length\n                result = list(subset)\n    return result"
+    "output": ""
   },
   {
-    "output": "import pandas as pd"
+    "output": ""
   },
   {
-    "output": "(sum_of_values, category_counts)"
+    "output": ""
   },
   {
-    "output": "[\"file1_like.txt\", \"whatEver.txt\", \"likeThis.jpg\", \"whatIsHere.doc\"]"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "(numpy.ndarray, int, matplotlib.axes.Axes)"
+    "output": ""
   },
   {
-    "output": "from collections import Counter\nimport pandas as pd\ndef task_func(myList):\n    word_counts = Counter(myList)\n    return pd.DataFrame(list(word_counts.items()), columns=['word', 'count'])"
+    "output": ""
   },
   {
-    "output": "import pandas as pd\nfrom sklearn.preprocessing import StandardScaler\ndef task_func(df):\n    scaler = StandardScaler()\n    df_standardized = pd.DataFrame(scaler.fit_transform(df), columns=df.columns)\n    return df_standardized"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "(labels, ax)"
+    "output": ""
   },
   {
-    "output": "import seaborn as sns"
+    "output": ""
   },
   {
-    "output": "/tmp/simulated_data.csv"
+    "output": ""
   },
   {
-    "output": "(mean, std_dev, ax) where mean is the sample mean, std_dev is the sample standard deviation with ddof = 1, and ax is the matplotlib Axes object for the histogram with the normal distribution curve."
+    "output": ""
   },
   {
-    "output": "import os\nfrom flask_mail import Mail\ndef task_func(app):\n    mail_config = {\n        'MAIL_SERVER': os.environ.get('MAIL_SERVER', 'localhost'),\n        'MAIL_PORT': int(os.environ.get('MAIL_PORT', '1025')),\n        'MAIL_USE_TLS': os.environ.get('MAIL_USE_TLS', 'False').lower() in ('true', '1', 't'),\n        'MAIL_USE_SSL': os.environ.get('MAIL_USE_SSL', 'False').lower() in ('true', '1', 't'),\n        'MAIL_USERNAME': os.environ.get('MAIL_USERNAME'),\n        'MAIL_PASSWORD': os.environ.get('MAIL_PASSWORD'),\n        'MAIL_DEFAULT_SENDER': os.environ.get('MAIL_DEFAULT_SENDER')\n    }\n    mail = Mail(app)\n    return (mail, mail_config)"
+    "output": ""
   },
   {
-    "output": "{'feature1': {'mean': 1.2, 'median': 1.0, 'mode': 1, 'variance': 0.8}, 'feature2': {'mean': 2.3, 'median': 2.0, 'mode': 2, 'variance': 1.2}, 'feature3': {'mean': 3.4, 'median': 3.0, 'mode': 3, 'variance': 1.8}, 'feature4': {'mean': 4.5, 'median': 4.0, 'mode': 4, 'variance': 2.4}, 'feature5': {'mean': 5.6, 'median': 5.0, 'mode': 5, 'variance': 3.0}}"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "data.json"
+    "output": ""
   },
   {
-    "output": "{\"means\": <pd.Series>, \"std_devs\": <pd.Series>, \"axes\": <list[matplotlib.axes.Axes]>, \"anova_results\": <pd.DataFrame>}"
+    "output": ""
   },
   {
-    "output": "(np.array([17, 16, 18, 17, 16, 16]), <matplotlib.axes._subplots.AxesSubplot object at 0x7f8c6c0d5d30>)"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "HTTP/1.1 200 OK\\r\\nContent-Length: 13\\r\\n\\r\\nHello, World!"
+    "output": ""
   },
   {
-    "output": "<your_answer_here>"
+    "output": ""
   },
   {
-    "output": "Output.txt"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "```"
+    "output": ""
   },
   {
-    "output": "import heapq\nimport random\ndef task_func(list_length: int, k: int):\n    random_list = [random.randint(1, 100) for _ in range(list_length)]\n    largest_numbers = heapq.nlargest(k, random_list)\n    return (random_list, largest_numbers)"
+    "output": ""
   },
   {
-    "output": "(counts, fig)"
+    "output": ""
   },
   {
-    "output": "[os.path.join(target_dir, os.path.basename(file)) for file in glob.glob(os.path.join(source_dir, '')) if os.path.isfile(file)]"
+    "output": ""
   },
   {
-    "output": "<your_answer_here>"
+    "output": ""
   },
   {
-    "output": "[3.605551275463989, 5.2]"
+    "output": ""
   },
   {
-    "output": "<your_answer_here>"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "np.array([reduce(lambda x, y: x  y, (t[1] for t in list_of_pairs))])"
+    "output": ""
   },
   {
-    "output": "{'file1.csv': 10, 'file2.csv': 15}"
+    "output": ""
   },
   {
-    "output": "470.99"
+    "output": ""
   },
   {
-    "output": "import pandas as pd\nfrom sklearn.model_selection import train_test_split\ndef task_func(df):\n    X = df.drop('target', axis=1)\n    y = df['target']\n    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)\n    return (X_train, X_test, y_train, y_test)"
+    "output": ""
   },
   {
-    "output": "<your_answer_here>"
+    "output": ""
   },
   {
-    "output": "import itertools\nimport string\nimport pandas as pd\ndef task_func():\n    letters = string.ascii_lowercase\n    combinations = list(itertools.product(letters, repeat=3))\n    df = pd.DataFrame(combinations, columns=['Letter1', 'Letter2', 'Letter3'])\n    return df"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "<your_answer_here>"
+    "output": ""
   },
   {
-    "output": "import pandas as pd"
+    "output": ""
   },
   {
-    "output": "[101, 103]"
+    "output": ""
   },
   {
-    "output": "['51', '84', '16', '79', '16', '28', '63', '82', '94', '18', '68', '42', '95', '33', '64', '38', '69', '56', '32', '16', '18', '19', '27']"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "LinearRegression: The trained Linear Regression model."
+    "output": ""
   },
   {
-    "output": "{\"count\": 100, \"mean\": 0.0, \"std\": 9.9499, \"min\": -99, \"5th percentile\": -99, \"25th percentile\": -75, \"median\": 0.0, \"75th percentile\": 75, \"95th percentile\": 95, \"max\": 99}, <matplotlib.axes._subplots.AxesSubplot object at 0x7f8d6c0d6d30>"
+    "output": ""
   },
   {
-    "output": "2.5"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "(normalized_df, axes)"
+    "output": ""
   },
   {
-    "output": "import requests\nimport json\nimport base64\n\ndef task_func(data, url=\"http://your-api-url.com\"):\n    payload_dict = dict(data)\n    payload_json = json.dumps(payload_dict)\n    payload_base64 = base64.b64encode(payload_json.encode()).decode()\n    response = requests.post(url, data={\"payload\": payload_base64})\n    return response"
+    "output": ""
   },
   {
-    "output": "(\"Success\", [\"file1.txt\", \"file2.txt\"])"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "(pd.DataFrame, matplotlib.axes._subplots.AxesSubplot)"
+    "output": ""
   },
   {
-    "output": "<your_answer_here>"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "np.array(l[3:] + l[:3])"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "{'example.com': '93.184.216.34', 'invalid-domain': None}"
+    "output": ""
   },
   {
-    "output": "<your_answer_here>"
+    "output": ""
   },
   {
-    "output": "correlation_matrix = data[cols].corr()"
+    "output": ""
   },
   {
-    "output": "0.0"
+    "output": ""
   },
   {
-    "output": "<your_answer_here>"
+    "output": ""
   },
   {
-    "output": "(np.sort(matrix).ravel(), list(itertools.combinations(np.sort(matrix).ravel(), 2)))"
+    "output": ""
   },
   {
-    "output": "<your_answer_here>"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "/home/user/matched_data.csv"
+    "output": ""
   },
   {
-    "output": "(df, plt.gca())"
+    "output": ""
   },
   {
-    "output": "Counter({'A': 5, 'B': 5, 'C': 5, 'D': 5, 'E': 5, 'F': 5, 'G': 5, 'H': 5, 'I': 5, 'J': 5})"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "<your_answer_here>"
+    "output": ""
   },
   {
-    "output": "/home/user/output.txt"
+    "output": ""
   },
   {
-    "output": "import re\nfrom collections import Counter\ndef task_func(text, top_n):\n    text = re.sub(r'http\\S+', '', text)\n    words = re.findall(r'\\b\\w+\\b', text.lower())\n    counts = Counter(words)\n    return counts.most_common(top_n)"
+    "output": ""
   },
   {
-    "output": "```python\nimport os\nfrom datetime import datetime\n\ndef task_func(filepath: str) -> dict:\n    stats = os.stat(filepath)\n    size = stats.st_size\n    modified_time = datetime.fromtimestamp(stats.st_mtime)\n    formatted_time = modified_time.strftime('%Y-%m-%d %H:%M:%S')\n    return {'size': size, 'last_modified': formatted_time}\n```"
+    "output": ""
   },
   {
-    "output": "<your_answer_here>"
+    "output": ""
   },
   {
-    "output": "import pandas as pd\nimport os\nimport sys\ndef task_func(file_path: str, column_name: str) -> pd.DataFrame:\n    df = pd.read_csv(file_path)\n    df[column_name] = df[column_name].str.replace('\\n', '<br>')\n    return df"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "import os\nimport pandas as pd\nfrom dateutil.parser import parse\nfrom matplotlib import pyplot as plt\nOUTPUT_DIR = './output'\ndef task_func(csv_path=os.path.join(OUTPUT_DIR, 'data.csv'), date_column='date'):\n    df = pd.read_csv(csv_path)\n    df[date_column] = df[date_column].apply(parse)\n    years = df[date_column].dt.year\n    fig, ax = plt.subplots()\n    ax.hist(years, bins=range(min(years), max(years)+2), edgecolor='black')\n    return ax"
+    "output": ""
   },
   {
-    "output": "b'x\\x96\\x84\\x00'"
+    "output": ""
   },
   {
-    "output": "C:\\\\ SomeDir\\\\config.txt"
+    "output": ""
   },
   {
-    "output": "import pandas as pd\nimport numpy as np\ndef task_func(data_size=1000, column_names=['A', 'B', 'C', 'D', 'E'], seed=0):\n    np.random.seed(seed)\n    data = np.random.randint(1, 101, size=(data_size, len(column_names)))\n    df = pd.DataFrame(data, columns=column_names)\n    df = df.applymap(lambda x: -1 if x < 10 else x)\n    return df"
+    "output": ""
   },
   {
-    "output": "(labels, plt.gca())"
+    "output": ""
   },
   {
-    "output": "import json\nimport pandas as pd\ndef task_func(result, csv_file_path=\"test.csv\", json_file_path=\"test.json\"):\n    df = pd.DataFrame(result)\n    df.to_csv(csv_file_path, index=False)\n    with open(json_file_path, 'w') as f:\n        json.dump(result, f)"
+    "output": ""
   },
   {
-    "output": "/test.csv"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "(mean, median, [mode])"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "task_func"
+    "output": ""
   },
   {
-    "output": "(['00:00:00.000000', '00:00:00.000000'], [42, 69])"
+    "output": ""
   },
   {
-    "output": "(pd.Series, pd.Series, plt.Axes)"
+    "output": ""
   },
   {
-    "output": "loaded_dll_name"
+    "output": ""
   },
   {
-    "output": "import random\nimport matplotlib.pyplot as plt\nimport seaborn as sns\ndef task_func(result, colors=['b', 'g', 'r', 'c', 'm', 'y', 'k']):\n    sns.histplot(data=result['from_user'], color=random.choice(colors))\n    plt.show()"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "2023-10-05 14:30:45"
+    "output": ""
   },
   {
-    "output": "(duplicate_counts, unique_df, axes)"
+    "output": ""
   },
   {
-    "output": "{'mean': mean_value, 'median': median_value, 'standard deviation': std_value}"
+    "output": ""
   },
   {
-    "output": "from sklearn.preprocessing import MinMaxScaler\nimport matplotlib.pyplot as plt\ndef task_func(df):\n    df.fillna(df.mean(), inplace=True)\n    scaler = MinMaxScaler()\n    normalized_df = pd.DataFrame(scaler.fit_transform(df), columns=df.columns)\n    fig, ax = plt.subplots()\n    df.boxplot(ax=ax)\n    return normalized_df, ax"
+    "output": ""
   },
   {
-    "output": "import numpy as np\nimport pandas as pd\ndef task_func(rows=5, cols=5):\n    categories = ['Category1', 'Category2', 'Category3']\n    if cols > len(categories):\n        raise ValueError(\"If the number of columns exceeds the number of available categories.\")\n    data = np.random.rand(rows, cols)\n    df = pd.DataFrame(data, columns=categories)\n    ax = df.plot(kind='bar', stacked=True)\n    return ax"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "<your_answer_here>"
+    "output": ""
   },
   {
-    "output": "(plt.Axes, np.ndarray)"
+    "output": ""
   },
   {
-    "output": "import pandas as pd\nimport regex as re\ndef task_func(text):\n    data = []\n    for line in text.splitlines():\n        match = re.match(r'Score: (\\d+), Category: (.+)', line)\n        if match:\n            data.append({\n                'Score': int(match.group(1)),\n                'Category': match.group(2)\n            })\n    return pd.DataFrame(data)"
+    "output": ""
   },
   {
-    "output": "(2.0, 1.0, 0.0, -1.2)"
+    "output": ""
   },
   {
-    "output": "import collections\nimport json\nimport os\n\ndef task_func(directory_path: str) -> dict:\n    counter = collections.Counter()\n    for filename in os.listdir(directory_path):\n        if filename.endswith('.json'):\n            file_path = os.path.join(directory_path, filename)\n            with open(file_path, 'r') as f:\n                data = json.load(f)\n                if isinstance(data, dict):\n                    counter.update(data)\n    return dict(counter)"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "(np.random.randint(1, 101, size=ARRAY_SIZE), np.mean(array), np.std(array), plt.gca())"
+    "output": ""
   },
   {
-    "output": "from collections import OrderedDict\nfrom prettytable import PrettyTable\ndef task_func(my_dict):\n    sorted_dict = OrderedDict(sorted(my_dict.items()))\n    table = PrettyTable()\n    table.field_names = ['Key', 'Value']\n    for key, value in sorted_dict.items():\n        table.add_row([key, value])\n    return table"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "5f4dcc3b5aa9661096a88b5980a89c8d6c6b5a6c6b5a6c6b5a6c6b5a6c6b5a6c"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "(z_scores_df, ax)"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "import pandas as pd"
+    "output": ""
   },
   {
-    "output": "base64.b64encode(hashlib.sha256((password + salt).encode()).digest()).decode()"
+    "output": ""
   },
   {
-    "output": "/path/to/whatever"
+    "output": ""
   },
   {
-    "output": "(selected_file_name, selected_dataframe)"
+    "output": ""
   },
   {
-    "output": "import numpy as np\nfrom collections import Counter\nimport matplotlib.pyplot as plt\ndef task_func(L):\n    mean = np.mean(L)\n    median = np.median(L)\n    counts = Counter(L)\n    mode = counts.most_common(1)[0][0]\n    std_dev = np.std(L)\n    plt.hist(L, bins=10)\n    fig, ax = plt.subplots()\n    return {'mean': mean, 'median': median, 'mode': mode, 'std_dev': std_dev, 'plot': ax}"
+    "output": ""
   },
   {
-    "output": "from collections import Counter\nimport random\nLETTERS = ['a', 'b', 'c', 'd', 'e']\ndef task_func(count, seed=0):\n    random.seed(seed)\n    pairs = [random.choice(LETTERS) + random.choice(LETTERS) for _ in range(count)]\n    return Counter(pairs)"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "df = pd.DataFrame.from_dict({key: {'mean': np.mean(values), 'median': np.median(values)} for key, values in stats.items()}, orient='index').sort_index()"
+    "output": ""
   },
   {
-    "output": "loaded_strings (list): The loaded list of strings from the pickle file."
+    "output": ""
   },
   {
-    "output": "import re\nimport socket\ndef task_func(ip_addresses: list) -> dict:\n    result = {}\n    for ip in ip_addresses:\n        if re.match(r'^(\\d{1,3}\\.){3}\\d{1,3}$', ip):\n            try:\n                hostname = socket.gethostbyaddr(ip)[0]\n                result[ip] = hostname\n            except socket.herror:\n                result[ip] = None\n    return result"
+    "output": ""
   },
   {
-    "output": "{'hello world': 1, 'world how': 1, 'how are': 1, 'are you': 1, 'you today': 1}"
+    "output": ""
   },
   {
-    "output": "```"
+    "output": ""
   },
   {
-    "output": "0"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "<your_answer_here>"
+    "output": ""
   },
   {
-    "output": "(df, ax) where df is a pandas DataFrame with 'Timezone' and 'Datetime' columns, and ax is a matplotlib Axes object for the bar chart."
+    "output": ""
   },
   {
-    "output": "(params, fitted_values, ax)"
+    "output": ""
   },
   {
-    "output": "scraped_data.csv"
+    "output": ""
   },
   {
-    "output": "Counter({0: 3, 1: 2, 2: 1, 3: 1, 4: 1, 5: 1, 6: 1, 7: 1, 8: 1, 9: 1})"
+    "output": ""
   },
   {
-    "output": "import binascii"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "(rsa.PublicKey, str)"
+    "output": ""
   },
   {
-    "output": "[5, 7], 5.0, 50.888888888888886"
+    "output": ""
   },
   {
-    "output": "{'last_updated': '2023-09-15 10:30:45'}"
+    "output": ""
   },
   {
-    "output": "plt.figure()"
+    "output": ""
   },
   {
-    "output": "(df[(df >= 0).all(axis=1)], [sns.jointplot(data=df, x=sample(COLUMNS, 2)[0], y=sample(COLUMNS, 2)[1]) for _ in range(n_plots)] if not df.empty else [])"
+    "output": ""
   },
   {
-    "output": "(Counter({1: 3, 2: 2, 3: 1}), <matplotlib.axes._subplots.AxesSubplot object at 0x7f9c6c0c6d90>)"
+    "output": ""
   },
   {
-    "output": "from itertools import chain\nimport numpy as np\nfrom sklearn.cluster import KMeans\ndef task_func(L):\n    flat_list = list(chain.from_iterable(L))\n    data = np.array(flat_list).reshape(-1, 1)\n    kmeans = KMeans(n_clusters=3).fit(data)\n    labels = kmeans.labels_\n    plt.scatter(data, np.zeros_like(data), c=labels, cmap='viridis')\n    return plt.gca()"
+    "output": ""
   },
   {
-    "output": "{'a': '1', 'timestamp': 1717986912}"
+    "output": ""
   },
   {
-    "output": "{'value': 0.5403023058681398}"
+    "output": ""
   },
   {
-    "output": "path/to/whatever"
+    "output": ""
   },
   {
-    "output": "0.5"
+    "output": ""
   },
   {
-    "output": "from django.http import HttpResponse\nimport uuid\ndef task_func(data):\n    response = HttpResponse(data, content_type='application/json')\n    response['X-Request-Id'] = str(uuid.uuid4())\n    return response"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "import pandas as pd\nimport re\nimport random\ndef task_func(data_list, seed=None):\n    random.seed(seed)\n    original_strings = data_list\n    modified_strings = []\n    for string in original_strings:\n        if ',' in string:\n            comma_indices = [i for i, char in enumerate(string) if char == ',']\n            index = random.choice(comma_indices)\n            modified = string[:index] + string[index+1:]\n            modified_strings.append(modified)\n        else:\n            modified_strings.append(string)\n    df = pd.DataFrame({'Original String': original_strings, 'Modified String': modified_strings})\n    return df"
+    "output": ""
   },
   {
-    "output": "(original_image, segmented_image)"
+    "output": ""
   },
   {
-    "output": "import numpy as np\nimport matplotlib.pyplot as plt\nfrom scipy import stats\ndef task_func(mu, sigma, num_samples=1000, seed=77):\n    np.random.seed(seed)\n    samples = np.random.normal(mu, sigma, num_samples)\n    fig = plt.figure(figsize=(12, 6))\n    plt.subplot(1, 2, 1)\n    plt.hist(samples, bins=30, density=True, alpha=0.6, color='g')\n    plt.title('Histogram')\n    plt.subplot(1, 2, 2)\n    stats.probplot(samples, dist=\"norm\", plot=plt)\n    plt.title('Q-Q Plot')\n    return fig"
+    "output": ""
   },
   {
-    "output": "import pandas as pd"
+    "output": ""
   },
   {
-    "output": "0"
+    "output": ""
   },
   {
-    "output": "(time_taken, axes_object)"
+    "output": ""
   },
   {
-    "output": "class PostRequestHandler(http.server.BaseHTTPRequestHandler): def do_POST(self): content_length = int(self.headers.get('Content-Length', 0)) if content_length == 0: self.send_response(400) self.end_headers() self.wfile.write(json.dumps({\"status\": \"error\", \"message\": \"No data received\"}).encode()) return content_type = self.headers.get('Content-Type') if content_type != 'application/json': self.send_response(400) self.end_headers() self.wfile.write(json.dumps({\"status\": \"error\", \"message\": \"Content-Type header is not application/json\"}).encode()) return data = self.rfile.read(content_length) try: json_data = json.loads(data.decode()) if 'data' not in json_data: self.send_response(400) self.end_headers() self.wfile.write(json.dumps({\"status\": \"error\", \"message\": \"No data received\"}).encode()) return else: self.send_response(200) self.end_headers() self.wfile.write(json.dumps({\"status\": \"success\", \"message\": \"Data received successfully.\"}).encode()) except json.JSONDecodeError: self.send_response(400) self.end_headers() self.wfile.write(json.dumps({\"status\": \"error\", \"message\": \"Invalid JSON format\"}).encode())"
+    "output": ""
   },
   {
-    "output": "import wikipedia\nfrom wordcloud import WordCloud\nimport matplotlib.pyplot as plt\ndef task_func(page_title):\n    try:\n        page = wikipedia.page(page_title)\n        text = page.summary\n        wordcloud = WordCloud().generate(text)\n        fig, ax = plt.subplots()\n        ax.imshow(wordcloud)\n        ax.axis(\"off\")\n        return ax\n    except wikipedia.exceptions.PageNotExistsError:\n        return None"
+    "output": ""
   },
   {
-    "output": "import random"
+    "output": ""
   },
   {
-    "output": "import pandas as pd"
+    "output": ""
   },
   {
-    "output": "The generated palindrome sentence."
+    "output": ""
   },
   {
-    "output": "<your_answer_here>"
+    "output": ""
   },
   {
-    "output": "import pandas as pd\nfrom sklearn.preprocessing import MinMaxScaler\ndef task_func(data, columns):\n    scaler = MinMaxScaler()\n    scaled = scaler.fit_transform(data[columns])\n    return pd.DataFrame(scaled, columns=columns)"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "from collections import Counter\nimport heapq\n# Constants\nLETTERS = list('abcdefghijklmnopqrstuvwxyz')\ndef task_func(my_dict):\n    counts = Counter(my_dict)\n    most_common = heapq.nlargest(3, counts.items(), key=lambda x: x[1])\n    return [letter for letter, _ in most_common]"
+    "output": ""
   },
   {
-    "output": "import collections\nimport itertools\nimport matplotlib.pyplot as plt\n# Constants\nITEMS = ['apple', 'banana']\ndef task_func(a, b, items=ITEMS):\n    combined = list(itertools.chain(a, b))\n    counts = collections.Counter(combined)\n    filtered_counts = {item: counts.get(item, 0) for item in items}\n    fig, ax = plt.subplots()\n    ax.bar(filtered_counts.keys(), filtered_counts.values())\n    return ax"
+    "output": ""
   },
   {
-    "output": "import numpy as np\nimport pandas as pd\n# Constants\nRANGE = (1, 100)\ndef task_func(L):\n    dimensions = []\n    for sublist in L:\n        for num in sublist:\n            dimensions.append(num)\n    rows = dimensions[0]  dimensions[1]\n    cols = dimensions[2]  dimensions[3]\n    data = np.random.randint(RANGE[0], RANGE[1], size=(rows, cols))\n    df = pd.DataFrame(data)\n    return df"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "```python"
+    "output": ""
   },
   {
-    "output": "sampletextcontainsseveralwordsincluding. sampletextcontainsseveralwordsincluding. sampletextcontainsseveralwordsincluding. sampletextcontainsseveralwordsincluding. sampletextcontainsseveralwordsincluding. sampletextcontainsseveralwordsincluding. sampletextcontainsseveralwordsincluding. sampletextcontainsseveralwordsincluding. sampletextcontainsseveralwordsincluding. sampletextcontainsseveralwordsincluding."
+    "output": ""
   },
   {
-    "output": "(z_score_df, list(axes))"
+    "output": ""
   },
   {
-    "output": "import statistics\nimport matplotlib.pyplot as plt\ndef task_func(sales_data):\n    months = sales_data['Month']\n    product_sales = {p: [s for m, s in zip(months, sales_data['Sales']) if m == p] for p in set(months)}\n    fig, ax = plt.subplots()\n    for product, sales in product_sales.items():\n        mean = statistics.mean(sales)\n        std = statistics.stdev(sales)\n        ax.plot(months, sales, label=product)\n        ax.fill_between(months, [mean - std for _ in months], [mean + std for _ in months], alpha=0.3)\n    ax.set_xlabel('Month')\n    ax.set_ylabel('Sales')\n    ax.legend()\n    return ax"
+    "output": ""
   },
   {
-    "output": "The actual name of the loaded DLL file is printed."
+    "output": ""
   },
   {
-    "output": "/path/to/directory"
+    "output": ""
   },
   {
-    "output": "unstack the yellow block from on top of the red block, put down the yellow block, pick up the blue block, stack the blue block on top of the orange block, pick up the yellow block, stack the yellow block on top of the red block"
+    "output": ""
   },
   {
-    "output": "- This action is valid. After this, crate0 is at depot1, pallet1 is not clear, and crate0 is on pallet1"
+    "output": ""
   },
   {
-    "output": "37. Use"
+    "output": ""
   },
   {
-    "output": "Stack the red block on top of the orange block, stack the yellow block on top of the blue block, and stack the orange block on top of the yellow block."
+    "output": ""
   },
   {
-    "output": "package_0 is at location_1_2, package_1 is at location_1_0, package_2 is at location_1_2, package_3 is at location_0_0, package_4 is at location_1_1, package_5 is at location_0_0, package_6 is at location_1_0"
+    "output": ""
   },
   {
-    "output": "Use hoist1 to lift crate1 from pallet1 at depot1, use hoist1 to load crate1 into truck2 at depot1, drive truck2 from depot1 to distributor0, use hoist3 to unload crate1 from truck2 at distributor0, use hoist3 to drop crate1 to pallet3 at distributor0, use hoist1 to lift crate0 from pallet1 at depot1, use hoist1 to load crate0 into truck0 at depot1, drive truck0 from depot1 to depot0, use hoist0 to unload crate0 from truck0 at depot0, use hoist0 to drop crate0 to pallet0 at depot0."
+    "output": ""
   },
   {
-    "output": "unstack the blue block from on top of the red block, put down the blue block, unstack the red block from on top of the orange block, put down the red block, pick up the orange block, stack the orange block on top of the red block, pick up the yellow block, stack the yellow block on top of the red block, pick up the blue block, stack the blue block on top of the yellow block"
+    "output": ""
   },
   {
-    "output": "All packages are at their target locations."
+    "output": ""
   },
   {
-    "output": "package_0 is at location_1_1"
+    "output": ""
   },
   {
-    "output": "package_0 is at location_1_0 and package_1 is at location_2_1."
+    "output": ""
   },
   {
-    "output": "crate0 on pallet2, crate1 on pallet3, crate2 on pallet0"
+    "output": ""
   },
   {
-    "output": "crate0 is on crate1, crate1 is on pallet3, and crate2 is on pallet0."
+    "output": ""
   },
   {
-    "output": "The plan is not valid."
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "pick up the blue block, unstack the blue block from the yellow block, put down the blue block, pick up the orange block, stack the orange block on top of the blue block, pick up the yellow block, stack the yellow block on top of the orange block, pick up the red block, stack the red block on top of the yellow block"
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet2 and crate2 is on pallet0."
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "crate2 is on pallet3."
+    "output": ""
   },
   {
-    "output": "- Break: Province other"
+    "output": ""
   },
   {
-    "output": "The plan can achieve the goal."
+    "output": ""
   },
   {
-    "output": "Goal is achieved"
+    "output": ""
   },
   {
-    "output": "package_0 is at location_0_0, package_1 is at location_1_1, package_2 is at location_0_2, package_3 is at location_0_0, package_4 is at location_1_0, package_5 is at location_0_1."
+    "output": ""
   },
   {
-    "output": "- Crate1 is in truck2 at depot2."
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "package_0 is at location_0_2, package_1 is at location_2_0, package_2 is at location_1_1, package_3 is at location_2_1, package_4 is at location_0_0"
+    "output": ""
   },
   {
-    "output": "Use hoist1 to lift crate2 from pallet1 at depot1"
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "The plan is not feasible as it violates the constraints of the problem."
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet0, crate1 is on pallet1, crate2 is on pallet3"
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "- Load package_3 into truck_0 at location_0_0 ("
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "crate0 is on crate2 and crate2 is on pallet1"
+    "output": ""
   },
   {
-    "output": "package_0 is at location_2_0, package_1 is at location_0_1, package_2 is at location_1_0, package_3 is at location_2_0, package_4 is at location_1_0, package_5 is at location_1_1"
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet2, crate1 is on pallet3, crate2 is on pallet0"
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "unstack the blue block from on top of the yellow block, put down the blue block, pick up the yellow block, stack the yellow block on top of the blue block, pick up the red block, unstack the red block from on top of the orange block, put down the red block, pick up the orange block, stack the orange block on top of the yellow block, put down the orange block"
+    "output": ""
   },
   {
-    "output": "36. Use hoist1 to unload crate1 from truck0 at depot"
+    "output": ""
   },
   {
-    "output": "Stack the yellow block on top of the orange block."
+    "output": ""
   },
   {
-    "output": "Stack the orange block on top of the red block."
+    "output": ""
   },
   {
-    "output": "The plan is valid and achieves the goal."
+    "output": ""
   },
   {
-    "output": "The plan is invalid because the second step cannot be executed."
+    "output": ""
   },
   {
-    "output": "crate0 on pallet0, crate1 on pallet2, crate2 on crate0"
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet2 and crate2 is on pallet3."
+    "output": ""
   },
   {
-    "output": "unstack the blue block from on top of the orange block, put down the blue block, unstack the white block from on top of the blue block, put down the white block, pick up the yellow block, stack the yellow block on top of the blue block, pick up the white block, stack the white block on top of the red block"
+    "output": ""
   },
   {
-    "output": "unstack the yellow block from on top of the blue block, put down the yellow block on the table, unstack the blue block from on top of the red block, put down the blue block on the table, pick up the yellow block from the table, stack the yellow block on top of the red block, pick up the blue block from the table, stack the blue block on top of the yellow block, pick up the orange block from the table, stack the orange block on top of the blue block"
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "The plan is valid and will achieve the goal."
+    "output": ""
   },
   {
-    "output": "Use hoist2 to lift crate2 from crate0 at depot0"
+    "output": ""
   },
   {
-    "output": "Valid"
+    "output": ""
   },
   {
-    "output": "invalid"
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "object a craves object b, object b craves object c, object c craves object d"
+    "output": ""
   },
   {
-    "output": "The plan is not feasible."
+    "output": ""
   },
   {
-    "output": "package_0 is at location_2_0, package_1 is at location_2_0, package_2 is at location_1_0, package_3 is at location_1_2, package_4 is at location_2_0, package_5 is at location_0_1, package_6 is at location_1_2"
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "- Current state: Province object d, Planet object b is not present, Harmony"
+    "output": ""
   },
   {
-    "output": "The plan may not fully achieve the goal."
+    "output": ""
   },
   {
-    "output": "True"
+    "output": ""
   },
   {
-    "output": "unstack the blue block from the orange block, put down the blue block, unstack the orange block from the blue block, put down the orange block, pick up the yellow block, stack the yellow block on top of the red block, pick up the orange block, stack the orange block on top of the yellow block, pick up the blue block, stack the blue block on top of the orange block"
+    "output": ""
   },
   {
-    "output": "Invalid plan."
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "✅ Valid plan"
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "Stack the blue block on top of the orange block."
+    "output": ""
   },
   {
-    "output": "3"
+    "output": ""
   },
   {
-    "output": "crate0 is on crate2, crate1 is on pallet2, crate2 is on pallet0"
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet1, crate1 is on crate0 and crate2 is on pallet3."
+    "output": ""
   },
   {
-    "output": "Stack the red block on top of the yellow block."
+    "output": ""
   },
   {
-    "output": "The plan is valid and achieves the goal."
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "load package_1 into truck_0 at location_0_0, drive truck_0 from location_0_0 to location_1_0 in city_0, unload package_1 from truck_0 at location_1_0"
+    "output": ""
   },
   {
-    "output": "Overcome object b from object a"
+    "output": ""
   },
   {
-    "output": "The plan is not valid."
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet0, crate1 is on pallet1, crate2 is on pallet2"
+    "output": ""
   },
   {
-    "output": "The plan may not achieve the goal due to unmet preconditions."
+    "output": ""
   },
   {
-    "output": "- Truck0 is at depot2. Hoist2 is"
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet0, crate1 is on pallet3, crate2 is on pallet1"
+    "output": ""
   },
   {
-    "output": "Stack the red block on top of the blue block and stack the yellow block on top of the red block."
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet3, crate1 is on pallet1, and crate2 is on pallet0."
+    "output": ""
   },
   {
-    "output": "Valid"
+    "output": ""
   },
   {
-    "output": "package_0 is at location_1_2, package_1 is at location_0_0, package_2 is at location_0_0, package_3 is at location_1_2, package_4 is at location_1_2, package_5 is at location_1_1, package_6 is at location_1_2"
+    "output": ""
   },
   {
-    "output": "package_0 is at location_1_1, package_1 is at location_1_0, package_2 is at location_1_0, package_3 is at location_1_2, package_4 is at location_0_1"
+    "output": ""
   },
   {
-    "output": "The plan may not be sufficient to achieve the goal."
+    "output": ""
   },
   {
-    "output": "The plan will achieve the goal."
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet3, crate1 is on pallet0, crate2 is on pallet2"
+    "output": ""
   },
   {
-    "output": "The plan is invalid and does not achieve the goal."
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "red on blue, blue on yellow, yellow on orange"
+    "output": ""
   },
   {
-    "output": "object d craves object c"
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet1 and crate1 is on pallet3."
+    "output": ""
   },
   {
-    "output": "The blue block is on top of the orange block, the orange block is on top of the red block, and the yellow block is on top of the blue block."
+    "output": ""
   },
   {
-    "output": "All packages are at their target locations."
+    "output": ""
   },
   {
-    "output": "34. Use hoist0 to unload crate0 from truck1 at depot0"
+    "output": ""
   },
   {
-    "output": "Object a craves object b and object d craves object a"
+    "output": ""
   },
   {
-    "output": "load package_0 into truck_1 at location_1_0, drive truck_1 from location_1_0 to location_1_1 in city_1, unload package_0 from truck_1 at location_1_1"
+    "output": ""
   },
   {
-    "output": "pick up the blue block, stack the blue block on top of the red block, pick up the orange block, stack the orange block on top of the blue block, pick up the yellow block, stack the yellow block on top of the orange block"
+    "output": ""
   },
   {
-    "output": "Invalid"
+    "output": ""
   },
   {
-    "output": "The plan does not achieve the goal."
+    "output": ""
   },
   {
-    "output": "load package_0 into truck_0 at location_0_1, drive truck_0 from location_0_1 to location_0_0 in city_0, load package_0 into airplane_0 at location_0_0, fly airplane_0 from location_0_0 to location_2_0, unload package_0 from airplane_0 at location_2_0, load package_1 into airplane_0 at location_0_0, fly airplane_0 from location_0_0 to location_1_0, unload package_1 from airplane_0 at location_1_0, load package_1 into truck_1 at location_1_0, drive truck_1 from location_1_0 to location_1_1 in city_1, drive truck_1 from location_1_1 to location_0_1 in city_0, unload package_1 from truck_1 at location_0_1, load package_2 into truck_1 at location_1_1, drive truck_1 from location_1_1 to location_1_0 in city_1, load package_2 into airplane_0 at location_1_0, fly airplane_0 from location_1_0 to location_0_0, unload package_2 from airplane_0 at location_0_0, load package_4 into airplane_0 at location_0_0, fly airplane_0 from location_0_0 to location_1_0, unload package_4 from airplane_0 at location_1_0, load package_5 into truck_1 at location_1_0, drive truck_1 from location_1_0 to location_1_1 in city_1, unload package_5 from truck_1 at location_1_1"
+    "output": ""
   },
   {
-    "output": "The plan is not valid based on the initial conditions."
+    "output": ""
   },
   {
-    "output": "orange block is on top of the red block."
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "Stack the yellow block on top of the blue block."
+    "output": ""
   },
   {
-    "output": "Stack the orange block on top of the yellow block, and stack the yellow block on top of the blue block."
+    "output": ""
   },
   {
-    "output": "Use hoist1 to lift crate2 from pallet1 at depot1"
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet1, crate1 is on pallet2, crate2 is on pallet0"
+    "output": ""
   },
   {
-    "output": "package_0 is at location_2_2, package_1 is at location_1_2, package_2 is at location_0_1, package_3 is at location_1_1, package_4 is at location_0_1, package_5 is at location_0_2, package_6 is at location_2_0."
+    "output": ""
   },
   {
-    "output": "package_0 is at location_1_0, package_1 is at location_0_1, package_2 is at location_2_2, package_3 is at location_0_0, package_4 is at location_0_1, package_5 is at location_0_2, package_6 is at location_2_1."
+    "output": ""
   },
   {
-    "output": "Attack object b"
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet2 and crate2 is on pallet0."
+    "output": ""
   },
   {
-    "output": "Pick up the yellow block, stack it on top of the red block, pick up the orange block, and stack it on top of the blue block."
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "Object a craves object b."
+    "output": ""
   },
   {
-    "output": "package_0 at location_1_1, package_1 at location_1_0, package_2 at location_0_0, package_3 at location_0_2"
+    "output": ""
   },
   {
-    "output": "The plan is not feasible."
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "object a craves object c object b craves object a object c craves object d"
+    "output": ""
   },
   {
-    "output": "The plan will achieve the goal."
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet3, crate1 is on crate0, and crate2 is on pallet2."
+    "output": ""
   },
   {
-    "output": "package_0 is at location_2_0, package_1 is at location_0_1, package_2 is at location_2_0, package_3 is at location_2_1"
+    "output": ""
   },
   {
-    "output": "True"
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet2, crate1 is on pallet1, crate2 is on pallet3"
+    "output": ""
   },
   {
-    "output": "pick up red block, stack orange block on top of red block"
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "True"
+    "output": ""
   },
   {
-    "output": "Stack the blue block on top of the white block, the orange block on top of the yellow block, the yellow block on top of the red block, and the white block on top of the orange block."
+    "output": ""
   },
   {
-    "output": "The plan is valid and will achieve the goal."
+    "output": ""
   },
   {
-    "output": "No"
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "The plan is invalid."
+    "output": ""
   },
   {
-    "output": "True"
+    "output": ""
   },
   {
-    "output": "The plan does not guarantee the exact goal is achieved."
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet2, crate1 is on pallet3, crate2 is on crate1"
+    "output": ""
   },
   {
-    "output": "red block is on top of blue block and blue block is on top of yellow block."
+    "output": ""
   },
   {
-    "output": "The plan is not feasible."
+    "output": ""
   },
   {
-    "output": "47. Pick up the red block – This is not possible"
+    "output": ""
   },
   {
-    "output": "- Object e"
+    "output": ""
   },
   {
-    "output": "Yes"
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "Stack the orange block on top of the red block."
+    "output": ""
   },
   {
-    "output": "The plan will achieve the goal state."
+    "output": ""
   },
   {
-    "output": "No"
+    "output": ""
   },
   {
-    "output": "The plan may not achieve the goal due to potential mismatches between the initial conditions and the required preconditions for the actions."
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet0, crate1 is on pallet3, crate2 is on crate0"
+    "output": ""
   },
   {
-    "output": "Valid"
+    "output": ""
   },
   {
-    "output": "stack the yellow block on top of the blue block"
+    "output": ""
   },
   {
-    "output": "Stack the red block on top of the blue block."
+    "output": ""
   },
   {
-    "output": "The plan is not valid."
+    "output": ""
   },
   {
-    "output": "Invalid"
+    "output": ""
   },
   {
-    "output": "unstack the orange block from the red block, unstack the red block from the blue block, stack the red block on top of the orange block, stack the orange block on top of the yellow block, stack the yellow block on top of the blue block"
+    "output": ""
   },
   {
-    "output": "orange block is on top of the blue block, yellow block is on top of the white block, white block is on top of the orange block"
+    "output": ""
   },
   {
-    "output": "True"
+    "output": ""
   },
   {
-    "output": "The plan will achieve the goal."
+    "output": ""
   },
   {
-    "output": "The red block is on top of the yellow block and the blue block is on top of the red block."
+    "output": ""
   },
   {
-    "output": "drive truck_1 from location_1_2 to location_1_1 in city_1, load package_6 into truck_1 at location_1_1, drive truck_1 from location_1_1 to location_1_2 in city_1, load package_0 into airplane_0 at location_2_1, fly airplane_0 from location_2_1 to location_1_1, unload package_0 from airplane_0 at location_1_1, load package_0 into truck_1 at location_1_1, drive truck_1 from location_1_1 to location_1_2 in city_1, drive truck_0 from location_0_2 to location_0_0 in city_0, load package_2 into truck_0 at location_0_0, drive truck_0 from location_0_0 to location_0_2 in city_0, drive truck_0 from location_0_2 to location_0_0 in city_0, load package_3 into truck_0 at location_0_0, drive truck_0 from location_0_0 to location_0_1 in city_0, load package_4 into airplane_1 at location_1_0, fly airplane_1 from location_1_0 to location_0_0, unload package_4 from airplane_1 at location_0_0, load package_4 into truck_0 at location_0_0, drive truck_0 from location_0_0 to location_0_2 in city_0, load package_5 into airplane_0 at location_2_0, fly airplane_0 from location_2_0 to location_0_0, unload package_5 from airplane_0 at location_0_0, load package_5 into truck_0 at location_0_0, drive truck_0 from location_0_0 to location_0_2 in city_0, drive truck_1 from location_1_2 to location_1_1 in city_1, unload package_6 from truck_1 at location_1_1"
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "Stack the red block on top of the yellow block, stack the orange block on top of the red block, and stack the yellow block on top of the blue block."
+    "output": ""
   },
   {
-    "output": "The plan successfully achieves the goal."
+    "output": ""
   },
   {
-    "output": "The plan is not feasible."
+    "output": ""
   },
   {
-    "output": "True"
+    "output": ""
   },
   {
-    "output": "Stack the blue block on top of the orange block."
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "package_0 is at location_2_2, package_1 is at location_2_0, package_2 is at location_0_2, package_3 is at location_0_0, package_4 is at location_2_0, package_5 is at location_1_0, package_6 is at location_1_1"
+    "output": ""
   },
   {
-    "output": "Stack the blue block on top of the yellow block."
+    "output": ""
   },
   {
-    "output": "Use hoist1 to lift crate1 from pallet1 at depot1"
+    "output": ""
   },
   {
-    "output": "Object a craves object b"
+    "output": ""
   },
   {
-    "output": "True"
+    "output": ""
   },
   {
-    "output": "valid"
+    "output": ""
   },
   {
-    "output": "The plan is invalid."
+    "output": ""
   },
   {
-    "output": "Stack the red block on top of the blue block."
+    "output": ""
   },
   {
-    "output": "Plan is not valid"
+    "output": ""
   },
   {
-    "output": "The plan is not valid."
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet2, crate1 is on pallet1, crate2 is on pallet0"
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet3, crate1 is on pallet1, crate2 is on pallet2."
+    "output": ""
   },
   {
-    "output": "Stack the yellow block on top of the blue block."
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet2 and crate1 is on pallet3."
+    "output": ""
   },
   {
-    "output": "package_0 is at location_0_0, package_1 is at location_0_0, package_2 is at location_2_0, package_3 is at location_2_1, package_4 is at location_2_2"
+    "output": ""
   },
   {
-    "output": "The plan is valid and will achieve the goal."
+    "output": ""
   },
   {
-    "output": "The plan is invalid."
+    "output": ""
   },
   {
-    "output": "The plan is logically consistent and could achieve the goal if all required conditions are met at each step."
+    "output": ""
   },
   {
-    "output": "True"
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet1, crate1 is on pallet3, crate2 is on crate1"
+    "output": ""
   },
   {
-    "output": "object b craves object a"
+    "output": ""
   },
   {
-    "output": "87. Stack the white block"
+    "output": ""
   },
   {
-    "output": "Attack object c"
+    "output": ""
   },
   {
-    "output": "package_0 is at location_2_1, package_1 is at location_1_1, package_2 is at location_0_1, package_3 is at location_1_2, package_4 is at location_0_2, package_5 is at location_1_1, package_6 is at location_0_1."
+    "output": ""
   },
   {
-    "output": "package_0 is at location_1_1, package_1 is at location_2_2, package_2 is at location_0_2, package_3 is at location_2_0, package_4 is at location_0_0"
+    "output": ""
   },
   {
-    "output": "Overcome object b from object c"
+    "output": ""
   },
   {
-    "output": "true"
+    "output": ""
   },
   {
-    "output": "Valid"
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "Valid"
+    "output": ""
   },
   {
-    "output": "crate0 is on crate2, crate1 is on pallet0, and crate2 is on pallet3."
+    "output": ""
   },
   {
-    "output": "Invalid"
+    "output": ""
   },
   {
-    "output": "The plan will achieve the goal."
+    "output": ""
   },
   {
-    "output": "Valid"
+    "output": ""
   },
   {
-    "output": "True"
+    "output": ""
   },
   {
-    "output": "package_0 is at location_1_2, package_1 is at location_2_1, package_2 is at location_0_0, package_3 is at location_0_0, package_4 is at location_2_2, package_5 is at location_1_2, package_6 is at location_1_0"
+    "output": ""
   },
   {
-    "output": "37. Step 36: To un"
+    "output": ""
   },
   {
-    "output": "The plan is valid and achieves the goal."
+    "output": ""
   },
   {
-    "output": "Object a craves object c and object b craves object a"
+    "output": ""
   },
   {
-    "output": "Plan is not valid"
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet2, crate1 is on pallet1, and crate2 is on pallet3."
+    "output": ""
   },
   {
-    "output": "The plan is invalid."
+    "output": ""
   },
   {
-    "output": "Invalid"
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet1, crate1 is on pallet3, and crate2 is on crate0."
+    "output": ""
   },
   {
-    "output": "Yes"
+    "output": ""
   },
   {
-    "output": "Stack the orange block on top of the yellow block."
+    "output": ""
   },
   {
-    "output": "All packages are at their target locations."
+    "output": ""
   },
   {
-    "output": "The plan successfully achieves the goal."
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet2 and crate2 is on pallet3."
+    "output": ""
   },
   {
-    "output": "drive truck2 from depot2 to distributor0"
+    "output": ""
   },
   {
-    "output": "The plan is feasible and achieves the goal."
+    "output": ""
   },
   {
-    "output": "crate0 is on crate1, crate1 is on pallet3, crate2 is on pallet0"
+    "output": ""
   },
   {
-    "output": "All packages are at their target locations."
+    "output": ""
   },
   {
-    "output": "package_0 is at location_1_0, package_1 is at location_2_2, package_2 is at location_0_1, package_3 is at location_0_0, package_4 is at location_1_2, package_5 is at location_2_2, package_6 is at location_2_1"
+    "output": ""
   },
   {
-    "output": "True"
+    "output": ""
   },
   {
-    "output": "The plan will achieve the goal state."
+    "output": ""
   },
   {
-    "output": "package_0 is at location_1_1, package_1 is at location_0_1, package_2 is at location_1_0, package_3 is at location_1_0, package_4 is at location_1_0."
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet1 and crate1 is on pallet0"
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet2 and crate2 is on pallet1."
+    "output": ""
   },
   {
-    "output": "package_0 is at location_0_0, package_1 is at location_1_1, package_2 is at location_0_2, package_3 is at location_0_0, package_4 is at location_1_0, package_5 is at location_0_1"
+    "output": ""
   },
   {
-    "output": "✅"
+    "output": ""
   },
   {
-    "output": "True"
+    "output": ""
   },
   {
-    "output": "Stack the yellow block on top of the blue block."
+    "output": ""
   },
   {
-    "output": "red on orange, blue on yellow, orange on blue"
+    "output": ""
   },
   {
-    "output": "package_0 is at location_1_0, package_1 is at location_0_0, package_2 is at location_0_1, package_3 is at location_1_1, package_4 is at location_1_1, package_5 is at location_0_0, package_6 is at location_2_0"
+    "output": ""
   },
   {
-    "output": "Object a craves object b, object c craves object a, and object d craves object c."
+    "output": ""
   },
   {
-    "output": "invalid"
+    "output": ""
   },
   {
-    "output": "The plan is valid and achieves the goal."
+    "output": ""
   },
   {
-    "output": "package_0 is at location_0_0."
+    "output": ""
   },
   {
-    "output": "package_0 is at location_1_0, package_1 is at location_2_1, package_2 is at location_2_1, package_3 is at location_0_1, package_4 is at location_0_0"
+    "output": ""
   },
   {
-    "output": "The plan is invalid because steps 5 and 6 cannot be executed due to missing conditions."
+    "output": ""
   },
   {
-    "output": "The plan does not fully achieve the goal."
+    "output": ""
   },
   {
-    "output": "Yes"
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "package_0 is at location_2_2, package_1 is at location_2_1, package_2 is at location_1_0, package_3 is at location_0_2, package_4 is at location_2_2, package_5 is at location_1_0, package_6 is at location_0_1."
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "Use hoist3 to lift crate0 from pallet3 at distributor0, drive truck0 from distributor0 to depot1, use hoist1 to drop crate0 to pallet1 at depot1, use hoist2 to lift crate2 from crate1 at depot2, use hoist2 to drop crate2 to pallet2 at depot2."
+    "output": ""
   },
   {
-    "output": "Stack the orange block on top of the yellow block."
+    "output": ""
   },
   {
-    "output": "Use hoist2 to lift crate0 from pallet2 at depot2"
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet2, crate2 is on pallet3."
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet3, crate1 is on pallet0, crate2 is on pallet0"
+    "output": ""
   },
   {
-    "output": "Stack the blue block on top of the yellow block, stack the orange block on top of the red block, and stack the yellow block on top of the orange block."
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet2, crate1 is on pallet0, and crate2 is on pallet1."
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet1, crate1 is on pallet0, and crate2 is on pallet2."
+    "output": ""
   },
   {
-    "output": "drive truck_0 from location_0_0 to location_0_1 in city_0, drive truck_0 from location_0_1 to location_0_2 in city_0, drive truck_1 from location_1_0 to location_1_1 in city_1, drive truck_1 from location_1_1 to location_1_2 in city_1"
+    "output": ""
   },
   {
-    "output": "drive truck2 from depot1 to distributor0"
+    "output": ""
   },
   {
-    "output": "The plan is valid and achieves the goal."
+    "output": ""
   },
   {
-    "output": "Object c craves object b and object d craves object c."
+    "output": ""
   },
   {
-    "output": "Overcome object b from object a"
+    "output": ""
   },
   {
-    "output": "Stack the red block on the yellow block, stack the blue block on the red block, and stack the orange block on the blue block."
+    "output": ""
   },
   {
-    "output": "Stack the orange block on top of the blue block and the yellow block on top of the orange block."
+    "output": ""
   },
   {
-    "output": "The plan may not be sufficient to achieve the goal."
+    "output": ""
   },
   {
-    "output": "The goal is not achieved."
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet2, crate1 is on pallet3, and crate2 is on pallet1."
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet3, crate1 is on pallet2, crate2 is on pallet0"
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet3, crate1 is on pallet2, crate2 is on pallet0"
+    "output": ""
   },
   {
-    "output": "object a craves object c and object c craves object b"
+    "output": ""
   },
   {
-    "output": "crate0 is on crate2, crate1 is on pallet3, crate2 is on pallet0"
+    "output": ""
   },
   {
-    "output": "The plan is invalid because the required condition for the \"Overcome\" action is not met."
+    "output": ""
   },
   {
-    "output": "Invalid"
+    "output": ""
   },
   {
-    "output": "package_0 is at location_1_2, package_1 is at location_2_0, package_2 is at location_1_1, package_3 is at location_2_1, package_4 is at location_2_1, package_5 is at location_0_0, package_6 is at location_2_1."
+    "output": ""
   },
   {
-    "output": "True"
+    "output": ""
   },
   {
-    "output": "The plan is valid and will achieve the goal."
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "Stack the yellow block on top of the orange block."
+    "output": ""
   },
   {
-    "output": "orange on red"
+    "output": ""
   },
   {
-    "output": "stack the yellow block on top of the orange block, stack the orange block on top of the blue block, stack the blue block on top of the red block, stack the red block on top of the blue block, stack the yellow block on top of the orange block, stack the orange block on top of the blue block, stack the blue block on top of the red block, stack the red block on top of the blue block, stack the yellow block on top of the orange block, stack the orange block on top of the blue block, stack the blue block on top of the red block"
+    "output": ""
   },
   {
-    "output": "package_0 is at location_2_2, package_1 is at location_0_0, package_2 is at location_0_0, package_3 is at location_1_1, package_4 is at location_0_1, package_5 is at location_1_2, package_6 is at location_2_0"
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet3, crate1 is on pallet1 and crate2 is on pallet2."
+    "output": ""
   },
   {
-    "output": "Use hoist1 to lift crate0 from pallet1 at depot1, load crate0 into truck2 at depot1, drive truck2 to distributor0, use hoist3 to unload crate0 from truck2 at distributor0, drop crate0 to pallet3 at distributor0, use hoist2 to lift crate2 from crate1 at depot2, load crate2 into truck1 at depot2, drive truck1 to depot2, use hoist2 to unload crate2 from truck1 at depot2, drop crate2 to pallet2 at depot2, use hoist1 to lift crate1 from pallet2 at depot2, load crate1 into truck2 at depot2, drive truck2 to depot1, use hoist1 to unload crate1 from truck2 at depot1, drop crate1 to crate0 at depot1."
+    "output": ""
   },
   {
-    "output": "unstack the blue block from on top of the orange block, put down the blue block, unstack the orange block from on top of the red block, put down the orange block, pick up the red block, stack the red block on top of the orange block, stack the blue block on top of the red block"
+    "output": ""
   },
   {
-    "output": "Invalid"
+    "output": ""
   },
   {
-    "output": "package_0 is at location_1_0, package_1 is at location_2_0, package_2 is at location_1_0, package_3 is at location_2_1, package_4 is at location_1_1"
+    "output": ""
   },
   {
-    "output": "The plan is valid and will achieve the goal."
+    "output": ""
   },
   {
-    "output": "invalid"
+    "output": ""
   },
   {
-    "output": "Stack the blue block on top of the yellow block, stack the orange block on top of the blue block, stack the yellow block on top of the red block, and stack the red block on top of the yellow block."
+    "output": ""
   },
   {
-    "output": "package_0 is at location_1_1, package_1 is at location_0_0, package_2 is at location_2_0, package_3 is at location_1_0, package_4 is at location_2_0"
+    "output": ""
   },
   {
-    "output": "The plan is not feasible."
+    "output": ""
   },
   {
-    "output": "unstack the yellow block from on top of the red block, put down the yellow block on the table, unstack the blue block from on top of the yellow block, put down the blue block on the table, unstack the orange block from on top of the blue block, put down the orange block on the table, pick up the red block, stack the red block on top of the yellow block, pick up the orange block, stack the orange block on top of the red block, pick up the blue block, stack the blue block on top of the orange block"
+    "output": ""
   },
   {
-    "output": "The plan is valid and achieves the goal."
+    "output": ""
   },
   {
-    "output": "object a craves object c"
+    "output": ""
   },
   {
-    "output": "package_0 is at location_0_0, package_1 is at location_1_0, package_2 is at location_1_0, package_3 is at location_0_2, package_4 is at location_1_2, package_5 is at location_1_0."
+    "output": ""
   },
   {
-    "output": "- Hoist2 is at depot2, and truck0 is at depot2."
+    "output": ""
   },
   {
-    "output": "The plan is not valid."
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "All packages are at their target locations."
+    "output": ""
   },
   {
-    "output": "Can't Solve"
+    "output": ""
   },
   {
-    "output": "Stack the yellow block on top of the red block, then stack the red block on top of the blue block, and finally stack the blue block on top of the yellow block."
+    "output": ""
   },
   {
-    "output": "Stack the yellow block on top of the blue block."
+    "output": ""
   },
   {
-    "output": "The plan successfully achieves the goal of having object b craves object c, object c craves object a, and object d craves object b."
+    "output": ""
   },
   {
-    "output": "Use hoist1 to lift crate0 from pallet1 at depot1, load crate0 into truck1 at depot1, drive truck1 from depot1 to depot2, use hoist2 to unload crate0 from truck1 at depot2, drop crate0 to pallet2 at depot2, use hoist1 to lift crate2 from crate0 at depot2, load crate2 into truck0 at depot2, drive truck0 from depot2 to depot0, use hoist0 to unload crate2 from truck0 at depot0, drop crate2 to pallet0 at depot0."
+    "output": ""
   },
   {
-    "output": "- Hoist2 is"
+    "output": ""
   },
   {
-    "output": "package_0 is at location_2_2, package_1 is at location_0_1, package_2 is at location_0_1, package_3 is at location_1_2, package_4 is at location_2_0, package_5 is at location_0_2, package_6 is at location_2_2"
+    "output": ""
   },
   {
-    "output": "The plan does not achieve the goal."
+    "output": ""
   },
   {
-    "output": "package_0 is at location_2_1, package_1 is at location_1_2, package_2 is at location_2_1, package_3 is at location_1_2, package_4 is at location_1_0, package_5 is at location_1_0"
+    "output": ""
   },
   {
-    "output": "invalid"
+    "output": ""
   },
   {
-    "output": "object b craves object d, object c craves object a, object d craves object c"
+    "output": ""
   },
   {
-    "output": "red block is on top of yellow block, blue block is on top of red block, yellow block is on top of orange block."
+    "output": ""
   },
   {
-    "output": "tightfisted object_7 object_3 object_5"
+    "output": ""
   },
   {
-    "output": "Object b craves object a"
+    "output": ""
   },
   {
-    "output": "Stack the orange block on top of the blue block."
+    "output": ""
   },
   {
-    "output": "The plan is feasible and can achieve the goal."
+    "output": ""
   },
   {
-    "output": "29. Unstack the yellow block from the blue block: The yellow block is on top of the blue block, so we can unstack it if the yellow block is"
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "Stack the blue block on top of the yellow block, the yellow block on top of the red block, the red block on top of the white block, the white block on top of the orange block, and the orange block on top of the yellow block."
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet0, crate1 is on crate2 and crate2 is on pallet1."
+    "output": ""
   },
   {
-    "output": "Valid"
+    "output": ""
   },
   {
-    "output": "The plan successfully moves all packages to their target locations."
+    "output": ""
   },
   {
-    "output": "True"
+    "output": ""
   },
   {
-    "output": "package_0 is at location_2_0, package_1 is at location_0_0, package_2 is at location_1_2, package_3 is at location_2_0, package_4 is at location_0_2, package_5 is at location_2_2, package_6 is at location_1_2"
+    "output": ""
   },
   {
-    "output": "object a craves object b, object c craves object a, object d craves object c"
+    "output": ""
   },
   {
-    "output": "drive truck_1 from location_1_1 to location_1_0 in city_1, load package_1 into truck_1 at location_1_0, drive truck_1 from location_1_0 to location_2_0 in city_2, unload package_1 from truck_1 at location_2_0, load package_0 into airplane_0 at location_2_0, fly airplane_0 from location_2_0 to location_0_0, unload package_0 from airplane_0 at location_0_0, load package_0 into truck_0 at location_0_0, drive truck_0 from location_0_0 to location_0_1 in city_0, load package_0 into truck_0 at location_0_1, drive truck_0 from location_0_1 to location_0_0 in city_0, unload package_0 from truck_0 at location_0_0, load package_0 into airplane_0 at location_0_0, fly airplane_0 from location_0_0 to location_2_0, unload package_0 from airplane_0 at location_2_0, drive truck_2 from location_2_0 to location_2_2 in city_2, load package_2 into truck_2 at location_2_2, unload package_2 from truck_2 at location_2_2, drive truck_0 from location_0_0 to location_0_1 in city_0, load package_3 into truck_0 at location_0_1, drive truck_0 from location_0_1 to location_0_0 in city_0, unload package_3 from truck_0 at location_0_0, load package_3 into airplane_0 at location_0_0, fly airplane_0 from location_0_0 to location_2_0, unload package_3 from airplane_0 at location_2_0"
+    "output": ""
   },
   {
-    "output": "The plan is valid and will achieve the goal."
+    "output": ""
   },
   {
-    "output": "Object b craves object d and object c craves object a."
+    "output": ""
   },
   {
-    "output": "Use hoist1 to lift crate2 from crate1 at depot1, use hoist1 to load crate2 into truck2 at depot1, use hoist1 to lift crate1 from pallet1 at depot1, use hoist1 to load crate1 into truck2 at depot1, drive truck2 from depot1 to distributor0, use hoist3 to unload crate1 from truck2 at distributor0, use hoist3 to drop crate1 to pallet1 at distributor0, use hoist3 to lift crate0 from pallet2 at depot2, use hoist3 to load crate0 into truck0 at depot2, drive truck0 from depot2 to distributor0, use hoist3 to unload crate0 from truck0 at distributor0, use hoist3 to drop crate0 to pallet3 at distributor0."
+    "output": ""
   },
   {
-    "output": "-"
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "The plan does not achieve the goal."
+    "output": ""
   },
   {
-    "output": "package_0 is at location_0_0, package_1 is at location_0_1, package_2 is at location_0_1, package_3 is at location_1_1, package_4 is at location_2_1"
+    "output": ""
   },
   {
-    "output": "Stack the red block on top of the yellow block and stack the orange block on top of the blue block."
+    "output": ""
   },
   {
-    "output": "Stack the yellow block on top of the red block."
+    "output": ""
   },
   {
-    "output": "orange block is on top of the red block."
+    "output": ""
   },
   {
-    "output": "Stack the blue block on top of the red block."
+    "output": ""
   },
   {
-    "output": "The plan may achieve the goal, but it requires verification of all preconditions and postconditions at each step."
+    "output": ""
   },
   {
-    "output": "Yes"
+    "output": ""
   },
   {
-    "output": "No"
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "package_0 is at location_0_0, package_1 is at location_1_0, package_2 is at location_0_0, package_3 is at location_2_0, package_4 is at location_2_0, package_5 is at location_2_1"
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "package_0 is at location_1_0, package_1 is at location_1_0, package_2 is at location_0_0, package_3 is at location_0_0, package_4 is at location_0_2, package_5 is at location_2_2, package_6 is at location_1_1"
+    "output": ""
   },
   {
-    "output": "36. Use hoist1 to"
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "package_0 is at location_2_0, package_1 is at location_0_2, package_2 is at location_1_0, package_3 is at location_1_2, package_4 is at location_2_0, package_5 is at location_0_1, package_6 is at location_2_0."
+    "output": ""
   },
   {
-    "output": "package_0 is at location_2_0, package_1 is at location_1_0, package_2 is at location_1_0."
+    "output": ""
   },
   {
-    "output": "The plan is invalid because the blue block cannot be picked up."
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet0, crate1 is on pallet2, and crate2 is on crate1."
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet3, crate1 is on crate0, and crate2 is on crate1."
+    "output": ""
   },
   {
-    "output": "The plan is not sufficient to achieve the goal."
+    "output": ""
   },
   {
-    "output": "The plan is valid and will achieve the goal."
+    "output": ""
   },
   {
-    "output": "The plan is valid and achieves the goal."
+    "output": ""
   },
   {
-    "output": "The plan will achieve the goal."
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "Overcome object a from object b"
+    "output": ""
   },
   {
-    "output": "The plan is valid and achieves the goal."
+    "output": ""
   },
   {
-    "output": "Yes"
+    "output": ""
   },
   {
-    "output": "Valid"
+    "output": ""
   },
   {
-    "output": "The red block is on top of the orange block and the yellow block is on top of the blue block."
+    "output": ""
   },
   {
-    "output": "All crates are in the desired positions."
+    "output": ""
   },
   {
-    "output": "next object_16 object_10 next object_17 object_14 next object_18 object_11 next object_19 object_7"
+    "output": ""
   },
   {
-    "output": "- Requires: `cats object_1`, `spring object_12`, `spring object_10`, `next object"
+    "output": ""
   },
   {
-    "output": "The plan is invalid."
+    "output": ""
   },
   {
-    "output": "Object b craves object a and object c craves object b."
+    "output": ""
   },
   {
-    "output": "The plan is invalid."
+    "output": ""
   },
   {
-    "output": "Goal not achieved"
+    "output": ""
   },
   {
-    "output": "Stack the yellow block on top of the red block."
+    "output": ""
   },
   {
-    "output": "The plan is not valid."
+    "output": ""
   },
   {
-    "output": "red block is on top of the yellow block."
+    "output": ""
   },
   {
-    "output": "The plan is invalid and cannot achieve the goal."
+    "output": ""
   },
   {
-    "output": "stack the red block on top of the blue block"
+    "output": ""
   },
   {
-    "output": "pick up the red block, stack the red block on top of the yellow block, unstack the orange block from the yellow block, put down the orange block on the table, pick up the orange block, stack the orange block on top of the blue block"
+    "output": ""
   },
   {
-    "output": "The plan may achieve the goal, but a full simulation is required to confirm."
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "package_0 is at location_1_1, package_1 is at location_2_1, package_2 is at location_2_0, package_3 is at location_1_0, package_4 is at location_0_0"
+    "output": ""
   },
   {
-    "output": "True"
+    "output": ""
   },
   {
-    "output": "The plan is not valid."
+    "output": ""
   },
   {
-    "output": "valid"
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "Overcome object b from object a"
+    "output": ""
   },
   {
-    "output": "Object b craves object c."
+    "output": ""
   },
   {
-    "output": "True"
+    "output": ""
   },
   {
-    "output": "True"
+    "output": ""
   },
   {
-    "output": "- This step is invalid because crate0 is not"
+    "output": ""
   },
   {
-    "output": "unstack the yellow block from the orange block, put down the yellow block on the table, unstack the orange block from the red block, stack the orange block on the yellow block, unstack the red block from the blue block, stack the red block on the blue block."
+    "output": ""
   },
   {
-    "output": "All packages are at their target locations."
+    "output": ""
   },
   {
-    "output": "Valid"
+    "output": ""
   },
   {
-    "output": "package_0 at location_2_0, package_1 at location_0_1, package_2 at location_0_2, package_3 at location_2_0, package_4 at location_0_0, package_5 at location_2_2, package_6 at location_1_2"
+    "output": ""
   },
   {
-    "output": "package_0 is at location_0_0, package_1 is at location_0_2, package_2 is at location_0_0, package_3 is at location_1_1, package_4 is at location_2_1"
+    "output": ""
   },
   {
-    "output": "object a craves object c and object c craves object b"
+    "output": ""
   },
   {
-    "output": "unload package_0 from airplane_0 at location_2_0"
+    "output": ""
   },
   {
-    "output": "object b craves object c and object c craves object a"
+    "output": ""
   },
   {
-    "output": "invalid"
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet3, crate1 is on crate2, and crate2 is on crate0."
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "Stack the blue block on top of the red block, the red block on top of the yellow block, and the yellow block on top of the orange block."
+    "output": ""
   },
   {
-    "output": "The plan is valid and achieves the goal."
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "Crate0 is on pallet3, crate1 is on pallet1, and crate2 is on pallet0."
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet1, crate1 is on crate2, crate2 is on pallet0"
+    "output": ""
   },
   {
-    "output": "Stack the red block on top of the blue block."
+    "output": ""
   },
   {
-    "output": "blue block is on top of the red block and the yellow block is on top of the blue block."
+    "output": ""
   },
   {
-    "output": "crate0 on crate1 and crate1 on pallet0"
+    "output": ""
   },
   {
-    "output": "The plan will achieve the goal."
+    "output": ""
   },
   {
-    "output": "Stack the red block on top of the yellow block and the blue block on top of the orange block."
+    "output": ""
   },
   {
-    "output": "Crate0 is on pallet0, crate1 is on pallet2, and crate2 is on pallet3."
+    "output": ""
   },
   {
-    "output": "invalid"
+    "output": ""
   },
   {
-    "output": "Invalid"
+    "output": ""
   },
   {
-    "output": "Use hoist1 to lift crate2 from pallet1 at depot1, load crate2 into truck1 at depot1, drive truck1 from depot1 to depot2, use hoist2 to lift crate0 from pallet2 at depot2, load crate0 into truck1 at depot2, drive truck1 from depot2 to depot1, use hoist1 to unload crate2 from truck1 at depot1, drop crate2 to pallet2 at depot1, use hoist1 to lift crate0 from truck1 at depot1, drop crate0 to crate1 at depot1, use hoist1 to lift crate1 from crate0 at depot1, load crate1 into truck1 at depot1, drive truck1 from depot1 to depot2, use hoist2 to unload crate1 from truck1 at depot2, drop crate1 to pallet2 at depot2."
+    "output": ""
   },
   {
-    "output": "The plan is valid and will achieve the goal configuration."
+    "output": ""
   },
   {
-    "output": "The blue block is on top of the orange block and the yellow block is on top of the blue block."
+    "output": ""
   },
   {
-    "output": "Use hoist2 to lift crate0 from pallet2 at depot2"
+    "output": ""
   },
   {
-    "output": "- We cannot unstack the blue block directly."
+    "output": ""
   },
   {
-    "output": "Use hoist1 to lift crate0 from pallet1 at depot1"
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet2, crate1 is on pallet3, and crate2 is on crate0."
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "The plan will achieve the goal."
+    "output": ""
   },
   {
-    "output": "The plan is valid."
+    "output": ""
   },
   {
-    "output": "orange block is on top of the red block."
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet3, crate1 is on pallet0, crate2 is on crate0."
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "Use hoist1 to lift crate1 from crate0 at depot1"
+    "output": ""
   },
   {
-    "output": "package_0 is at location_2_0, package_1 is at location_1_0, package_2 is at location_2_0, package_3 is at location_0_1, package_4 is at location_0_0, package_5 is at location_2_2, package_6 is at location_0_1"
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "package_0 is at location_0_2, package_1 is at location_2_2, package_2 is at location_0_2, package_3 is at location_0_0, package_4 is at location_2_2, package_5 is at location_0_2, package_6 is at location_2_0"
+    "output": ""
   },
   {
-    "output": "55. Pick"
+    "output": ""
   },
   {
-    "output": "True"
+    "output": ""
   },
   {
-    "output": "package_0 is at location_2_2, package_1 is at location_1_2, package_2 is at location_1_0, package_3 is at location_0_0, package_4 is at location_0_1, package_5 is at location_1_0, package_6 is at location_1_0."
+    "output": ""
   },
   {
-    "output": "True"
+    "output": ""
   },
   {
-    "output": "The plan may achieve the goal if all preconditions are met and the sequence of actions is valid."
+    "output": ""
   },
   {
-    "output": "Object c craves object b"
+    "output": ""
   },
   {
-    "output": "True"
+    "output": ""
   },
   {
-    "output": "Stack the orange block on top of the red block and the yellow block on top of the orange block."
+    "output": ""
   },
   {
-    "output": "The plan does not achieve the goal."
+    "output": ""
   },
   {
-    "output": "True"
+    "output": ""
   },
   {
-    "output": "Object a craves object b and object d craves object c."
+    "output": ""
   },
   {
-    "output": "Plan is not feasible."
+    "output": ""
   },
   {
-    "output": "The plan may achieve the goal, but it requires verification of each action's preconditions and postconditions to ensure the final `next` relationships are correctly established."
+    "output": ""
   },
   {
-    "output": "Object b craves object a and object c craves object b."
+    "output": ""
   },
   {
-    "output": "The plan is valid and will achieve the goal."
+    "output": ""
   },
   {
-    "output": "invalid plan"
+    "output": ""
   },
   {
-    "output": "Invalid"
+    "output": ""
   },
   {
-    "output": "Object a craves object b"
+    "output": ""
   },
   {
-    "output": "invalid"
+    "output": ""
   },
   {
-    "output": "unstack the orange block from on top of the red block, put down the orange block, unstack the red block from on top of the blue block, put down the red block, pick up the blue block, stack the blue block on top of the red block, stack the red block on top of the orange block"
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "The plan is valid and will achieve the goal."
+    "output": ""
   },
   {
-    "output": "Invalid"
+    "output": ""
   },
   {
-    "output": "The plan is not valid."
+    "output": ""
   },
   {
-    "output": "unstack the blue block from on top of the red block, put down the blue block on the orange block, pick up the red block, stack the red block on top of the blue block, pick up the yellow block, stack the yellow block on top of the red block"
+    "output": ""
   },
   {
-    "output": "pick up the blue block, unstack the yellow block from the orange block, put down the yellow block, stack the blue block on top of the yellow block, pick up the red block, stack the red block on top of the blue block"
+    "output": ""
   },
   {
-    "output": "True"
+    "output": ""
   },
   {
-    "output": "The plan will achieve the goal."
+    "output": ""
   },
   {
-    "output": "load package_0 into truck_1 at location_1_0, drive truck_1 from location_1_0 to location_1_1 in city_1, drive truck_1 from location_1_1 to location_1_2 in city_1, load package_0 into airplane_1 at location_1_2, fly airplane_1 from location_1_0 to location_2_0, unload package_0 from airplane_1 at location_2_0, load package_0 into truck_2 at location_2_0, drive truck_2 from location_2_0 to location_2_2 in city_2, unload package_0 from truck_2 at location_2_2, load package_2 into truck_1 at location_1_2, drive truck_1 from location_1_2 to location_1_1 in city_1, unload package_2 from truck_1 at location_1_1, load package_3 into truck_1 at location_1_1, drive truck_1 from location_1_1 to location_1_0 in city_1, load package_3 into airplane_1 at location_1_0, fly airplane_1 from location_1_0 to location_0_0, unload package_3 from airplane_1 at location_0_0, load package_3 into truck_0 at location_0_0, drive truck_0 from location_0_0 to location_0_1 in city_0, unload package_3 from truck_0 at location_0_1, load package_4 into truck_1 at location_1_1, drive truck_1 from location_1_1 to location_1_2 in city_1, load package_4 into airplane_1 at location_1_2, fly airplane_1 from location_1_0 to location_2_0, unload package_4 from airplane_1 at location_2_0, load package_4 into truck_2 at location_2_0, drive truck_2 from location_2_0 to location_2_2 in city_2, unload package_4 from truck_2 at location_2_2"
+    "output": ""
   },
   {
-    "output": "object c craves object a"
+    "output": ""
   },
   {
-    "output": "Stack the blue block on top of the orange block and stack the orange block on top of the red block."
+    "output": ""
   },
   {
-    "output": "The plan will achieve the goal."
+    "output": ""
   },
   {
-    "output": "stack the yellow block on top of the orange block"
+    "output": ""
   },
   {
-    "output": "red block is on top of the blue block."
+    "output": ""
   },
   {
-    "output": "The plan may or may not achieve the goal based on the initial conditions and the rules of the actions."
+    "output": ""
   },
   {
-    "output": "object c craves object b and object d craves object c"
+    "output": ""
   },
   {
-    "output": "Stack the blue block on top of the red block."
+    "output": ""
   },
   {
-    "output": "invalid"
+    "output": ""
   },
   {
-    "output": "Valid"
+    "output": ""
   },
   {
-    "output": "- Use hoist1 to load"
+    "output": ""
   },
   {
-    "output": "package_0 is at location_1_2, package_1 is at location_2_1, package_2 is at location_0_1, package_3 is at location_0_2, package_4 is at location_2_1, package_5 is at location_1_0, package_6 is at location_1_2."
+    "output": ""
   },
   {
-    "output": "package_0 is at location_0_2, package_1 is at location_2_1, package_2 is at location_1_2, package_3 is at location_0_2, package_4 is at location_1_2, package_5 is at location_1_1, package_6 is at location_1_2"
+    "output": ""
   },
   {
-    "output": "Pick up the orange block, unstack the yellow block from on top of the red block, put down the yellow block on the table, stack the yellow block on top of the orange block, pick up the blue block, and stack the blue block on top of the yellow block."
+    "output": ""
   },
   {
-    "output": "The plan successfully achieves the goal."
+    "output": ""
   },
   {
-    "output": "crate1 is on pallet1 and crate2 is on pallet2"
+    "output": ""
   },
   {
-    "output": "The plan will achieve the goal."
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet1, crate1 is on crate0, and crate2 is on pallet3."
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "Attack object c"
+    "output": ""
   },
   {
-    "output": "Object a craves object d and object b craves object a."
+    "output": ""
   },
   {
-    "output": "unstack the blue block from on top of the red block, unstack the orange block from on top of the blue block, put down the orange block, put down the blue block, pick up the red block, stack the red block on top of the yellow block, pick up the blue block, stack the blue block on top of the orange block"
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "Object b craves object a and object d craves object c"
+    "output": ""
   },
   {
-    "output": "All packages are at their target locations."
+    "output": ""
   },
   {
-    "output": "crate0 is on crate1, crate1 is on pallet0, and crate2 is on pallet1."
+    "output": ""
   },
   {
-    "output": "The plan is valid and achieves the goal."
+    "output": ""
   },
   {
-    "output": "The plan may achieve the goal, but a complete evaluation is needed to confirm."
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "unstack the yellow block from on top of the red block, put down the yellow block, pick up the orange block, stack the orange block on top of the blue block, pick up the red block, stack the red block on top of the yellow block"
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "package_0 is at location_0_1 and package_1 is at location_0_0."
+    "output": ""
   },
   {
-    "output": "unstack the blue block from on top of the orange block, put down the blue block, unstack the orange block from on top of the yellow block, put down the orange block, unstack the yellow block from on top of the red block, put down the yellow block, pick up the red block, stack the red block on top of the yellow block, pick up the yellow block, stack the yellow block on top of the orange block, pick up the orange block, stack the orange block on top of the blue block, pick up the blue block, stack the blue block on top of the yellow block"
+    "output": ""
   },
   {
-    "output": "- Step 77: Load package_5 into truck_1 at location_1_2"
+    "output": ""
   },
   {
-    "output": "True"
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet1 and crate2 is on pallet2."
+    "output": ""
   },
   {
-    "output": "package_0 is at location_1_0 and package_1 is at location_2_1"
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "orange block is on top of the red block"
+    "output": ""
   },
   {
-    "output": "Invalid plan"
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet0, crate1 is on pallet2, crate2 is on pallet3"
+    "output": ""
   },
   {
-    "output": "package_0 is at location_2_1, package_1 is at location_2_0, package_2 is at location_0_2, package_3 is at location_1_1"
+    "output": ""
   },
   {
-    "output": "32"
+    "output": ""
   },
   {
-    "output": "package_0 is at location_0_0, package_1 is at location_1_1, package_2 is at location_2_1, package_3 is at location_0_1, package_4 is at location_1_1."
+    "output": ""
   },
   {
-    "output": "unstack the red block from the orange block, put down the red block, pick up the orange block, stack the orange block on top of the red block"
+    "output": ""
   },
   {
-    "output": "red block is on top of yellow block and orange block is on top of red block"
+    "output": ""
   },
   {
-    "output": "crate0 is on pallet2 and crate1 is on pallet0"
+    "output": ""
   },
   {
-    "output": "unstack the yellow block from the orange block, pick up the yellow block, stack the yellow block on top of the red block"
+    "output": ""
   }
 ]
