@@ -7,8 +7,12 @@ class SelfConsistency:
     
     def solve_problem_with_self_consistency(self, question: str, domain: str = None) -> str:
         candidate_answers = []
-        system = "You are an expert problem solver. Provide only the final answer."
-        prompt = f"{question}\n\nProvide only the final answer with no explanation."
+        system = "You are a precise solver. You output ONLY the result. No labels. No punctuation."
+        prompt = f"""Question: {question}
+                Instructions:
+                - Output ONLY the final answer (e.g., "5" or "Paris").
+                - Do NOT write "Answer:", "The answer is", or add a period.
+                - Do NOT provide any reasoning or explanation."""
         for _ in range(self.num_samples): # Samples with temperature > 0
             result = self.api.call_api(prompt, system=system, temperature=0.7, max_tokens=512)
             if result["ok"]:

@@ -3,10 +3,13 @@ class DirectSolver:
         self.api = api_client
     
     def solve_problem_with_direct_prompting(self, question: str, domain: str = None) -> str:
-        system = "You are a helpful assistant. Provide concise, accurate answers."
+        system = "You are a precise solver. You must always end your response with 'Final Answer: <answer>'."
         prompt = f"""{question}
-        Provide only the final answer in this format:
-        Final Answer: <your answer here>"""
+        Question: {question}
+        Instructions:
+        - Provide a direct, concise answer.
+        - Do not include intermediate steps unless necessary.
+        - You MUST end with exactly: Final Answer: [your answer]"""
         result = self.api.call_api(prompt, system=system, max_tokens=512)
         if not result["ok"]:
             return None 

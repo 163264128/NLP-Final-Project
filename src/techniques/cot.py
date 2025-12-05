@@ -3,11 +3,14 @@ class ChainOfThought:
         self.api = api_client
     
     def solve_problem_with_cot(self, question: str, domain: str = None) -> str:
-        system = "You are an expert problem solver. Think step by step."
-        prompt = f"""Solve this problem step by step:
-        {question}
-        Think through your reasoning carefully, then provide the final answer at the end in this format:
-        Final Answer: <your answer here>"""
+        system = "You are a precise reasoning agent. You generally think step-by-step but strictly follow output formats."
+        prompt = f"""Problem: {question}
+        Instructions:
+        1. Solve the problem step-by-step.
+        2. Keep your reasoning concise to ensure you do not run out of space.
+        3. Your very last line MUST be exactly:
+        Final Answer: <your_answer_here>
+        (Do not add a period at the end of the answer)"""
         result = self.api.call_api(prompt, system=system, max_tokens=2048)
         if not result["ok"]:
             return None
