@@ -1,5 +1,5 @@
 from collections import Counter
-
+import concurrent.futures
 class SelfConsistency:
     def __init__(self, api_client, num_samples=3):
         self.api = api_client
@@ -13,10 +13,17 @@ class SelfConsistency:
                 - Output ONLY the final answer (e.g., "5" or "Paris").
                 - Do NOT write "Answer:", "The answer is", or add a period.
                 - Do NOT provide any reasoning or explanation."""
-        for _ in range(self.num_samples): # Samples with temperature > 0
-            result = self.api.call_api(prompt, system=system, temperature=0.7, max_tokens=512)
-            if result["ok"]:
-                candidate_answers.append(result["text"].strip())
+        def _call_wrapper(): # Sample with temperature > 0
+                return self.api.call_api(prompt, system=system, temperature=0.7, max_tokens=256) 
+        with concurrent.futures.ThreadPoolExecutor(max_workers=self.num_samples) as executor:  # I was dumb to not use threading here earlier
+            futures = [executor.submit(_call_wrapper) for _ in range(self.num_samples)]
+            for future in concurrent.futures.as_completed(futures):
+                try:
+                    result = future.result()
+                    if result["ok"]:
+                        candidate_answers.append(result["text"].strip())
+                except Exception as e:
+                    print(f"Error during API call: {e}")
         if not candidate_answers:
             return None
         vote_counts = Counter(candidate_answers)
