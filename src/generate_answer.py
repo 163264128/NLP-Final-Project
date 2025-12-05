@@ -8,17 +8,20 @@ before submitting so the ``output`` fields contain your real predictions.
 Reads the input questions from cse_476_final_project_test_data.json and writes
 an answers JSON file where each entry contains a string under the "output" key.
 """
-
 from __future__ import annotations
 
 import json
 from pathlib import Path
 from typing import Any, Dict, List
+import time
+from tqdm import tqdm
 
+import sys
+sys.path.append('src')
+from agent import ReasoningAgent
 
-INPUT_PATH = Path("cse_476_final_project_test_data.json")
-OUTPUT_PATH = Path("cse_476_final_project_answers.json")
-
+INPUT_PATH = Path("data/cse_476_final_project_test_data.json")
+OUTPUT_PATH = Path("data/cse_476_final_project_answers.json")
 
 def load_questions(path: Path) -> List[Dict[str, Any]]:
     with path.open("r") as fp:
@@ -27,17 +30,23 @@ def load_questions(path: Path) -> List[Dict[str, Any]]:
         raise ValueError("Input file must contain a list of question objects.")
     return data
 
-
 def build_answers(questions: List[Dict[str, Any]]) -> List[Dict[str, str]]:
+    agent = ReasoningAgent()
     answers = []
-    for idx, question in enumerate(questions, start=1):
+    for idx, question in enumerate(tqdm(questions, desc="Generating answers"), start=1):
         # Example: assume you have an agent loop that produces an answer string.
         # real_answer = agent_loop(question["input"])
         # answers.append({"output": real_answer})
-        placeholder_answer = f"Placeholder answer for question {idx}"
+        question_text = question["input"]
+        result = agent.solve(question_text)
+        placeholder_answer = result["answer"]
         answers.append({"output": placeholder_answer})
+        if idx % 100 == 0: # Checkpoint every 100 questions
+            with Path(f"outputs/checkpoint_{idx}.json").open("w") as fp:
+                json.dump(answers, fp, ensure_ascii=False, indent=2)
+            print(f"Checkpoint: {idx}/{len(questions)} \n Average calls: {result['calls_used']}")
+        time.sleep(0.05) # Rate limiting
     return answers
-
 
 def validate_results(
     questions: List[Dict[str, Any]], answers: List[Dict[str, Any]]
@@ -59,7 +68,6 @@ def validate_results(
                 f"({len(answer['output'])} chars). Please make sure your answer does not include any intermediate results."
             )
 
-
 def main() -> None:
     questions = load_questions(INPUT_PATH)
     answers = build_answers(questions)
@@ -75,7 +83,5 @@ def main() -> None:
         "and validated format successfully."
     )
 
-
 if __name__ == "__main__":
     main()
-
