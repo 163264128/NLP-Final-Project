@@ -15,13 +15,14 @@ from pathlib import Path
 from typing import Any, Dict, List
 import time
 from tqdm import tqdm
+import os
 
 import sys
 sys.path.append('src')
 from agent import ReasoningAgent
 
 INPUT_PATH = Path("data/cse_476_final_project_test_data.json")
-OUTPUT_PATH = Path("data/cse_476_final_project_answers.json")
+OUTPUT_PATH = Path("cse_476_final_project_answers.json")
 
 def load_questions(path: Path) -> List[Dict[str, Any]]:
     with path.open("r") as fp:
@@ -69,6 +70,8 @@ def validate_results(
             )
 
 def main() -> None:
+    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True) # Ensure output directories exist
+    Path("outputs").mkdir(parents=True, exist_ok=True)
     questions = load_questions(INPUT_PATH)
     answers = build_answers(questions)
 
