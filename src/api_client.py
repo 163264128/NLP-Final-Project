@@ -28,7 +28,6 @@ class ModelAPI:
             "temperature": temperature,
             "max_tokens": max_tokens,
         }
-        print(f"Sending prompt to {self.target_model_name}") # Debug statement - TODO: Remove Later
         try:
             resp = requests.post(url, headers=headers, json=payload, timeout=60)
             if resp.status_code == 200:

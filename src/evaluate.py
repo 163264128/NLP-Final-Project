@@ -22,9 +22,6 @@ def run_evaluation():
         result = agent.solve(question)
         prediction = result["answer"]
         is_correct = expected.strip().lower() in prediction.strip().lower() # normalization check
-        print(f"Expected: '{expected}'") # Debug statement - TODO: Remove Later
-        print(f"Got: '{prediction}'") # Debug statement - TODO: Remove Later
-        print(f"Calls: {result['calls_used']}") # Debug statement - TODO: Remove Later
         if is_correct:
             correct_count += 1
         total_calls += result["calls_used"]

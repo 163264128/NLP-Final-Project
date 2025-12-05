@@ -34,21 +34,17 @@ def load_questions(path: Path) -> List[Dict[str, Any]]:
 
 write_lock = threading.Lock()
 def process_single_question(args):
-    """Wrapper to process a single question safely in a thread"""
     idx, question_data = args
     agent = ReasoningAgent()
-    
     try:
         result = agent.solve(question_data["input"])
         answer_text = result["answer"]
     except Exception as e:
         print(f"Error on Q{idx}: {e}")
         answer_text = "Error processing"
-
     return {
         "idx": idx, 
-        "output": answer_text
-    }
+        "output": answer_text}
 def build_answers(questions: List[Dict[str, Any]]) -> List[Dict[str, str]]:
     agent = ReasoningAgent()
     answers = [None] * len(questions)
