@@ -14,14 +14,18 @@ def run_evaluation():
     agent = ReasoningAgent() # Execute agent 007 (get it? heh)
     correct_count = 0
     total_calls = 0
-    test_set = dataset[:20] # Remove "[:20]" for full evaluation
+    test_set = dataset[:1] # Remove "[:20]" for full evaluation
     print(f"Evaluating {len(test_set)} items.")
     for item in tqdm(test_set):
         question = item["input"]
         expected = item["output"]
         result = agent.solve(question)
         prediction = result["answer"]
-        if expected.strip().lower() in prediction.strip().lower(): # normalization check
+        is_correct = expected.strip().lower() in prediction.strip().lower() # normalization check
+        print(f"Expected: '{expected}'") # Debug statement - TODO: Remove Later
+        print(f"Got: '{prediction}'") # Debug statement - TODO: Remove Later
+        print(f"Calls: {result['calls_used']}") # Debug statement - TODO: Remove Later
+        if is_correct:
             correct_count += 1
         total_calls += result["calls_used"]
     accuracy = (correct_count / len(test_set)) * 100

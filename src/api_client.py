@@ -11,7 +11,7 @@ class ModelAPI:
         self.target_model_name = os.getenv("MODEL_NAME", "bens_model")
         self.call_count = 0
     
-    def call_api(self, prompt: str, system: str = None, temperature: float = 0.0, max_tokens: int = 512) -> Dict:
+    def call_api(self, prompt: str, system: str = None, temperature: float = 0.0, max_tokens: int = 2048) -> Dict:
         self.call_count += 1
         url = f"{self.api_base}/chat/completions"
         headers = {
