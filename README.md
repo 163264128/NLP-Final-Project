@@ -10,14 +10,31 @@ This project implements an inference-time reasoning agent designed to solve comp
 * **Multi-Strategy Routing:** Automatically switches between "Chain of Thought" reasoning and direct answering based on question complexity heuristics.
 * **Self-Consistency:** Utilizes majority voting on multiple reasoning paths for intermediate-complexity problems to improve accuracy.
 * **Robust Extraction:** Implements strict output formatting parsing to ensure answers are extracted cleanly (e.g., `Final Answer: <val>`) without reasoning chatter.
-* **Parallel Processing:** The generation script utilizes multi-threading to process the large test dataset efficiently (~1.5 hours runtime).
+* **Parallel Processing:** The generation script utilizes multi-threading to process the large test dataset efficiently (~1 hour runtime).
 
 ---
 
-## Setup & Installation
+## Grader Instructions (Evaluation)
 
-### 1. Environment Setup
-Ensure you have Python 3.8+ installed. It is recommended to use a virtual environment.
+To verify the agent's performance on the development set, please follow these steps:
 
-# Install dependencies
+### Prerequisites
+* Ensure you are connected to the **ASU Network** or **VPN** (Required for API access).
+* Python 3.8+ is installed.
+* Clone the repo: `git clone [https://github.com/163264128/NLP-Final-Project.git](https://github.com/163264128/NLP-Final-Project.git)
+                   cd NLP-Final-Project`
+### Setup
+# Install core dependencies
 `pip install -r requirements.txt`
+
+### Configure Environment Variables 
+# (Run this in your terminal or create a .env file in the root directory)
+`export OPENAI_API_KEY=cse476
+export API_BASE=[http://10.4.58.53:41701/v1](http://10.4.58.53:41701/v1)
+export MODEL_NAME=bens_model`
+
+### Verify
+Run `python src/evaluate.py`
+
+### Generate Answers to Reproduce 
+Run `python src/generate_answer.py`
