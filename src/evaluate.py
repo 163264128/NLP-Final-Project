@@ -14,7 +14,7 @@ def run_evaluation():
     agent = ReasoningAgent() # Execute agent 007 (get it? heh)
     correct_count = 0
     total_calls = 0
-    test_set = dataset[:1] # Remove "[:20]" for full evaluation
+    test_set = dataset[:10] # Remove "[:10]" for full evaluation
     print(f"Evaluating {len(test_set)} items.")
     for item in tqdm(test_set):
         question = item["input"]
