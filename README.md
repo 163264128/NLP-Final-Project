@@ -1,7 +1,6 @@
 # CSE 476 - Final Project Instructions
 
-**Student Name:** Sat Chidananda\
-**ASU ID:** 1227480945
+**Student Name:** Sat Chidananda
 
 ## Project Overview
 This project implements an inference-time reasoning agent designed to solve complex problems across multiple domains (Math, Coding, Common Sense, etc.). The agent uses a **multi-strategy architecture** that dynamically selects the best reasoning technique based on the complexity of the input question.
