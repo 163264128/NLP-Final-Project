@@ -1,6 +1,6 @@
 # CSE 476 - Final Project Instructions
 
-**Student Name:** Sat Chidananda
+**Student Name:** Sat Chidananda\
 **ASU ID:** 1227480945
 
 ## Project Overview
