@@ -28,10 +28,10 @@ To verify the agent's performance on the development set, please follow these st
 `pip install -r requirements.txt`
 
 ### Configure Environment Variables 
-#### (Run this in your terminal or create a .env file in the root directory)
-`export OPENAI_API_KEY=cse476`\
-`export API_BASE=http://10.4.58.53:41701/v1`\
-`export MODEL_NAME=bens_model`
+#### Create a .env file in the root directory with the following lines:
+`OPENAI_API_KEY=cse476`\
+`API_BASE=http://10.4.58.53:41701/v1`\
+`MODEL_NAME=bens_model`
 
 ### Verify
 Run `python src/evaluate.py`
