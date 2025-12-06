@@ -29,9 +29,9 @@ To verify the agent's performance on the development set, please follow these st
 
 ### Configure Environment Variables 
 #### (Run this in your terminal or create a .env file in the root directory)
-`export OPENAI_API_KEY=cse476
-export API_BASE=[http://10.4.58.53:41701/v1](http://10.4.58.53:41701/v1)
-export MODEL_NAME=bens_model`
+`export OPENAI_API_KEY=cse476`
+`export API_BASE=[http://10.4.58.53:41701/v1](http://10.4.58.53:41701/v1)`
+`export MODEL_NAME=bens_model`
 
 ### Verify
 Run `python src/evaluate.py`
