@@ -24,11 +24,11 @@ To verify the agent's performance on the development set, please follow these st
 * Clone the repo: `git clone [https://github.com/163264128/NLP-Final-Project.git](https://github.com/163264128/NLP-Final-Project.git)
                    cd NLP-Final-Project`
 ### Setup
-# Install core dependencies
+#### Install core dependencies
 `pip install -r requirements.txt`
 
 ### Configure Environment Variables 
-# (Run this in your terminal or create a .env file in the root directory)
+#### (Run this in your terminal or create a .env file in the root directory)
 `export OPENAI_API_KEY=cse476
 export API_BASE=[http://10.4.58.53:41701/v1](http://10.4.58.53:41701/v1)
 export MODEL_NAME=bens_model`
